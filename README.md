@@ -1,6 +1,3 @@
-# podlive.io
-The website for the iOS and macOS podcast live streaming apps...
+## Podlive Website
 
-## Developing
-
-Install packages with `npm install`. Run gulp in development mode with `gulp dev` to live build and display all changes.
+Nothing to see here...
