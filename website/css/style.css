@@ -26,18 +26,18 @@
 
 @font-face {
     font-family: 'FFUnit';
-    src: url('fonts/FFUnitRegular.woff2') format('woff2'),
-         url('fonts/FFUnitRegular.woff') format('woff'),
-         url('fonts/FFUnitRegular.ttf') format('truetype');
+    src: url('../fonts/FFUnitRegular.woff2') format('woff2'),
+         url('../fonts/FFUnitRegular.woff') format('woff'),
+         url('../fonts/FFUnitRegular.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'FFUnit';
-    src: url('fonts/FFUnitLight.woff2') format('woff2'),
-         url('fonts/FFUnitLight.woff') format('woff'),
-         url('fonts/FFUnitLight.ttf') format('truetype');
+    src: url('../fonts/FFUnitLight.woff2') format('woff2'),
+         url('../fonts/FFUnitLight.woff') format('woff'),
+         url('../fonts/FFUnitLight.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -246,7 +246,7 @@ nav.top {
 }
 
 .assets {
-    background-image: url("img/podlive-assets@2x.png");
+    background-image: url("../img/podlive-assets@2x.png");
     background-size: 450px 90px;
     background-repeat: no-repeat;
 }
@@ -283,7 +283,7 @@ span.maker {
 
 header.hero {
     padding-top: 4rem;
-    background: url("img/background.jpg") no-repeat;
+    background: url("../img/background.jpg") no-repeat;
     background-size: cover;
 }
 
