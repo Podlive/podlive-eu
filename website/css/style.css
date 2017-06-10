@@ -367,6 +367,7 @@ header, section, footer {
     margin-bottom: 10px;
     border: 1px solid #7A5382;
     color: #7A5382;
+    background-color: #ffffff;
     border-radius: 4px;
     font-size: 15px;
     font-weight: bold;
@@ -497,4 +498,26 @@ header, section, footer {
     100% {
         opacity:1
     }
+}
+
+
+// Sweet Alert
+
+.sweet-alert {
+  font: 100%/1.5 FFUnit, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5rem;
+}
+
+.sweet-alert p {
+  font: 100%/1.5 FFUnit, sans-serif;
+  line-height: 1.6rem;
+  font-size: 1.1rem;
+}
+
+.sweet-alert h2 {
+  font: 100%/1.5 FFUnit, sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
 }
