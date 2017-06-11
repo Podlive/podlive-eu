@@ -78,7 +78,7 @@
                         <div class="column third">
                             <span class="assets icon listeners"></span>
                             <h3>Listeners Counter</h3>
-                            <p>Podlive will show you a realtime counter of listeners for every live streaming Podcast.</p>
+                            <p>Podlive shows you a realtime counter of listeners for every live streaming Podcast.</p>
                         </div>
                         <div class="column third">
                             <span class="assets icon notifications"></span>
