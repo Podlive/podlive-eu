@@ -94,7 +94,7 @@
             <div class="container">
                 <div class="row clearfix">
                     <div class="column full">
-                        <h2>Podlive ist bald im App Store verfügbar...</h2>
+                        <h2>Podlive will be available in the App Store soon...</h2>
                         <p>If you are using both iOS and macOS we recommend to signup for a Podlive account. All you have to do is to set nickname, a valid email address and your password. Thereafter your favourites will be pushed to all your devices you installed Podlive. It's that easy!</p>
 
                         <div class="column center">
