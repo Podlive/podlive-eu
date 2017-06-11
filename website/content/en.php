@@ -66,7 +66,7 @@
                         <div class="column third">
                             <span class="assets icon sync"></span>
                             <h3>Synchronisation</h3>
-                            <p>In case you are using Podlive on more than one device, all your favourite channels are synchronised through your Podlive account.</p>
+                            <p>In case you are using Podlive on more than one device, all your favourite channels are being synchronised through your Podlive account.</p>
                         </div>
                     </div>
                     <div class="arrange">
