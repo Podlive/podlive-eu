@@ -126,6 +126,7 @@ body {
 
     .column.third {
         width: 33.33%;
+        min-height: 210px;
     }
 
     .column.flow-opposite {

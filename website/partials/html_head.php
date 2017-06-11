@@ -16,8 +16,8 @@
 
         <!-- Open Graph Tags -->
         <meta property="og:site_name" content="Podlive" />
-        <meta property="og:title" content="Podlive - Nie wieder einen Live-Podcast verpassen" />
         <meta property="og:type" content="website" />
+        <meta property="og:title" content="Podlive - Nie wieder einen Live-Podcast verpassen" />
         <meta property="og:description" content="Nie wieder einen Live-Podcast verpassen" />
 
         <!-- Twitter Card Tags -->

@@ -2,7 +2,7 @@
         <!-- Navigation -->
         <nav class="top">
             <span class="podlive">Podlive</span>
-<!--             <a href="./?lang=<?echo $langSwitch; ?>" class="language <?echo $langSwitch; ?>"></a> -->
+            <a href="./?lang=<?echo $langSwitch; ?>" class="language <?echo $langSwitch; ?>"></a>
         </nav>
 
         <!-- Header -->

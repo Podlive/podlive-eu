@@ -27,7 +27,6 @@
                     <div class="column half">
                         <h2>Podlive auf deinem iPhone</h2>
                         <p>Mit Podlive auf dem iPhone hast du deine Lieblingspodasts überall dabei. Ob auf dem Rad, beim Wandern oder in der Bahn - niemehr eine Livesendung verpassen.</p>
-                        <p></p>
                     </div>
                 </div>
             </div>
@@ -54,7 +53,7 @@
                 <div class="row clearfix">
                     <div class="column full">
                         <h2>Alle Funktionen auf einen Blick</h2>
-                        <p>Podlive bietet dir interessante Features. Noch nie war es so einfach Podcast-Livestreams zu verfolgen. Podlive ist ein echtes <strong>Radio für Podcasts</strong>.
+                        <p>Podlive bietet dir interessante Features. Noch nie war es so einfach Podcast-Livestreams zu verfolgen. Podlive ist ein echtes <strong>Podcast Radio</strong>.
                     </div>
                 </div>
                 <div class="row clearfix features">
@@ -69,23 +68,21 @@
                             <h3>Synchronisierung</h3>
                             <p>Solltest du Podlive auf mehreren Geräten nutzen, werden alle deine Favoriten über deinen Podlive Account auf alle Geräte synchronisiert.</p>
                         </div>
-                    </div>
-                    <div class="arrange">
                         <div class="column third">
                             <span class="assets icon streaming"></span>
                             <h3>Livestream</h3>
                             <p>Du hörst jeden gelisteten Podcast live genau in dem Moment, in dem auch die Aufnahme stattfindet - ungefiltert!</p>
                         </div>
+                    </div>
+                    <div class="arrange">
                         <div class="column third">
                             <span class="assets icon listeners"></span>
                             <h3>Zuhörerzähler</h3>
                             <p>Es ist interessant zu erfahren, wieviel Menschen gerade einen bestimmten Podcast hören. Für alle live streamenden Podcasts wird die momentane Zuhörerzahl in Echtzeit angezeigt.</p>
                         </div>
-                    </div>
-                    <div class="arrange">
                         <div class="column third">
                             <span class="assets icon notifications"></span>
-                            <h3>Benachrichtigung</h3>
+                            <h3>Benachrichtigungen</h3>
                             <p>Wann immer einer deiner Favoriten seinen Livestream beginnt oder eine Pre-Show startet, wirst du von Podlive darüber informiert. Sowohl auf deinem iPhone als auch auf deinem Mac erscheint eine Benachrichtigung.</p>
                         </div>
                     </div>
