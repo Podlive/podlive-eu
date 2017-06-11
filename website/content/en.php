@@ -1,0 +1,111 @@
+        <section class="intro">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="column full">
+                        <h1>Podlive</h1>
+                        <h3>Never miss a live streaming podcast</h3>
+                        <p>With Podlive for iOS, macOS and tvOS, you can listen to live streaming Podcasts. Currently you can select from a list of Podcasts which uses Studiolink onAir for live streaming. You may mark your favorite channels to get notified by Apple's built-in push notifications right now when a channel starts streaming.</p>
+
+                        <div class="column center">
+                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
+                            &nbsp;&nbsp;
+                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">iOS App Store</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="podlive-iphone" class="content gradient">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="column half flow-opposite">
+                        <div class="product">
+                            <img class="background" src="img/podlive-ios-screenshot.jpg" srcset="img/podlive-ios-screenshot.jpg 1x, img/podlive-ios-screenshot@2x.jpg 2x">
+                        </div>
+                    </div>
+                    <div class="column half">
+                        <h2>Podlive on your iPhone</h2>
+                        <p>Mit Podlive auf dem iPhone hast du deine Lieblingspodasts überall dabei. Ob auf dem Rad, beim Wandern oder in der Bahn - niemehr eine Livesendung verpassen.</p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="comments" class="content gradient">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="column half">
+                        <div class="product">
+                            <img class="background" src="img/podlive-macos-screenshot.jpg" srcset="img/podlive-macos-screenshot.jpg 1x, img/podlive-macos-screenshot@2x.jpg 2x">
+                        </div>
+                    </div>
+                    <div class="column half">
+                        <h2>Podlive on your Mac</h2>
+                        <p>Auch auf deinem Lieblingscomputer kannst du nun bequem Podcasts live anhören. Markiere deine Favoriten und du wirst automatisch informiert, sobald ein Livestream beginnt.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="content gradient">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="column full">
+                        <h2>Alle Funktionen auf einen Blick</h2>
+                        <p>Podlive bietet dir interessante Features. Noch nie war es so einfach Podcast-Livestreams zu verfolgen. Podlive ist ein echtes <strong>Radio für Podcasts</strong>.
+                    </div>
+                </div>
+                <div class="row clearfix features">
+                    <div class="arrange">
+                        <div class="column third">
+                            <span class="assets icon followers"></span>
+                            <h3>Podcasts folgen</h3>
+                            <p>Wähle von allen gelisteten Podcasts diejenigen aus, die du auf keinen Fall verpassen möchtest. Diese werden entsprechend markiert.</p>
+                        </div>
+                        <div class="column third">
+                            <span class="assets icon sync"></span>
+                            <h3>Synchronisierung</h3>
+                            <p>Solltest du Podlive auf mehreren Geräten nutzen, werden alle deine Favoriten über deinen Podlive Account auf alle Geräte synchronisiert.</p>
+                        </div>
+                    </div>
+                    <div class="arrange">
+                        <div class="column third">
+                            <span class="assets icon streaming"></span>
+                            <h3>Livestream</h3>
+                            <p>Du hörst jeden gelisteten Podcast live genau in dem Moment, in dem auch die Aufnahme stattfindet - ungefiltert!</p>
+                        </div>
+                        <div class="column third">
+                            <span class="assets icon listeners"></span>
+                            <h3>Zuhörerzähler</h3>
+                            <p>Es ist interessant zu erfahren, wieviel Menschen gerade einen bestimmten Podcast hören. Für alle live streamenden Podcasts wird die momentane Zuhörerzahl in Echtzeit angezeigt.</p>
+                        </div>
+                    </div>
+                    <div class="arrange">
+                        <div class="column third">
+                            <span class="assets icon notifications"></span>
+                            <h3>Benachrichtigung</h3>
+                            <p>Wann immer einer deiner Favoriten seinen Livestream beginnt oder eine Pre-Show startet, wirst du von Podlive darüber informiert. Sowohl auf deinem iPhone als auch auf deinem Mac erscheint eine Benachrichtigung.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="beta" class="content gradient">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="column full">
+                        <h2>Podlive ist bald im App Store verfügbar...</h2>
+                        <p>Wenn du beide Plattformen nutzt, dann empfehlen wir dir einen Podlive Account anzulegen. Du gibst nur einen Nickname, deine Email-Adresse sowie ein Passwort ein. Dann werden deine Favoriten zwischen den Devices synchronisiert. So einfach ist das!</p>
+
+                        <div class="column center">
+                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
+                            &nbsp;&nbsp;
+                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">iOS App Store</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>

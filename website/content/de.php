@@ -1,46 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Podlive - Nie wieder einen Live-Podcast verpassen</title>
-        <link href="favicon.png" rel="shortcut icon" />
-        <link rel="stylesheet" href="css/sweetalert.css" type="text/css">
-        <link rel="stylesheet" href="css/style-min.css" type="text/css">
-        <script src="js/sweetalert.min.js"></script>
-        <script src="js/podlive.js"></script>
-
-        <!-- Meta Tags -->
-        <meta charset="UTF-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="description" content="Nie wieder einen Live-Podcast verpassen" />
-        <meta name="author" content="Podlive.io" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/ >
-
-        <!-- Open Graph Tags -->
-        <meta property="og:site_name" content="Podlive" />
-        <meta property="og:title" content="Podlive - Nie wieder einen Live-Podcast verpassen" />
-        <meta property="og:type" content="website" />
-        <meta property="og:description" content="Nie wieder einen Live-Podcast verpassen" />
-
-        <!-- Twitter Card Tags -->
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@podliveapp" />
-        <meta name="twitter:title" content="Podlive - Nie wieder einen Live-Podcast verpassen" />
-        <meta name="twitter:description" content="Nie wieder einen Live-Podcast verpassen" />
-
-    </head>
-    <body>
-
-        <nav class="top">
-            <span class="podlive">Podlive</span>
-        </nav>
-
-        <header class="hero">
-            <div class="container devices">
-                <img class="device" src="img/podlive-screenshot.png" srcset="img/podlive-screenshot.png 1x, img/podlive-screenshot@2x.png 2x">
-            </div>
-        </header>
-
         <section class="intro">
             <div class="container">
                 <div class="row clearfix">
@@ -48,11 +5,11 @@
                         <h1>Podlive</h1>
                         <h3>Nie wieder einen Live-Podcast verpassen</h3>
                         <p>Mit Podlive für iOS, macOS und tvOS, kannst du Podcast Livestreams hören. Aktuell finden sich dort alle Livestreams, die über Studiolink onAir senden. Du kannst Channels als Favoriten markieren, um eine Push Nachricht zu erhalten, wenn ein Livestream startet.</p>
-                        
+
                         <div class="column center">
-                            <a href="javascript:void(0);" onClick='comingSoon();' class="button">Mac App Store</a>
+                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
                             &nbsp;&nbsp;
-                            <a href="javascript:void(0);" onClick='comingSoon();' class="button">iOS App Store</a>
+                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">iOS App Store</a>
                         </div>
                     </div>
                 </div>
@@ -142,31 +99,13 @@
                     <div class="column full">
                         <h2>Podlive ist bald im App Store verfügbar...</h2>
                         <p>Wenn du beide Plattformen nutzt, dann empfehlen wir dir einen Podlive Account anzulegen. Du gibst nur einen Nickname, deine Email-Adresse sowie ein Passwort ein. Dann werden deine Favoriten zwischen den Devices synchronisiert. So einfach ist das!</p>
-                        
+
                         <div class="column center">
-                            <a href="javascript:void(0);" onClick='comingSoon();' class="button">Mac App Store</a>
+                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
                             &nbsp;&nbsp;
-                            <a href="javascript:void(0);" onClick='comingSoon();' class="button">iOS App Store</a>
+                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">iOS App Store</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <footer class="bottom">
-            <span class="maker">iOS App von <a href="http://stefantrauth.de">Stefan Trauth</a>, macOS App von <a href="https://cocoanaut.com">Frank Gregor</a></span>
-            <span class="share">Follow Podlive on <a target="_blank" class="twitter" href="https://twitter.com/podliveapp">Twitter</a></span>
-        </footer>
-        
-        <!-- Google Analytics -->
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-83852839-3', 'auto');
-          ga('send', 'pageview');
-        </script>
-    </body>
-</html>
