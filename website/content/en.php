@@ -66,7 +66,7 @@
                         <div class="column third">
                             <span class="assets icon sync"></span>
                             <h3>Synchronisation</h3>
-                            <p>In case you are using Podlive on more than one device all your favourite channels are synchronised through your Podlive account.</p>
+                            <p>In case you are using Podlive on more than one device, all your favourite channels are synchronised through your Podlive account.</p>
                         </div>
                     </div>
                     <div class="arrange">
@@ -96,7 +96,7 @@
             <div class="container">
                 <div class="row clearfix">
                     <div class="column full">
-                        <h2>Podlive will be available in the App Store soon...</h2>
+                        <h2>Podlive will be available on the App Store soon...</h2>
                         <p>If you are using both iOS and macOS we recommend to signup for a Podlive account. All you have to do is to set a nickname, a valid email address and your password. Thereafter your favourites will be pushed to all your devices you installed Podlive on. It's that easy!</p>
 
                         <div class="column center">
