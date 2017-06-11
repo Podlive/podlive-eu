@@ -4,7 +4,7 @@
                     <div class="column full">
                         <h1>Podlive</h1>
                         <h3>Never miss a live streaming podcast</h3>
-                        <p>With Podlive for iOS, macOS and tvOS, you can listen to live streaming Podcasts. Currently you can select from a list of Podcasts which uses Studiolink onAir for live streaming. You may mark your favorite channels to get notified by Apple's built-in push notifications right now when a channel starts streaming.</p>
+                        <p>With Podlive for iOS, macOS and tvOS, you can listen to live streaming Podcasts. We currently support all podcast livestreams broadcasting via Studiolink on Air. You may mark your favorite channels to get notified by Apple's built-in push notifications right now when a channel starts streaming.</p>
 
                         <div class="column center">
                             <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
