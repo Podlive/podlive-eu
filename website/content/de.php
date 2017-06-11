@@ -68,18 +68,20 @@
                             <h3>Synchronisierung</h3>
                             <p>Solltest du Podlive auf mehreren Geräten nutzen, werden alle deine Favoriten über deinen Podlive Account auf alle Geräte synchronisiert.</p>
                         </div>
+                    </div>
+                    <div class="arrange">
                         <div class="column third">
                             <span class="assets icon streaming"></span>
                             <h3>Livestream</h3>
                             <p>Du hörst jeden gelisteten Podcast live genau in dem Moment, in dem auch die Aufnahme stattfindet - ungefiltert!</p>
                         </div>
-                    </div>
-                    <div class="arrange">
                         <div class="column third">
                             <span class="assets icon listeners"></span>
                             <h3>Zuhörerzähler</h3>
                             <p>Es ist interessant zu erfahren, wieviel Menschen gerade einen bestimmten Podcast hören. Für alle live streamenden Podcasts wird die momentane Zuhörerzahl in Echtzeit angezeigt.</p>
                         </div>
+                    </div>
+                    <div class="arrange">
                         <div class="column third">
                             <span class="assets icon notifications"></span>
                             <h3>Benachrichtigungen</h3>

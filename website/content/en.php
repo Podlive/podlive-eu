@@ -68,18 +68,20 @@
                             <h3>Synchronisation</h3>
                             <p>In case you are using Podlive on more than one device all your favourite channels are synchronised through your Podlive account.</p>
                         </div>
+                    </div>
+                    <div class="arrange">
                         <div class="column third">
                             <span class="assets icon streaming"></span>
                             <h3>Livestream</h3>
                             <p>You can listen live to all Podlive Podcasts, while they are being recorded!</p>
                         </div>
-                    </div>
-                    <div class="arrange">
                         <div class="column third">
                             <span class="assets icon listeners"></span>
                             <h3>Listeners Counter</h3>
                             <p>Podlive shows you a realtime counter of listeners for every live streaming Podcast.</p>
                         </div>
+                    </div>
+                    <div class="arrange">
                         <div class="column third">
                             <span class="assets icon notifications"></span>
                             <h3>Notifications</h3>
