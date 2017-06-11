@@ -78,7 +78,7 @@
                         <div class="column third">
                             <span class="assets icon listeners"></span>
                             <h3>Listeners Counter</h3>
-                            <p>It's interesting to know how many people are listen to the same Podcast right in that moment you do. Therefore a realtime listeners counter is shown for all live channels.</p>
+                            <p>Podlive will show you a realtime counter of listeners for every live streaming Podcast.</p>
                         </div>
                         <div class="column third">
                             <span class="assets icon notifications"></span>
