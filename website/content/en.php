@@ -95,7 +95,7 @@
                 <div class="row clearfix">
                     <div class="column full">
                         <h2>Podlive will be available in the App Store soon...</h2>
-                        <p>If you are using both iOS and macOS we recommend to signup for a Podlive account. All you have to do is to set nickname, a valid email address and your password. Thereafter your favourites will be pushed to all your devices you installed Podlive. It's that easy!</p>
+                        <p>If you are using both iOS and macOS we recommend to signup for a Podlive account. All you have to do is to set a nickname, a valid email address and your password. Thereafter your favourites will be pushed to all your devices you installed Podlive on. It's that easy!</p>
 
                         <div class="column center">
                             <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
