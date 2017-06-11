@@ -31,13 +31,13 @@ if (array_key_exists('QUERY_STRING', $_SERVER)) {
 }
 ?><!DOCTYPE html>
 <html lang="<?echo $siteContent; ?>">
-	<? include_once(PARTIALS_DIR."html_head.php") ?>
+	<? include_once(PARTIALS_DIR."/".$siteContent."/html_head.php") ?>
 
     <body>
 <?
         include_once(PARTIALS_DIR."header.php");
         include_once(CONTENT_DIR.$siteContent.'.php');
-        include_once(PARTIALS_DIR."footer.php");
+        include_once(PARTIALS_DIR."/".$siteContent."/footer.php");
         include_once(PARTIALS_DIR."ga.php");
 ?>
     </body>

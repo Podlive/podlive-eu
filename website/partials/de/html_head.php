@@ -1,10 +1,10 @@
     <head>
         <title>Podlive - Nie wieder einen Live-Podcast verpassen</title>
         <link href="favicon.png" rel="shortcut icon" />
-        <link rel="stylesheet" href="css/sweetalert.css" type="text/css">
-        <link rel="stylesheet" href="css/style-min.css" type="text/css">
-        <script src="js/sweetalert.min.js"></script>
-        <script src="js/podlive.js"></script>
+        <link rel="stylesheet" href="<? echo CSS_DIR; ?>sweetalert.css" type="text/css">
+        <link rel="stylesheet" href="<? echo CSS_DIR; ?>style-min.css" type="text/css">
+        <script src="<? echo JS_DIR; ?>sweetalert.min.js"></script>
+        <script src="<? echo JS_DIR; ?>podlive.js"></script>
 
         <!-- Meta Tags -->
         <meta charset="UTF-8" />
