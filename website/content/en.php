@@ -4,7 +4,7 @@
                     <div class="column full">
                         <h1>Podlive</h1>
                         <h3>Never miss a live streaming podcast</h3>
-                        <p>With Podlive for iOS, macOS and tvOS, you can listen to live streaming Podcasts. We currently support all podcast livestreams broadcasting via Studiolink on Air. You may mark your favorite channels to get notified by Apple's built-in push notifications right now when a channel starts streaming.</p>
+                        <p>With Podlive for iOS, macOS and tvOS, you can listen to live streaming Podcasts. We currently support all podcast livestreams broadcasting via Studiolink on Air. You may mark your favorite channels to get notified by Apple's built-in push notifications immediately when a channel starts streaming.</p>
 
                         <div class="column center">
                             <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
@@ -53,7 +53,7 @@
                 <div class="row clearfix">
                     <div class="column full">
                         <h2>All features at a glance</h2>
-                        <p>Podlive has some interesting features. It's been never so easy to follow your favourite Podcasts while live streaming. Podlive is becoming a real <strong>Podcast Radio</strong>.
+                        <p>Podlive has some interesting features. It's been never so easy to follow your favourite Podcasts while they are being streamed. Podlive is becoming a real <strong>Podcast Radio</strong>.
                     </div>
                 </div>
                 <div class="row clearfix features">
@@ -61,17 +61,17 @@
                         <div class="column third">
                             <span class="assets icon followers"></span>
                             <h3>Follow Podcasts</h3>
-                            <p>From all Podcasts listed in Podlive choose these ones you won't miss to listen live. They will be marked as a followed channel.</p>
+                            <p>To follow a Podcast, mark it as your favourite. For every favourite Podcast, Podlive will send a push notification when the stream has started.</p>
                         </div>
                         <div class="column third">
                             <span class="assets icon sync"></span>
                             <h3>Synchronisation</h3>
-                            <p>In case of you are using Podlive on more than one device all your favourite channels are synchronised through your Podlive account.</p>
+                            <p>In case you are using Podlive on more than one device all your favourite channels are synchronised through your Podlive account.</p>
                         </div>
                         <div class="column third">
                             <span class="assets icon streaming"></span>
                             <h3>Livestream</h3>
-                            <p>You can listen live to all Podlive listed Podcasts, right in the moment of its recording - unfiltrated!</p>
+                            <p>You can listen live to all Podlive Podcasts, while they are being recorded!</p>
                         </div>
                     </div>
                     <div class="arrange">
