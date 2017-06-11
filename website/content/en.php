@@ -83,7 +83,7 @@
                         <div class="column third">
                             <span class="assets icon notifications"></span>
                             <h3>Notifications</h3>
-                            <p>Whenever one of your favourite channels is going to start a live stream or a pre-show, Podlive will notify you. Both your iPhone and your Mac will show you a push notification - in realtime!</p>
+                            <p>Whenever one of your favourite channels is going to start a live stream or a pre-show, Podlive notifies you immediately. Both your iPhone and your Mac will show you a push notification - in realtime!</p>
                         </div>
                     </div>
                 </div>
