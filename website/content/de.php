@@ -5,11 +5,12 @@
                         <h1>Podlive</h1>
                         <h3>Nie wieder einen Live-Podcast verpassen</h3>
                         <p>Mit Podlive für iOS, macOS und tvOS, kannst du Podcast Livestreams hören. Aktuell finden sich dort alle Livestreams, die über Studiolink onAir senden. Du kannst Channels als Favoriten markieren, um eine Push Nachricht zu erhalten, wenn ein Livestream startet.</p>
+                        <p>Podlive ist ein Gemeinschaftsprojekt von Stefan Trauth (iOS) und Frank Gregor (macOS).</p>
 
                         <div class="column center">
-                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
-                            &nbsp;&nbsp;
                             <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">iOS App Store</a>
+                            &nbsp;&nbsp;
+                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
                         </div>
                     </div>
                 </div>
@@ -100,9 +101,9 @@
                         <p>Wenn du beide Plattformen nutzt, dann empfehlen wir dir einen Podlive Account anzulegen. Du gibst nur einen Nickname, deine Email-Adresse sowie ein Passwort ein. Dann werden deine Favoriten zwischen den Devices synchronisiert. So einfach ist das!</p>
 
                         <div class="column center">
-                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
-                            &nbsp;&nbsp;
                             <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">iOS App Store</a>
+                            &nbsp;&nbsp;
+                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
                         </div>
                     </div>
                 </div>

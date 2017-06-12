@@ -5,11 +5,12 @@
                         <h1>Podlive</h1>
                         <h3>Never miss a live streaming podcast</h3>
                         <p>With Podlive for iOS, macOS and tvOS, you can listen to live streaming Podcasts. We currently support all podcast livestreams broadcasting via Studiolink on Air. You may mark your favorite channels to get notified by Apple's built-in push notifications immediately when a channel starts streaming.</p>
+                        <p>Podlive is a collaborative project by Stefan Trauth (iOS) and Frank Gregor (macOS).</p>
 
                         <div class="column center">
-                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
-                            &nbsp;&nbsp;
                             <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">iOS App Store</a>
+                            &nbsp;&nbsp;
+                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
                         </div>
                     </div>
                 </div>
@@ -100,9 +101,9 @@
                         <p>If you are using both iOS and macOS we recommend to signup for a Podlive account. All you have to do is to set a nickname, a valid email address and your password. Thereafter your favourites will be pushed to all your devices you installed Podlive on. It's that easy!</p>
 
                         <div class="column center">
-                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
-                            &nbsp;&nbsp;
                             <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">iOS App Store</a>
+                            &nbsp;&nbsp;
+                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
                         </div>
                     </div>
                 </div>
