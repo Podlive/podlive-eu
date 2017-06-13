@@ -1,4 +1,8 @@
 
+        <script src="<? echo JS_DIR; ?>jquery-min.js"></script>
+        <script src="<? echo JS_DIR; ?>sweetalert.min.js"></script>
+        <script src="<? echo JS_DIR; ?>podlive.js"></script>
+
         <!-- Google Analytics -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
