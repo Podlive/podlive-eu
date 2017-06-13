@@ -3,7 +3,9 @@
 		<link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
 		<link rel="icon" href="/favicon.png" type="image/x-icon">
         <link rel="stylesheet" href="<? echo CSS_DIR; ?>sweetalert.css" type="text/css">
-        <link rel="stylesheet" href="<? echo CSS_DIR; ?>style-min.css" type="text/css">
+        <link rel="stylesheet" href="<? echo CSS_DIR; ?>style.css" type="text/css">
+
+        <script src="<? echo JS_DIR; ?>jquery-min.js"></script>
         <script src="<? echo JS_DIR; ?>sweetalert.min.js"></script>
         <script src="<? echo JS_DIR; ?>podlive.js"></script>
 

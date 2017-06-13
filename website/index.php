@@ -31,7 +31,7 @@ if (array_key_exists('QUERY_STRING', $_SERVER)) {
 }
 ?><!DOCTYPE html>
 <html lang="<?echo $siteContent; ?>">
-	<? include_once(PARTIALS_DIR."/".$siteContent."/html_head.php") ?>
+	<? include_once(PARTIALS_DIR."/html_head.php") ?>
 
     <body>
 <?

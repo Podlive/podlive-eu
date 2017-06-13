@@ -4,7 +4,7 @@
                     <div class="column full">
                         <h1>Podlive</h1>
                         <h3>Nie wieder einen Live-Podcast verpassen</h3>
-                        <p>Mit Podlive für iOS, macOS und tvOS, kannst du Podcast Livestreams hören. Aktuell finden sich dort alle Livestreams, die über Studiolink onAir senden. Du kannst Channels als Favoriten markieren, um eine Push Nachricht zu erhalten, wenn ein Livestream startet.</p>
+                        <p>Mit Podlive für iOS, macOS und tvOS, kannst du Podcast Livestreams hören. Aktuell finden sich dort alle Livestreams, die über <a href="#" onClick="javascript:$('#ultraschall').goTo();">Ultraschall mit Studio Link OnAir</a> senden. Du kannst Channels als Favoriten markieren, um eine Push Nachricht zu erhalten, wenn ein Livestream startet.</p>
                         <p>Podlive ist ein Gemeinschaftsprojekt von Stefan Trauth (iOS) und Frank Gregor (macOS).</p>
 
                         <div class="column center">
@@ -33,7 +33,7 @@
             </div>
         </section>
 
-        <section id="comments" class="content gradient">
+        <section id="podlive-mac" class="content gradient">
             <div class="container">
                 <div class="row clearfix">
                     <div class="column half">
@@ -104,6 +104,26 @@
                             <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">iOS App Store</a>
                             &nbsp;&nbsp;
                             <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ultraschall" class="content gradient">
+            <div class="container">
+                <div class="row clearfix">
+                	<div class="column full">
+                        <div class="product center">
+                            <img class="background" src="img/ultraschall_logo.png" srcset="img/ultraschall-logo.png 1x, img/ultraschall_logo@2x.png 2x">
+                        </div>
+                	</div>
+                    <div class="column full">
+                        <h2>Wie werde ich bei Podlive gelistet</h2>
+                        <p>Damit dein Podcast bei Podlive erscheint, musst du deinen Livestream über <strong>Studio Link OnAir</strong> broadcasten. Dies geht am einfachsten mit <strong>Ultraschall</strong>, dem Open Source Community-Projekt von Podcastern für Podcaster.</p>
+
+                        <div class="column center">
+                            <a href="http://ultraschall.fm" class="button">Zur Ultraschall Website</a>
                         </div>
                     </div>
                 </div>
