@@ -4,7 +4,7 @@
                     <div class="column full">
                         <h1>Podlive</h1>
                         <h3>Never miss a live streaming podcast</h3>
-                        <p>With Podlive for iOS, macOS and tvOS, you can listen to live streaming Podcasts. We currently support all podcast livestreams broadcasting via Studiolink on Air. You may mark your favorite channels to get notified by Apple's built-in push notifications immediately when a channel starts streaming.</p>
+                        <p>With Podlive for iOS, macOS and tvOS, you can listen to live streaming Podcasts. We currently support all podcast livestreams broadcasting via Studiolink on Air. You can mark your favourite channels to get notified by Apple's built-in push notifications immediately when a channel starts streaming.</p>
                         <p>Podlive is a collaborative project by Stefan Trauth (iOS) and Frank Gregor (macOS).</p>
 
                         <div class="column center">
@@ -27,7 +27,7 @@
                     </div>
                     <div class="column half">
                         <h2>Podlive on your iPhone</h2>
-                        <p>Listen to your favourite Podcasts on the go, wherever your are. While cycling, hiking or going by train - Never miss a live streaming podcast.</p>
+                        <p>Listen to your favourite Podcasts on the go, wherever your are. While cycling, hiking or going by train - never miss a live streaming podcast.</p>
                     </div>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                     </div>
                     <div class="column half">
                         <h2>Podlive on your Mac</h2>
-                        <p>Even on your beloved Mac you can listen to live Podcasts. Mark your favourite channels and Podlive will notify you automatically when a Podcast starts streaming.</p>
+                        <p>You can listen to live Podcasts even on your beloved Mac. Mark your favourite channels and Podlive will notify you automatically when a Podcast starts streaming.</p>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                 <div class="row clearfix">
                     <div class="column full">
                         <h2>All features at a glance</h2>
-                        <p>Podlive has some interesting features. It's been never so easy to follow your favourite Podcasts while they are being streamed. Podlive is becoming a real <strong>Podcast Radio</strong>.
+                        <p>Podlive has some interesting features. It has never been easier to follow your favourite Podcasts while they are being streamed. Podlive is becoming a real <strong>Podcast Radio</strong>.
                     </div>
                 </div>
                 <div class="row clearfix features">
@@ -67,7 +67,7 @@
                         <div class="column third">
                             <span class="assets icon sync"></span>
                             <h3>Synchronisation</h3>
-                            <p>In case you are using Podlive on more than one device, all your favourite channels are being synchronised through your Podlive account.</p>
+                            <p>In case you are using Podlive on more than one device, all your favourite channels are being synchronised by your Podlive account.</p>
                         </div>
                     </div>
                     <div class="arrange">
@@ -98,7 +98,7 @@
                 <div class="row clearfix">
                     <div class="column full">
                         <h2>Podlive will be available on the App Store soon...</h2>
-                        <p>If you are using both iOS and macOS we recommend to signup for a Podlive account. All you have to do is to set a nickname, a valid email address and your password. Thereafter your favourites will be pushed to all your devices you installed Podlive on. It's that easy!</p>
+                        <p>If you are using both iOS and macOS we recommend to signup for a Podlive account. All you have to do is to enter a nickname, a valid email address and your password. After having done that your favourites will be pushed to all devices you installed Podlive on. It's that easy!</p>
 
                         <div class="column center">
                             <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">iOS App Store</a>
