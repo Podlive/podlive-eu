@@ -115,7 +115,7 @@
                 <div class="row clearfix">
                 	<div class="column full">
                         <div class="product center">
-                            <img class="background" src="img/ultraschall_logo.png" srcset="img/ultraschall-logo.png 1x, img/ultraschall_logo@2x.png 2x">
+                            <img class="background" src="img/ultraschall-logo.png" srcset="img/ultraschall-logo.png 1x, img/ultraschall-logo@2x.png 2x">
                         </div>
                 	</div>
                     <div class="column full">
