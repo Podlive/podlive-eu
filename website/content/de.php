@@ -27,7 +27,7 @@
                     </div>
                     <div class="column half">
                         <h2>Podlive auf deinem iPhone</h2>
-                        <p>Mit Podlive auf dem iPhone hast du deine Lieblingspodasts überall dabei. Ob auf dem Rad, beim Wandern oder in der Bahn - niemehr eine Livesendung verpassen.</p>
+                        <p>Mit Podlive auf dem iPhone hast du deine Lieblingspodcasts überall dabei. Ob auf dem Rad, beim Wandern oder in der Bahn - niemehr eine Livesendung verpassen.</p>
                     </div>
                 </div>
             </div>
