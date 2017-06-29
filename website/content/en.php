@@ -44,6 +44,7 @@
                     <div class="column half">
                         <h2>Podlive on your Mac</h2>
                         <p>You can listen to live Podcasts even on your beloved Mac. Mark your favourite channels and Podlive will notify you automatically when a Podcast starts streaming.</p>
+                        <p>On your Mac optionally you can choose one of two supported themes: Aqua and Dark.</p>
                     </div>
                 </div>
             </div>

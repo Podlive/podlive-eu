@@ -4,7 +4,7 @@
                     <div class="column full">
                         <h1>Podlive</h1>
                         <h3>Nie wieder einen Live-Podcast verpassen</h3>
-                        <p>Mit Podlive für iOS, macOS und tvOS, kannst du Podcast Livestreams hören. Aktuell finden sich dort alle Livestreams, die über <a href="#" onClick="javascript:$('#ultraschall').goTo();">Ultraschall mit Studio Link OnAir</a> senden. Du kannst Channels als Favoriten markieren, um eine Push Nachricht zu erhalten, wenn ein Livestream startet.</p>
+                        <p>Mit Podlive für iOS, macOS und tvOS, kannst du Podcast Livestreams hören. Aktuell finden sich dort alle Livestreams, die über <a href="#" onClick="javascript:$('#ultraschall').goTo();">Ultraschall mit Studio Link OnAir</a> senden. Du kannst dir Favoriten anlegen, um eine Push Nachricht zu erhalten, sobald ein Livestream startet.</p>
                         <p>Podlive ist ein Gemeinschaftsprojekt von Stefan Trauth (iOS) und Frank Gregor (macOS).</p>
 
                         <div class="column center">
@@ -44,6 +44,7 @@
                     <div class="column half">
                         <h2>Podlive auf deinem Mac</h2>
                         <p>Auch auf deinem Lieblingscomputer kannst du nun bequem Podcasts live anhören. Markiere deine Favoriten und du wirst automatisch informiert, sobald ein Livestream beginnt.</p>
+                        <p>Auf dem Mac kanst du - je nach Belieben - zwischen zwei Themes wählen: Aqua und Dark.</p>
                     </div>
                 </div>
             </div>
