@@ -98,14 +98,8 @@
             <div class="container">
                 <div class="row clearfix">
                     <div class="column full">
-                        <h2>Podlive will be available on the App Store soon...</h2>
+                        <h2>Sync built in!</h2>
                         <p>If you are using both iOS and macOS we recommend to signup for a Podlive account. All you have to do is to enter a nickname, a valid email address and your password. After having done that your favourites will be pushed to all devices you installed Podlive on. It's that easy!</p>
-
-                        <div class="column center">
-                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">iOS App Store</a>
-                            &nbsp;&nbsp;
-                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -120,11 +114,12 @@
                         </div>
                 	</div>
                     <div class="column full">
-                        <h2>How to get my Podcast listet in Podlive</h2>
+                        <h2>How to get my Podcast listet in Podlive?</h2>
                         <p>To get your own Podcast listed at Podlive, we recommend to broadcast your live streams with <strong>Studio Link OnAir</strong>. It is built into the open source community project <strong>Ultraschall</strong>.</p>
 
                         <div class="column center">
                             <a href="http://ultraschall.fm" class="button">Open Ultraschall Website</a>
+                            <a href="https://studio-link.de" class="button">Studio Link</a>
                         </div>
                     </div>
                 </div>

@@ -98,14 +98,8 @@
             <div class="container">
                 <div class="row clearfix">
                     <div class="column full">
-                        <h2>Podlive ist bald im App Store verfügbar...</h2>
+                        <h2>Synchronisierung eingebaut!</h2>
                         <p>Wenn du beide Plattformen nutzt, dann empfehlen wir dir einen Podlive Account anzulegen. Du gibst nur einen Nickname, deine Email-Adresse sowie ein Passwort ein. Dann werden deine Favoriten zwischen den Devices synchronisiert. So einfach ist das!</p>
-
-                        <div class="column center">
-                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">iOS App Store</a>
-                            &nbsp;&nbsp;
-                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -120,11 +114,12 @@
                         </div>
                 	</div>
                     <div class="column full">
-                        <h2>Wie werde ich bei Podlive gelistet</h2>
+                        <h2>Wie werde ich bei Podlive gelistet?</h2>
                         <p>Damit dein Podcast bei Podlive erscheint, musst du deinen Livestream über <strong>Studio Link OnAir</strong> broadcasten. Dies geht am einfachsten mit <strong>Ultraschall</strong>, dem Open Source Community-Projekt von Podcastern für Podcaster.</p>
 
                         <div class="column center">
                             <a href="http://ultraschall.fm" class="button">Zur Ultraschall Website</a>
+                            <a href="https://studio-link.de" class="button">Studio Link</a>
                         </div>
                     </div>
                 </div>
