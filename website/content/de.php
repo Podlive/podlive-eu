@@ -10,7 +10,7 @@
                         <div class="column center">
                             <a href="https://itunes.apple.com/app/id1208250918" class="button">iOS App Store</a>
                             &nbsp;&nbsp;
-                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
+                            <a href="https://geo.itunes.apple.com/app/podlive/id1210411572?mt=12" class="button">Mac App Store</a>
                         </div>
                     </div>
                 </div>
@@ -101,6 +101,12 @@
                         <h2>Synchronisierung eingebaut!</h2>
                         <p>Wenn du beide Plattformen nutzt, dann empfehlen wir dir einen Podlive Account anzulegen. Du gibst nur einen Nickname, deine Email-Adresse sowie ein Passwort ein. Dann werden deine Favoriten zwischen den Devices synchronisiert. So einfach ist das!</p>
                     </div>
+
+                        <div class="column center">
+                            <a href="https://itunes.apple.com/app/id1208250918" class="button">iOS App Store</a>
+                            &nbsp;&nbsp;
+                            <a href="https://geo.itunes.apple.com/app/podlive/id1210411572?mt=12" class="button">Mac App Store</a>
+                        </div>
                 </div>
             </div>
         </section>

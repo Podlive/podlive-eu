@@ -10,7 +10,7 @@
                         <div class="column center">
                             <a href="https://itunes.apple.com/app/id1208250918" class="button">iOS App Store</a>
                             &nbsp;&nbsp;
-                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
+                            <a href="https://geo.itunes.apple.com/app/podlive/id1210411572?mt=12" class="button">Mac App Store</a>
                         </div>
                     </div>
                 </div>
@@ -101,6 +101,12 @@
                         <h2>Sync built in!</h2>
                         <p>If you are using both iOS and macOS we recommend to signup for a Podlive account. All you have to do is to enter a nickname, a valid email address and your password. After having done that your favourites will be pushed to all devices you installed Podlive on. It's that easy!</p>
                     </div>
+
+                        <div class="column center">
+                            <a href="https://itunes.apple.com/app/id1208250918" class="button">iOS App Store</a>
+                            &nbsp;&nbsp;
+                            <a href="https://geo.itunes.apple.com/app/podlive/id1210411572?mt=12" class="button">Mac App Store</a>
+                        </div>
                 </div>
             </div>
         </section>
