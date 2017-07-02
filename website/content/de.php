@@ -8,7 +8,7 @@
                         <p>Podlive ist ein Gemeinschaftsprojekt von Stefan Trauth (iOS) und Frank Gregor (macOS).</p>
 
                         <div class="column center">
-                            <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">iOS App Store</a>
+                            <a href="https://itunes.apple.com/app/id1208250918" class="button">iOS App Store</a>
                             &nbsp;&nbsp;
                             <a href="javascript:void(0);" onClick='comingSoon("<?echo $siteContent; ?>");' class="button">Mac App Store</a>
                         </div>
@@ -119,6 +119,7 @@
 
                         <div class="column center">
                             <a href="http://ultraschall.fm" class="button">Zur Ultraschall Website</a>
+                            &nbsp;&nbsp;
                             <a href="https://studio-link.de" class="button">Studio Link</a>
                         </div>
                     </div>
