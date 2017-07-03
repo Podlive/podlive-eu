@@ -132,14 +132,7 @@
                 </div>
             </div>
         </section>
-
-        <section id="beta" class="content gradient">
-            <div class="container">
-                <div class="row clearfix">
-                    <div class="column full">
-                        <h2>The Top-<? echo NUMBER_OF_TOP_PODCSTS; ?>, who are already on Studio Link...</h2>
-                    </div>
-                </div>
-                <?php require_once BIN_DIR.'get_channels.php'; ?>
-            </div>
-        </section>
+<?
+if(SHOW_TOP_WEBSITE_CHANNELS) {
+        include_once(PARTIALS_DIR."/".$siteContent."/top_channels.php");
+}
