@@ -561,10 +561,16 @@ header, section, footer {
 
 .follower-count {
   font-size: 0.8rem;
+    color: #959595;
+}
+
+.channel-logo-name {
+    color: #202020;
 }
 
 @media (max-width: 710px) {
-    .channel-logo-name {
+    .channel-logo-name,
+    .follower-count {
     	visibility: hidden;
     	height: 0;
     	padding: 0 0;
