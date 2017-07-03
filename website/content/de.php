@@ -102,11 +102,11 @@
                         <p>Wenn du beide Plattformen nutzt, dann empfehlen wir dir einen Podlive Account anzulegen. Du gibst nur einen Nickname, deine Email-Adresse sowie ein Passwort ein. Dann werden deine Favoriten zwischen den Devices synchronisiert. So einfach ist das!</p>
                     </div>
 
-                        <div class="column center">
-                            <a href="https://itunes.apple.com/app/id1208250918" class="button">iOS App Store</a>
-                            &nbsp;&nbsp;
-                            <a href="https://geo.itunes.apple.com/app/podlive/id1210411572?mt=12" class="button">Mac App Store</a>
-                        </div>
+                    <div class="column center">
+                        <a href="https://itunes.apple.com/app/id1208250918" class="button">iOS App Store</a>
+                        &nbsp;&nbsp;
+                        <a href="https://geo.itunes.apple.com/app/podlive/id1210411572?mt=12" class="button">Mac App Store</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -124,11 +124,23 @@
                         <p>Damit dein Podcast bei Podlive erscheint, musst du deinen Livestream über <strong>Studio Link OnAir</strong> broadcasten. Dies geht am einfachsten mit <strong>Ultraschall</strong>, dem Open Source Community-Projekt von Podcastern für Podcaster.</p>
 
                         <div class="column center">
-                            <a href="http://ultraschall.fm" class="button">Zur Ultraschall Website</a>
+                            <a href="http://ultraschall.fm" class="button">Zu Ultraschall</a>
                             &nbsp;&nbsp;
-                            <a href="https://studio-link.de" class="button">Studio Link</a>
+                            <a href="https://studio-link.de" class="button">Zu Studio Link</a>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section id="beta" class="content gradient">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="column full">
+                        <h2>Die Top-15, die bereits mitmachen...</h2>
+                    </div>
+                </div>
+                <?php require_once BIN_DIR.'get_channels.php'; ?>
+
             </div>
         </section>

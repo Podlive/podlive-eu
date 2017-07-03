@@ -3,7 +3,7 @@
 		<link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
 		<link rel="icon" href="/favicon.png" type="image/x-icon">
         <link rel="stylesheet" href="<? echo CSS_DIR; ?>sweetalert.css" type="text/css">
-        <link rel="stylesheet" href="<? echo CSS_DIR; ?>style.css" type="text/css">
+        <link rel="stylesheet" href="<? echo CSS_DIR; ?>style-min.css" type="text/css">
 
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@podliveapp" />

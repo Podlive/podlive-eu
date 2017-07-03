@@ -86,8 +86,18 @@ body {
 
 .column.third {
     float: left;
-    width: 50%;
-    max-width: 400px;
+/*     width: 33.33%; */
+/*     max-width: 400px; */
+}
+
+.column.qarter {
+    float: left;
+    width: 25%;
+}
+
+.column.fifth {
+    float: left;
+    width: 20%;
 }
 
 @media (min-width: 1044px) {
@@ -127,6 +137,14 @@ body {
     .column.third {
         width: 33.33%;
         min-height: 210px;
+    }
+
+    .column.qarter {
+        width: 25%;
+    }
+
+    .column.fifth {
+        width: 20%;
     }
 
     .column.flow-opposite {
@@ -309,7 +327,8 @@ section.intro, section.content {
 }
 
 @media (min-width: 710px) {
-    section.intro, section.content {
+    section.intro,
+    section.content {
         padding: 4rem 0;
     }
 }
@@ -379,9 +398,9 @@ header, section, footer {
     margin-top: 10px;
     margin-bottom: 10px;
     border: 1px solid #7A5382;
+    border-radius: 4px;
     color: #7A5382;
     background-color: #ffffff;
-    border-radius: 4px;
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
@@ -421,11 +440,11 @@ header, section, footer {
 }
 
 .arrange .column:first-of-type {
-    padding: 0 0.5rem 0 0;
+    padding: 0 0rem 0 0;
 }
 
 .arrange .column:last-of-type {
-    padding: 0 0 0 0.5rem;
+    padding: 0 0 0 0rem;
 }
 
 @media (min-width: 1044px) {
@@ -533,4 +552,21 @@ header, section, footer {
   font: 100%/1.5 FFUnit, sans-serif;
   font-size: 1.6rem;
   font-weight: bold;
+}
+
+.channel-logo {
+    border-radius: 5px;
+    border: 1px solid #efefef;
+}
+
+@media (max-width: 710px) {
+    .channel-logo-name {
+    	visibility: hidden;
+    	height: 0;
+    	padding: 0 0;
+		margin: 0 auto 0;
+    }
+    .column.fifth {
+    	padding: 0 5px;
+    }
 }

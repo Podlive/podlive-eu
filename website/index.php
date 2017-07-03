@@ -1,6 +1,7 @@
 <?
 define("BASE_DIR", dirname(__FILE__));
 define("PARTIALS_DIR", BASE_DIR."/partials/");
+define("BIN_DIR", BASE_DIR."/bin/");
 
 define("CONTENT_DIR", "./content/");
 define("CSS_DIR", "./css/");
