@@ -8,6 +8,7 @@ define("CSS_DIR", "./css/");
 define("IMAGES_DIR", "./img/");
 define("JS_DIR", "./js/");
 
+define("NUMBER_OF_TOP_PODCSTS", 20);
 
 $siteContent = 'de';
 $langSwitch = 'en';

@@ -12,9 +12,9 @@ ParseClient::setServerURL('https://parse-server.podlive.io','parse');
 
 // Fire a query
 $query = new ParseQuery("Channel");
-$query->addDescending("followerCount");
+$query->descending("followerCount");
 $query->addAscending("name");
-$query->limit(15);
+$query->limit(NUMBER_OF_TOP_PODCSTS);
 
 
 // get queried channels
@@ -30,7 +30,7 @@ for ($idx = 0; $idx < $numberOfChannels; $idx++) {
 	}
 
 	$theChannel 	= $channels[$idx];
-	$name 			= $theChannel->get("name");
+	$name 			= trim($theChannel->get("name"));
 	$followerCount 	= $theChannel->get("followerCount");
 	$coverArtUrl 	= $theChannel->get("coverartThumbnail800")->getURL();
 	$websiteUrl		= $theChannel->get("websiteUrl");
@@ -46,7 +46,8 @@ for ($idx = 0; $idx < $numberOfChannels; $idx++) {
 	echo '
 					<div class="column fifth">
 						'.$imageTag.'
-						<div class="column center channel-logo-name"><strong>'.$name.'</strong></div>
+						<div class="column center channel-logo-name"><strong>'.$name.'</strong><br />
+						<div class="follower-count">'.$followerCount.' Follower</div></div>
 					</div>';
 
 	if($idx < $numberOfChannels-1) {

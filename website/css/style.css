@@ -559,6 +559,10 @@ header, section, footer {
     border: 1px solid #efefef;
 }
 
+.follower-count {
+  font-size: 0.8rem;
+}
+
 @media (max-width: 710px) {
     .channel-logo-name {
     	visibility: hidden;

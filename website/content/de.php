@@ -137,7 +137,7 @@
             <div class="container">
                 <div class="row clearfix">
                     <div class="column full">
-                        <h2>Die Top-15, die bereits mitmachen...</h2>
+                        <h2>Die Top-<? echo NUMBER_OF_TOP_PODCSTS; ?>, die bereits mitmachen...</h2>
                     </div>
                 </div>
                 <?php require_once BIN_DIR.'get_channels.php'; ?>
