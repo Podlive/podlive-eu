@@ -132,8 +132,8 @@
                 </div>
             </div>
         </section>
-<?
+<?php
 if(SHOW_TOP_WEBSITE_CHANNELS) {
-        include_once(PARTIALS_DIR."/".$siteContent."/top_channels.php");
+        include(PARTIALS_DIR."/".$siteContent."/top_channels.php");
 }
-
+?>

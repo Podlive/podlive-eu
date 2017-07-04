@@ -1,6 +1,10 @@
-<?
-require_once 'config/config.php';
-require_once 'vendor/autoload.php';
+<?php
+require_once '../config/config.php';
+require_once '../vendor/autoload.php';
+
+if(!defined('TOP_WEBSITE_CHANNELS_COUNT')) {
+  define('TOP_WEBSITE_CHANNELS_COUNT', 500);
+}
 
 use Parse\ParseClient;
 use Parse\ParseQuery;
@@ -20,7 +24,6 @@ $query = new ParseQuery("Channel");
 $query->descending("followerCount");
 $query->addAscending("name");
 $query->limit(TOP_WEBSITE_CHANNELS_COUNT);
-
 
 // get queried channels
 $channels = $query->find();

@@ -1,6 +1,6 @@
 <?
-require_once 'config/config.php';
-require_once 'vendor/autoload.php';
+require 'config/config.php';
+require 'vendor/autoload.php';
 
 use Parse\ParseClient;
 use Parse\ParseQuery;
