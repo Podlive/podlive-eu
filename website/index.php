@@ -8,7 +8,7 @@ use Parse\ParseConfig;
 
 // Parse Init
 ParseClient::initialize( $app_id, $rest_key, $master_key );
-ParseClient::setServerURL('https://parse-server.podlive.io','parse');
+ParseClient::setServerURL($restServerUrl,'parse');
 
 
 define("BASE_DIR", dirname(__FILE__));
@@ -22,8 +22,6 @@ define("JS_DIR", 		"./js/");
 
 
 $parseConfig = new ParseConfig();
-
-define("TOP_WEBSITE_CHANNELS_COUNT", $parseConfig->get("topWebsiteChannels"));
 define("SHOW_TOP_WEBSITE_CHANNELS", $parseConfig->get("showTopWebsiteChannels"));
 
 $siteContent = 'de';

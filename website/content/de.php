@@ -124,9 +124,9 @@
                         <p>Damit dein Podcast bei Podlive erscheint, musst du deinen Livestream über <strong>Studio Link OnAir</strong> broadcasten. Dies geht am einfachsten mit <strong>Ultraschall</strong>, dem Open Source Community-Projekt von Podcastern für Podcaster.</p>
 
                         <div class="column center">
-                            <a href="http://ultraschall.fm" class="button">Zu Ultraschall</a>
+                            <a href="http://ultraschall.fm" class="button">Ultraschall</a>
                             &nbsp;&nbsp;
-                            <a href="https://studio-link.de" class="button">Zu Studio Link</a>
+                            <a href="https://studio-link.de" class="button">Studio Link</a>
                         </div>
                     </div>
                 </div>

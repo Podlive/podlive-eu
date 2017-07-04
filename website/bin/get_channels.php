@@ -20,7 +20,7 @@ $query = new ParseQuery("Channel");
 $query->equalTo(@"isEnabled", true);
 $query->descending("followerCount");
 $query->addAscending("name");
-$query->limit(TOP_WEBSITE_CHANNELS_COUNT);
+$query->limit($parseConfig->get("topWebsiteChannels"));
 
 
 // get queried channels

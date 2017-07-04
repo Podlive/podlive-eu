@@ -124,7 +124,7 @@
                         <p>To get your own Podcast listed at Podlive, we recommend to broadcast your live streams with <strong>Studio Link OnAir</strong>. It is built into the open source community project <strong>Ultraschall</strong>.</p>
 
                         <div class="column center">
-                            <a href="http://ultraschall.fm" class="button">Open Ultraschall Website</a>
+                            <a href="http://ultraschall.fm" class="button">Ultraschall</a>
                             &nbsp;&nbsp;
                             <a href="https://studio-link.de" class="button">Studio Link</a>
                         </div>

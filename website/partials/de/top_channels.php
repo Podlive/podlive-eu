@@ -3,10 +3,10 @@
             <div class="container">
                 <div class="row clearfix">
                     <div class="column full">
-                        <h2>Die Top-<? echo TOP_WEBSITE_CHANNELS_COUNT; ?>, die bereits mitmachen...</h2>
+                        <h2>Einige der Spitzenreiter, die bereits mitmachen...</h2>
                     </div>
                 </div>
-		<?php require BIN_DIR.'get_channels.php'; ?>
+				<?php require_once BIN_DIR.'get_channels.php'; ?>
 
             </div>
         </section>
