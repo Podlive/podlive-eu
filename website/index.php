@@ -11,17 +11,17 @@ ParseClient::initialize( $app_id, $rest_key, $master_key );
 ParseClient::setServerURL('https://parse-server.podlive.io','parse');
 
 
-$parseConfig = new ParseConfig();
-
-
 define("BASE_DIR", dirname(__FILE__));
-define("PARTIALS_DIR", BASE_DIR."/partials/");
-define("BIN_DIR", BASE_DIR."/bin/");
+define("PARTIALS_DIR", 	BASE_DIR."/partials/");
+define("BIN_DIR", 		BASE_DIR."/bin/");
 
-define("CONTENT_DIR", "./content/");
-define("CSS_DIR", "./css/");
-define("IMAGES_DIR", "./img/");
-define("JS_DIR", "./js/");
+define("CONTENT_DIR", 	"./content/");
+define("CSS_DIR", 		"./css/");
+define("IMAGES_DIR", 	"./img/");
+define("JS_DIR", 		"./js/");
+
+
+$parseConfig = new ParseConfig();
 
 define("TOP_WEBSITE_CHANNELS_COUNT", $parseConfig->get("topWebsiteChannels"));
 define("SHOW_TOP_WEBSITE_CHANNELS", $parseConfig->get("showTopWebsiteChannels"));

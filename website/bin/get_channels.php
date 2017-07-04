@@ -7,8 +7,8 @@ use Parse\ParseQuery;
 use Parse\ParseConfig;
 
 // Parse Init
-ParseClient::initialize( $app_id, $rest_key, $master_key );
-ParseClient::setServerURL('https://parse-server.podlive.io','parse');
+ParseClient::initialize($app_id, $rest_key, $master_key);
+ParseClient::setServerURL($restServerUrl,'parse');
 
 
 $parseConfig = new ParseConfig();
@@ -37,7 +37,7 @@ for ($idx = 0; $idx < $numberOfChannels; $idx++) {
 	$theChannel 	= $channels[$idx];
 	$name 			= trim($theChannel->get("name"));
 	$followerCount 	= $theChannel->get("followerCount");
-	$coverArtUrl 	= $theChannel->get("coverartThumbnail800")->getURL();
+	$coverArtUrl 	= $theChannel->get("coverartThumbnail200")->getURL();
 	$websiteUrl		= $theChannel->get("websiteUrl");
 
 	$imageTag = "";
