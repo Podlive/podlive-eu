@@ -17,6 +17,7 @@ $showFollowerCount = $parseConfig->get("topWebsiteChannelsFollowerCount");
 
 // Fire a query
 $query = new ParseQuery("Channel");
+$query->equalTo(@"isEnabled", true);
 $query->descending("followerCount");
 $query->addAscending("name");
 $query->limit(TOP_WEBSITE_CHANNELS_COUNT);
