@@ -98,6 +98,7 @@ body {
 .column.fifth {
     float: left;
     width: 20%;
+    position: relative;
 }
 
 @media (min-width: 1044px) {
@@ -569,6 +570,23 @@ header, section, footer {
     color: #202020;
 }
 
+div.onair {
+    background-color: red;
+    display: inline-block;
+    padding: 2px 9px 0px 9px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    float: left;
+    z-index: 90;
+    position: absolute;
+    top: -8px;
+    left: 8px;
+    border-radius: 15px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
 @media (max-width: 710px) {
     .channel-logo-name,
     .follower-count {
@@ -579,5 +597,11 @@ header, section, footer {
     }
     .column.fifth {
     	padding: 0 5px;
+    }
+
+    div.onair {
+	    font-size: 0.6rem;
+	    margin-top: 0px;
+		margin-left: -6px;
     }
 }

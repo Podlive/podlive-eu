@@ -40,6 +40,13 @@ for ($idx = 0; $idx < $numberOfChannels; $idx++) {
 	$followerCount 	= $theChannel->get("followerCount");
 	$coverArtUrl 	= $theChannel->get("coverartThumbnail200")->getURL();
 	$websiteUrl		= $theChannel->get("websiteUrl");
+	$channelState	= $theChannel->get("state");
+	$isOnline 		= ($channelState != "offline");
+
+	$onAirBadge = "";
+	if($isOnline) {
+		$onAirBadge = '<div class="onair">On Air</div>';
+	}
 
 	$imageTag = "";
 	if($websiteUrl) {
@@ -56,6 +63,7 @@ for ($idx = 0; $idx < $numberOfChannels; $idx++) {
 
 	echo '
 					<div class="column fifth">
+						'.$onAirBadge.'
 						'.$imageTag.'
 						<div class="column center channel-logo-name"><strong>'.$name.'</strong>
 						'.$FollowerCountTag.'</div>

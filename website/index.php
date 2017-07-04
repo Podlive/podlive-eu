@@ -1,4 +1,6 @@
-<?
+<?php
+define("TESTSERVER", false);
+
 require 'config/config.php';
 require 'vendor/autoload.php';
 
@@ -11,7 +13,7 @@ ParseClient::initialize( $app_id, $rest_key, $master_key );
 ParseClient::setServerURL($restServerUrl,'parse');
 
 
-define("BASE_DIR", dirname(__FILE__));
+define("BASE_DIR", 		dirname(__FILE__));
 define("PARTIALS_DIR", 	BASE_DIR."/partials/");
 define("BIN_DIR", 		BASE_DIR."/bin/");
 
