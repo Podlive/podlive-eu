@@ -128,6 +128,10 @@
                             &nbsp;&nbsp;
                             <a href="https://studio-link.de" class="button">Studio Link</a>
                         </div>
+
+                        <div class="column center">
+                            <a href="https://www.youtube.com/watch?v=wVuzqoefBjQ" class="button button-long">Studio Link OnAir Tutorial</a>
+                        </div>
                     </div>
                 </div>
             </div>
