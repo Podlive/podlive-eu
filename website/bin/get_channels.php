@@ -44,8 +44,22 @@ for ($idx = 0; $idx < $numberOfChannels; $idx++) {
 	$isOnline 		= ($channelState != "offline");
 
 	$onAirBadge = "";
+	$listenersCountTag = "";
 	if($isOnline) {
 		$onAirBadge = '<div class="onair">On Air</div>';
+		$listenerCount	= $theChannel->get("listenerCount");
+
+		$listenerString = "";
+		switch($siteContent) {
+			case 'de':
+				$listenerString = "Zuhörer";
+				break;
+			case 'en':
+				$listenerString = ($listenerCount == 1 ? "Listener" : "Listeners");
+				break;
+		}
+
+		$listenersCountTag = '<br /><div class="follower-count">'.$listenerCount.' '.$listenerString.'</div>';
 	}
 
 	$imageTag = "";
@@ -56,9 +70,9 @@ for ($idx = 0; $idx < $numberOfChannels; $idx++) {
 		$imageTag = '<img class="channel-logo" src="'.$coverArtUrl.'">';
 	}
 
-	$FollowerCountTag = "";
+	$followerCountTag = "";
 	if($showFollowerCount) {
-		$FollowerCountTag = '<br /><div class="follower-count">'.$followerCount.' Follower</div>';
+		$followerCountTag = '<br /><div class="follower-count">'.$followerCount.' Follower</div>';
 	}
 
 	echo '
@@ -66,7 +80,7 @@ for ($idx = 0; $idx < $numberOfChannels; $idx++) {
 						'.$onAirBadge.'
 						'.$imageTag.'
 						<div class="column center channel-logo-name"><strong>'.$name.'</strong>
-						'.$FollowerCountTag.'</div>
+						'.($isOnline ? $listenersCountTag : $followerCountTag).'</div>
 					</div>';
 
 	if($idx < $numberOfChannels-1) {
