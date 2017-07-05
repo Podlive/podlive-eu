@@ -9,7 +9,6 @@
 
                         <div class="column center">
                             <a href="https://itunes.apple.com/app/id1208250918" class="button">iOS App Store</a>
-                            &nbsp;&nbsp;
                             <a href="https://geo.itunes.apple.com/app/podlive/id1210411572?mt=12" class="button">Mac App Store</a>
                         </div>
                     </div>
@@ -104,7 +103,6 @@
 
                     <div class="column center">
                         <a href="https://itunes.apple.com/app/id1208250918" class="button">iOS App Store</a>
-                        &nbsp;&nbsp;
                         <a href="https://geo.itunes.apple.com/app/podlive/id1210411572?mt=12" class="button">Mac App Store</a>
                     </div>
                 </div>
@@ -125,12 +123,11 @@
 
                         <div class="column center">
                             <a href="http://ultraschall.fm" class="button">Ultraschall</a>
-                            &nbsp;&nbsp;
                             <a href="https://studio-link.de" class="button">Studio Link</a>
+                            <a href="https://www.youtube.com/watch?v=wVuzqoefBjQ" class="button button-long">Studio Link OnAir Tutorial</a>
                         </div>
 
                         <div class="column center">
-                            <a href="https://www.youtube.com/watch?v=wVuzqoefBjQ" class="button button-long">Studio Link OnAir Tutorial</a>
                         </div>
                     </div>
                 </div>

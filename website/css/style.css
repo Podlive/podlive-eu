@@ -86,8 +86,6 @@ body {
 
 .column.third {
     float: left;
-/*     width: 33.33%; */
-/*     max-width: 400px; */
 }
 
 .column.qarter {
@@ -396,8 +394,6 @@ header, section, footer {
 .button {
     display: inline-block;
     padding: 14px 20px 12px 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
     border: 1px solid #7A5382;
     border-radius: 4px;
     color: #7A5382;
@@ -407,10 +403,11 @@ header, section, footer {
     text-transform: uppercase;
     text-align: center;
     width: 155px;
+    margin: 10px 5px;
 }
 
 .button-long {
-	width: 325px;
+	width: 324px;
 }
 
 .button:hover {
