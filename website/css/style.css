@@ -80,8 +80,9 @@ body {
 
 .column.center {
     width: 100%;
-    float: none;
-    text-align: center;
+	float: none;
+	padding: 0;
+	text-align: center;
 }
 
 .column.third {
@@ -393,21 +394,21 @@ header, section, footer {
 
 .button {
     display: inline-block;
-    padding: 14px 20px 12px 20px;
-    border: 1px solid #7A5382;
-    border-radius: 4px;
-    color: #7A5382;
-    background-color: #ffffff;
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    width: 155px;
-    margin: 10px 5px;
+	padding: 10px 20px;
+	border: 1px solid #7A5382;
+	border-radius: 4px;
+	color: #7A5382;
+	background-color: #fff;
+	font-size: 0.9rem;
+	width: 130px;
+	height: 42px;
+	margin: 10px 5px;
 }
 
 .button-long {
-	width: 324px;
+	width: 274px;
+	display: block;
+	margin: 5px auto;
 }
 
 .button:hover {
