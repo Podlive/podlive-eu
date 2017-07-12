@@ -345,34 +345,6 @@ section.intro, section.content {
     }
 }
 
-@media (min-width: 1044px) and (min-height: 640px) {
-    header.hero {
-        padding-top: 2.0rem;
-    }
-
-    section.content {
-        padding: 6rem 0;
-    }
-
-    section.intro {
-        padding: 3rem 0 6rem;
-    }
-}
-
-@media (min-width: 1044px) and (min-height: 840px) {
-    header.hero {
-        padding-top: 2.5rem;
-    }
-
-    section.content {
-        padding: 6rem 0;
-    }
-
-    section.intro {
-        padding: 5rem 0 5rem;
-    }
-}
-
 .top {
     -webkit-animation: fadeInTop 1s;
     -moz-animation: fadeInTop 1s;
@@ -586,6 +558,7 @@ header, section, footer {
 ul.top-channels {
 	display: table;
     list-style-type: none;
+    margin-top: 40px;
     margin-left: -40px;
 }
 
@@ -594,8 +567,12 @@ ul.top-channels li {
 	width: 20%;
 	position: relative;
 	padding: 0 1rem;
-	height: 250px;
 	float: left;
+	margin-bottom: 10px;
+}
+
+ul.top-channels li:nth-child(5n+1) {
+    clear: both;
 }
 
 div.onair {
@@ -616,17 +593,6 @@ div.onair {
 }
 
 @media (max-width: 710px) {
-    .channel-logo-name,
-    .follower-count {
-    	visibility: hidden;
-    	height: 0;
-    	padding: 0 0;
-		margin: 0 auto 0;
-    }
-    ul.top-channels li {
-		height: 4.5em;
-		padding: 0 0.4rem;
-    }
     .column.fifth {
     	padding: 0 5px;
     }
@@ -638,21 +604,61 @@ div.onair {
     }
 }
 
-@media screen and ( max-width: 50em ) /* 800px */ {
-    .list__item {
-        width: 33.333%; /* 3 items per row */
+@media screen and ( max-width: 75em ) /* 880px */ {
+    .channel-logo-name {
+        font-size: 0.95rem;
     }
+
+    ul.top-channels {
+	    margin-top: 30px;
+    }
+
+	.product {
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and ( max-width: 55em ) /* 880px */ {
+    .channel-logo-name {
+        font-size: 0.75rem;
+    }
+
+    ul.top-channels {
+	    margin-top: 25px;
+    }
+
+	.product {
+		margin-bottom: 30px;
+	}
 }
 
 @media screen and ( max-width: 40em ) /* 640px */ {
-    .list__item {
-        width: 50%;  /* 2 items per row */
+    .channel-logo-name,
+    .follower-count {
+    	visibility: hidden;
+    	height: 0;
+    	padding: 0 0;
+		margin: 0 auto 0;
     }
+    .channel-logo-name {
+        font-size: 0.7rem;
+    }
+
+    ul.top-channels {
+	    margin-top: 20px;
+    }
+
+    ul.top-channels li {
+		padding: 0 0.4rem;
+    }
+
+	.product {
+		margin-bottom: 30px;
+	}
 }
 
 @media screen and ( max-width: 20em ) /* 320px */ {
-    .list__item {
-        width: 100%;  /* 1 item per row */
-        float: none;
-    }
+	.product {
+		margin-bottom: 30px;
+	}
 }
