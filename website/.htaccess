@@ -31,12 +31,12 @@ RewriteRule ^content/(.*)\.(txt|md|mdown)$ index.php [L]
 RewriteRule ^site/(.*) index.php [L]
 
 # block direct access to kirby and the panel sources
-RewriteRule ^(kirby|panel\/app|panel\/tests)/(.*) index.php [L]
+RewriteRule ^(kirby|_cms\/app|_cms\/tests)/(.*) index.php [L]
 
 # make panel links work
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^panel/(.*) panel/index.php [L]
+RewriteRule ^_cms/(.*) _cms/index.php [L]
 
 # make site links work
 RewriteCond %{REQUEST_FILENAME} !-f
