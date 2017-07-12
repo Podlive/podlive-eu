@@ -29,6 +29,7 @@ class ParseCurl
         if ($this->curl === null) {
             $this->curl = curl_init();
         }
+	curl_setopt($this->curl, CURLOPT_FOLLOWLOCATION, true);
     }
 
     /**
