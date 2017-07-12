@@ -1,5 +1,5 @@
 
-        <section id="beta" class="content gradient">
+        <section id="podcasts" class="content gradient">
             <div class="container">
                 <div class="row clearfix">
                     <div class="column full">

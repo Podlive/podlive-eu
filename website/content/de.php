@@ -54,7 +54,7 @@
                 <div class="row clearfix">
                     <div class="column full">
                         <h2>Alle Funktionen auf einen Blick</h2>
-                        <p>Podlive bietet dir interessante Features. Noch nie war es so einfach Podcast-Livestreams zu verfolgen. Podlive ist ein echtes <strong>Podcast Radio</strong>.
+                        <p>Podlive bietet dir interessante Features. Noch nie war es so einfach Podcast-Livestreams zu verfolgen. All das macht Podlive noch viel besser als echtes Radio.
                     </div>
                 </div>
                 <div class="row clearfix features">
