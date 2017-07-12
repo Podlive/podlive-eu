@@ -1,0 +1,41 @@
+Title: How to get my Podcast listet in Podlive?
+
+----
+
+Text: To get your own Podcast listed at Podlive, we recommend to broadcast your live streams with **Studio Link OnAir**. It is built into the open source community project **Ultraschall**.
+
+----
+
+Image1x: ultraschall-logo.png
+
+----
+
+Image2x: ultraschall-logo@2x.png
+
+----
+
+Fields: 
+
+----
+
+Ultraschall-url: http://ultraschall.fm
+
+----
+
+Ultraschall-url-label: Ultraschall
+
+----
+
+Studiolink-url-label: Studio Link
+
+----
+
+Studiolink-url: https://studio-link.de
+
+----
+
+Studiolink-tutorial-url-label: Studio Link OnAir Tutorial
+
+----
+
+Studiolink-tutorial-url: https://www.youtube.com/watch?v=wVuzqoefBjQ

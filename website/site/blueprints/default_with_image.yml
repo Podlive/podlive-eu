@@ -1,0 +1,21 @@
+title: Page with Image
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  text:
+    label: Text
+    type:  textarea
+
+  image1x:
+    label: Image (@1x)
+    type: image
+    width: 1/2
+
+  image2x:
+    label: Image (@2x)
+    type: image
+    width: 1/2

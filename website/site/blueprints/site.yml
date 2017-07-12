@@ -1,0 +1,58 @@
+title: Site
+
+#pages: default_with_image
+
+fields:
+  title:
+    label: Website name
+    type: text
+    width: 1/2
+
+  slogan:
+    label: Slogan
+    type: text
+    width: 1/2
+
+  copyright:
+    label: Copyright
+    type:  textarea
+
+  twitter:
+    label: Twitter Handle (just its name)
+    type: text
+    width: 1/2
+
+  supportemail:
+    label: Support Email Address
+    type: text
+    width: 1/2
+
+  iosAppstore_label:
+    label: iOS App Store Button Label
+    type: text
+    width: 1/2
+
+  iosAppstore:
+    label: iOS App Store URL
+    type: text
+    width: 1/2
+
+  macAppstore_label:
+    label: macOS App Store Button Label
+    type: text
+    width: 1/2
+
+  macAppstore:
+    label: macOS App Store URL
+    type: text
+    width: 1/2
+
+  headerImage1x:
+    label: Header Image (@1x)
+    type: image
+    width: 1/2
+
+  headerImage2x:
+    label: Header Image (@2x)
+    type: image
+    width: 1/2

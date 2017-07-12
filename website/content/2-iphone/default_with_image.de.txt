@@ -1,0 +1,13 @@
+Title: Podlive auf dem iPhone
+
+----
+
+Text: Mit Podlive auf dem iPhone hast du deine Lieblingspodcasts überall dabei. Ob auf dem Rad, beim Wandern oder in der Bahn - niemehr eine Livesendung verpassen.
+
+----
+
+Image1x: podlive-ios-screenshot.jpg
+
+----
+
+Image2x: podlive-ios-screenshot@2x.jpg

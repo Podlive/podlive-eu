@@ -1,0 +1,17 @@
+Title: Podlive auf deinem Mac
+
+----
+
+Text: 
+
+Auch auf deinem Lieblingscomputer kannst du nun bequem Podcasts live anhören. Markiere deine Favoriten und du wirst automatisch informiert, sobald ein Livestream beginnt.
+
+Auf dem Mac kanst du - je nach Belieben - zwischen zwei Themes wählen: Aqua und Dark.
+
+----
+
+Image1x: podlive-macos-screenshot.jpg
+
+----
+
+Image2x: podlive-macos-screenshot@2x.jpg

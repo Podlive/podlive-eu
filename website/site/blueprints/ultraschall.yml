@@ -1,0 +1,61 @@
+title: Ultraschall
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  text:
+    label: Text
+    type:  textarea
+    icon: file-text-o
+
+  image1x:
+    label: Image (@1x)
+    type: image
+    width: 1/2
+
+  image2x:
+    label: Image (@2x)
+    type: image
+    width: 1/2
+
+  ultraschall_url_label:
+    label: Ultraschall Button Label
+    type:  text
+    default: Ultraschall
+    icon: file-text-o
+    width: 1/2
+
+  ultraschall_url:
+    label: Ultraschall Button URL
+    type:  text
+    icon: external-link
+    width: 1/2
+
+  studiolink_url_label:
+    label: Studio Link Button Label
+    type:  text
+    default: Studio Link
+    icon: file-text-o
+    width: 1/2
+
+  studiolink_url:
+    label: Studio Link Button URL
+    type:  text
+    icon: external-link
+    width: 1/2
+
+  studiolink_tutorial_url_label:
+    label: Studio Link OnAir-Tutorial Button Label
+    type:  text
+    default: Studio Link OnAir Tutorial
+    icon: file-text-o
+    width: 1/2
+
+  studiolink_tutorial_url:
+    label: Studio Link OnAir-Tutorial Button URL
+    type:  text
+    icon: external-link
+    width: 1/2

@@ -1,0 +1,41 @@
+Title: Podlive
+
+----
+
+Copyright: iOS App von (link: http://stefantrauth.de text: Stefan Trauth), macOS App von (link: https://cocoanaut.com text: Frank Gregor)
+
+----
+
+Twitter: PodliveApp
+
+----
+
+Slogan: Nie wieder einen Live-Podcast verpassen
+
+----
+
+Iosappstore: https://itunes.apple.com/app/id1208250918
+
+----
+
+Macappstore: https://geo.itunes.apple.com/app/podlive/id1210411572?mt=12
+
+----
+
+Supportemail: support@podlive.io
+
+----
+
+Headerimage1x: podlive-screenshot.png
+
+----
+
+Headerimage2x: podlive-screenshot@2x.png
+
+----
+
+Iosappstore-label: iOS App Store
+
+----
+
+Macappstore-label: Mac App Store
