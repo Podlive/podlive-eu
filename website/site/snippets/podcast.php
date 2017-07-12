@@ -8,7 +8,12 @@ $isOnline 		= ($channelState != "offline");
 
 ?>
 	<li class="top-channel">
-		<img class="channel-logo" src="<?= $coverArtUrl ?>">
+		<?php if($websiteUrl): ?>
+			<a href="<?= $websiteUrl ?>" title="<?= $name ?> Website"><img class="channel-logo" src="<?= $coverArtUrl ?>"></a>
+		<?php else: ?>
+			<img class="channel-logo" src="<?= $coverArtUrl ?>">
+		<?php endif ?>
+
 		<div class="column center channel-logo-name"><strong><?= $name ?></strong>
 		<?php if($showFollowerCount): ?>
 		<br><div class="follower-count"><?= $followerCount ?> Follower</div></div>
