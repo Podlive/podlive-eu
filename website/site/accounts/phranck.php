@@ -12,5 +12,5 @@ history:
   - features
   - features/notifications
   - features/streaming
-firstname: ""
-lastname: ""
+firstname: Frank
+lastname: Gregor
