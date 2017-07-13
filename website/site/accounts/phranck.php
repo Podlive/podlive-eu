@@ -7,6 +7,7 @@ email: phranck@cocoanaut.com
 language: de
 role: admin
 history:
+  - error
   - blog/example-article
   - home
   - intro

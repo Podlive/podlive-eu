@@ -39,3 +39,11 @@ Iosappstore-label: iOS App Store
 ----
 
 Macappstore-label: Mac App Store
+
+----
+
+Header404image1x: status-404-header.png
+
+----
+
+Header404image2x: status-404-header@2x.png

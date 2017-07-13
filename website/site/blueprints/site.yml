@@ -56,3 +56,13 @@ fields:
     label: Header Image (@2x)
     type: image
     width: 1/2
+
+  header404Image1x:
+    label: 404-Error Header Image (@1x)
+    type: image
+    width: 1/2
+
+  header404Image2x:
+    label: 404-Error Header Image (@2x)
+    type: image
+    width: 1/2

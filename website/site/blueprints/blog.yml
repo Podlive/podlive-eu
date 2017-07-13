@@ -31,7 +31,6 @@ fields:
   menuTitle:
     label: Menu Title
     type: title
-    required: true
     width: 3/4
 
   isMenuItem:

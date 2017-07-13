@@ -103,6 +103,14 @@ html, body {
     position: relative;
 }
 
+.column.error {
+	padding: 75px 0;
+}
+
+.column.error h1 {
+	margin-bottom: 30px;
+}
+
 dl {
 	clear: both;
 }
@@ -356,6 +364,11 @@ nav.top {
 header.hero {
     padding-top: 4rem;
     background: url("../images/background@2x.jpg") no-repeat;
+    background-size: cover;
+}
+
+header.error {
+    background: url("../images/404-background@2x.jpg") no-repeat;
     background-size: cover;
 }
 

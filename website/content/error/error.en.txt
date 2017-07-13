@@ -1,0 +1,12 @@
+Title: Something went wrong...
+
+----
+
+Intro: Intro Text
+
+----
+
+Text: 
+
+Either **we have bricked** something or **you're unable** to write. 😜
+Anyhow the requested page doesn't exists, unfortunately.
