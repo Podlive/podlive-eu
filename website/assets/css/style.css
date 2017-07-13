@@ -115,6 +115,7 @@ pre {
 	background: #f9f9f9;
 	padding: 1rem;
 	border-radius: 7px;
+	-moz-border-radius: 7px;
 }
 
 @media (min-width: 1044px) {
@@ -264,9 +265,10 @@ blockquote p {
 	margin: 0 20px;
 	background: #f8f8f8;
 	padding: 1rem;
-	border-radius: 5px;
 	border-left: 4px solid #eeeeee;
 	border-right: 4px solid #eeeeee;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
 }
 
 a:hover {
@@ -433,6 +435,7 @@ footer.bottom p {
 	padding: 10px 20px;
 	border: 1px solid #7A5382;
 	border-radius: 4px;
+	-moz-border-radius: 4px;
 	color: #7A5382;
 	background-color: #fff;
 	font-size: 0.9rem;
@@ -467,7 +470,8 @@ footer.bottom p {
 }
 
 .product .background {
-    border-radius: 4px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
 }
 
 #features .third {
@@ -594,7 +598,8 @@ footer.bottom p {
 }
 
 .channel-logo {
-    border-radius: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
     border: 1px solid #efefef;
 }
 
@@ -638,7 +643,8 @@ div.onair {
     position: absolute;
     top: -8px;
     left: 8px;
-    border-radius: 15px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
     border: 2px solid #ffffff;
     color: #ffffff;
     text-transform: uppercase;
@@ -703,13 +709,17 @@ article figure {
 	margin-bottom: 20px;
 	clear: both;
 }
+article figure img {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
 article figure.left {
 	float: left;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 article figure.right {
 	float: right;
-	margin-left: 10px;
+	margin-left: 20px;
 }
 article figure.center > * {
 	margin: 0 auto;
@@ -725,6 +735,7 @@ article div.gist {
 article p code {
 	background: #f9f9f9;
 	border-radius: 3px;
+	-moz-border-radius: 3px;
 	border: 1px solid #eeeeee;
 	padding: 2px 3px;
 	color: #4591c0;

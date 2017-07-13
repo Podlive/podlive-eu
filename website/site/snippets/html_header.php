@@ -6,7 +6,7 @@
 	<link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
 	<link rel="icon" href="/favicon.png" type="image/x-icon">
 	<link rel="stylesheet" href="/assets/css/sweetalert.css">
-	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="/assets/css/style-min.css">
 
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@podliveapp" />

@@ -2,7 +2,7 @@ Title: Beispiel Artikel #1
 
 ----
 
-Coverimage: 
+Coverimage: colorado-leaves.jpg
 
 ----
 
@@ -18,7 +18,7 @@ Aenean nec justo tristique, malesuada lectus nec, feugiat quam. Curabitur dictum
 ```
 This is code
 ```
-Sometimes you would like to note some <code>inline code blocks</code>. This is also possible.
+Sometimes you would like to note some `inline code blocks`. This is also possible.
 
 ## Images
 (image: colorado-leaves.jpg width: 120 height: auto class: left)
@@ -31,7 +31,7 @@ Sometimes you would like to note some <code>inline code blocks</code>. This is a
 (image: colorado-leaves.jpg width: 120 height: auto class: right)
  Aenean nec justo tristique, malesuada lectus nec, feugiat quam. Curabitur dictum sollicitudin libero vehicula blandit. Pellentesque ultricies, lectus vel auctor imperdiet, metus eros pretium erat, ultrices ultricies erat arcu ut nisl.  Aenean nec justo tristique, malesuada lectus nec, feugiat quam. Curabitur dictum sollicitudin libero vehicula blandit. Pellentesque ultricies, lectus vel auctor imperdiet, metus eros pretium erat, ultrices ultricies erat arcu ut nisl. 
 
-(image: http://2.bp.blogspot.com/-CPg_3bfWlXU/UIUR2lVuNOI/AAAAAAAACgA/dWRnxTYMFrs/s1600/sunflowers%2B2.jpg width: 700 height: auto class: center)
+(image: http://2.bp.blogspot.com/-CPg_3bfWlXU/UIUR2lVuNOI/AAAAAAAACgA/dWRnxTYMFrs/s1600/sunflowers%2B2.jpg width:  100% height: auto class: center)
 
 ## Twitter Gedoehns
 Es ist auch moeglich direkt zu Twitter-Profilen zu verlinken: (twitter: getkirby title: Link zum Twitter Profil des KirbyCMS text: KirbyCMS)
