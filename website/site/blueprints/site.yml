@@ -48,15 +48,25 @@ fields:
     width: 1/2
 
   headerImage1x:
-    label: Header Image (@1x)
+    label: Website Header Image (@1x)
     type: image
     width: 1/2
 
   headerImage2x:
-    label: Header Image (@2x)
+    label: Website Header Image (@2x)
     type: image
     width: 1/2
 
+  headerBlogImage1x:
+    label: Blog Header Image (@1x)
+    type: image
+    width: 1/2
+
+  headerBlogImage2x:
+    label: Blog Header Image (@2x)
+    type: image
+    width: 1/2
+    
   header404Image1x:
     label: 404-Error Header Image (@1x)
     type: image

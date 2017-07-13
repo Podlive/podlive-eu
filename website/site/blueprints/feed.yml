@@ -1,0 +1,16 @@
+title: RSS Feed
+
+pages: false
+files: false
+options:
+  template: false
+  status: false
+
+fields:
+  title:
+    label: Title
+    type: title
+
+  text:
+    label: Text
+    type: textarea

@@ -2,7 +2,7 @@ Title: Podlive
 
 ----
 
-Copyright: © Das Podlive Team
+Copyright: © Podlive Team
 
 ----
 
@@ -26,11 +26,11 @@ Supportemail: support@podlive.io
 
 ----
 
-Headerimage1x: podlive-screenshot.png
+Headerimage1x: website-header.png
 
 ----
 
-Headerimage2x: podlive-screenshot@2x.png
+Headerimage2x: website-header@2x.png
 
 ----
 
@@ -47,3 +47,11 @@ Header404image1x: status-404-header.png
 ----
 
 Header404image2x: status-404-header@2x.png
+
+----
+
+Headerblogimage1x: blog-header.png
+
+----
+
+Headerblogimage2x: blog-header@2x.png

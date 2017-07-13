@@ -54,3 +54,7 @@ Orange
 
 ## Weiterführende Kirby Content Documentation
 Weitere Informationen [finden sich hier](https://getkirby.com/docs/content/text).
+
+----
+
+Author: Master of Desaster

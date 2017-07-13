@@ -9,5 +9,3 @@ foreach($pages->visible() as $section) {
 }
 
 snippet('footer');
-
-?>

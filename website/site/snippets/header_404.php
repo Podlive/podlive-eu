@@ -10,7 +10,7 @@
 	<?php snippet('menu'); ?>
 
 	<header class="error">
-		<div class="container devices">
+		<div class="container">
 			<img class="device" src="<?= $headerImage1x ?>" srcset="<?= $headerImage1x ?> 1x, <?= $headerImage2x ?> 2x">
 		</div>
 	</header>

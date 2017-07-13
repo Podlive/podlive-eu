@@ -7,11 +7,9 @@ email: phranck@cocoanaut.com
 language: de
 role: admin
 history:
-  - >
-    blog/der-lange-weg-zu-podlive-fuer-den-mac
-  - error
+  - blog
   - blog/example-article
-  - home
-  - intro
+  - feed
+  - error
 firstname: Frank
 lastname: Gregor

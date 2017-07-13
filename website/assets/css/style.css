@@ -53,7 +53,7 @@
 }
 
 html {
-    font: 100%/1.5 FFUnit, sans-serif;
+    font: 100%/1.55 FFUnit, sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
@@ -296,7 +296,7 @@ nav.top {
 }
 
 nav.top .menuitem {
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: bold;
     color: #fff;
     line-height: 24px;
@@ -369,6 +369,11 @@ header.hero {
 
 header.error {
     background: url("../images/404-background@2x.jpg") no-repeat;
+    background-size: cover;
+}
+
+header.blog {
+    background: url("../images/blog-background@2x.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -743,7 +748,7 @@ article p code,
 article pre code,
 article dl,
 article div.gist {
-	margin-bottom: 45px;
+	margin-bottom: 25px;
 }
 article p code {
 	background: #f9f9f9;
@@ -755,6 +760,10 @@ article p code {
 }
 article p.article-date {
 	margin-bottom: 20px;
+}
+article h2 {
+	margin-top: 32px;
+	margin-bottom: 8px;
 }
 .container.blog {
 	max-width: 900px;

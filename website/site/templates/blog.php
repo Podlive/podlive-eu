@@ -2,7 +2,6 @@
 
 <header class="articles-header">
 	<div class="column full">
-		<h2><?= $page->title()->text() ?></h2>
 	</div>
 </header>
 
@@ -34,7 +33,7 @@
 		</div>
 	</section>
 
-<?php snippet('pagination') ?>
+<?php snippet('pagination', array('page' => $page)) ?>
 
 <?php else: ?>
 	<section class="article-list">

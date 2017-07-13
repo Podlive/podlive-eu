@@ -1,10 +1,5 @@
 <?php
-	$author = "";
-	if($page->author()) {
-		$author = ", <strong>".$page->author()->text()."</strong>";
-	}
-
-	snippet('header_blog')
+    snippet('header_blog')
 ?>
 
 	<section class="article">
@@ -12,7 +7,10 @@
             <article>
                 <header class="article-header">
                     <h1 class="article-title"><?= $page->title()->html() ?></h1>
-                    <p class="article-date"><?= $page->date('%A, %d.%m.%Y').$author ?></p>
+                    <p class="article-date">
+                        <?= $page->date('%A, %d.%m.%Y') ?>,
+                        <strong><?= $page->author()->text() ?></strong>
+                    </p>
                 </header>
 
                 <div class="text">

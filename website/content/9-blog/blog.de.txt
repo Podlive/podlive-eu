@@ -23,3 +23,11 @@ Noarticlestext: Dieses Blog enthält leider noch keine Artikel.
 ----
 
 Readmoretext: weiterlesen
+
+----
+
+Paginationoldertext: ältere Artikel →
+
+----
+
+Paginationnewertext: ← neuere Artikel
