@@ -10,18 +10,23 @@
 <?php if($articles->count()): ?>
 	<section class="articles">
 		<div class="container">
-		<?php foreach($articles as $article): ?>
+		<?php
+			foreach($articles as $article):
+
+			$author = "";
+			if($article->author()) {
+				$author = ", <strong>".$article->author()->text()."</strong>";
+			}
+		?>
             <article>
                 <header class="article-header">
                     <h2 class="article-title"><a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a></h2>
-                    <p class="article-date"><?= $article->date('%A, %d.%m.%Y') ?></p>
+                    <p class="article-date"><?= $article->date('%A, %d.%m.%Y').$author ?></p>
                 </header>
 
                 <div class="text">
-                    <p>
-						<?php snippet('coverimage', $article) ?>
-                    	<?= $article->text()->kirbytext()->excerpt(50, 'words') ?>
-                    </p>
+					<?php snippet('coverimage_thumb', $article) ?>
+					<?= $article->text()->kirbytext()->excerpt(50, 'words') ?>
                     <a href="<?= $article->url() ?>" class="article-more"><?= $page->readMoreText()->text() ?></a>
                 </div>
             </article>

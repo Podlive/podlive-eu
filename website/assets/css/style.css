@@ -756,6 +756,9 @@ article p code {
 article p.article-date {
 	margin-bottom: 20px;
 }
+.container.blog {
+	max-width: 900px;
+}
 
 
 .article-more {
