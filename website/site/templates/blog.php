@@ -1,60 +1,44 @@
-<?php snippet('header') ?>
+<?php snippet('header_blog') ?>
 
-  <main class="main" role="main">
+<header class="articles-header">
+	<div class="column full">
+		<h2><?= $page->title()->text() ?></h2>
+	</div>
+</header>
 
-    <header class="wrap">
-      <h1><?= $page->title()->html() ?></h1>
 
-      <?php
-      // This page uses a separate controller to set variables, which can be used
-      // within this template file. This results in less logic in your templates,
-      // making them more readable. Learn more about controllers at:
-      // https://getkirby.com/docs/developer-guide/advanced/controllers
-      if($pagination->page() == 1):
-      ?>
-        <div class="intro text">
-          <?= $page->text()->kirbytext() ?>
-        </div>
-      <?php endif ?>
+<?php if($articles->count()): ?>
+	<section class="articles">
+		<div class="container">
+		<?php foreach($articles as $article): ?>
+            <article>
+                <header class="article-header">
+                    <h2 class="article-title"><a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a></h2>
+                    <p class="article-date"><?= $article->date('%A, %d.%m.%Y') ?></p>
+                </header>
 
-      <hr />
-    </header>
+                <div class="text">
+                    <p>
+						<?php snippet('coverimage', $article) ?>
+                    	<?= $article->text()->kirbytext()->excerpt(50, 'words') ?>
+                    </p>
+                    <a href="<?= $article->url() ?>" class="article-more"><?= $page->readMoreText()->text() ?></a>
+                </div>
+            </article>
+		<?php endforeach ?>
+		</div>
+	</section>
 
-    <section class="wrap">
-      <?php if($articles->count()): ?>
-        <?php foreach($articles as $article): ?>
+<?php snippet('pagination') ?>
 
-          <article class="article index">
-
-            <header class="article-header">
-              <h2 class="article-title">
-                <a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a>
-              </h2>
-
-              <p class="article-date"><?= $article->date('F jS, Y') ?></p>
-            </header>
-
-            <?php snippet('coverimage', $article) ?>
-
-            <div class="text">
-              <p>
-                <?= $article->text()->kirbytext()->excerpt(50, 'words') ?>
-                <a href="<?= $article->url() ?>" class="article-more">read more</a>
-              </p>
-            </div>
-
-          </article>
-
-          <hr />
-
-        <?php endforeach ?>
-      <?php else: ?>
-        <p>This blog does not contain any articles yet.</p>
-      <?php endif ?>
-    </section>
-
-    <?php snippet('pagination') ?>
-
-  </main>
+<?php else: ?>
+	<section class="article-list">
+		<div class="container">
+			<div class="row clearfix">
+				<div class="column full"><?= $page->noArticlesText()->kirbytext() ?></div>
+			</div>
+		</div>
+	</section>
+<?php endif ?>
 
 <?php snippet('footer') ?>

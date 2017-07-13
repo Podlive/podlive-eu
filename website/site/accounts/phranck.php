@@ -7,10 +7,8 @@ email: phranck@cocoanaut.com
 language: de
 role: admin
 history:
-  - podcasts
-  - sync
-  - features
-  - features/notifications
-  - features/streaming
+  - home
+  - intro
+  - blog/artikel-6
 firstname: Frank
 lastname: Gregor

@@ -56,14 +56,17 @@ html {
     font: 100%/1.5 FFUnit, sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    height: 100%;
 }
 
 body {
     background: #fff;
     color: #808080;
-    height: 100%;
+}
+
+html, body {
     margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 .container {
@@ -98,6 +101,20 @@ body {
     float: left;
     width: 20%;
     position: relative;
+}
+
+dl {
+	clear: both;
+}
+
+dt {
+	font-weight: bold ;
+}
+
+pre {
+	background: #f9f9f9;
+	padding: 1rem;
+	border-radius: 7px;
 }
 
 @media (min-width: 1044px) {
@@ -216,6 +233,42 @@ a {
     transition: background 0.2s, color 0.2s, ease;
 }
 
+blockquote {
+	margin: 0.25em 0;
+	margin-left: 45px;
+	padding: 0.25em 10px
+	line-height: 1.45;
+	position: relative;
+	color: #383838;
+}
+blockquote:before {
+	display: block;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	color: #7a7a7a;
+}
+blockquote cite {
+	color: #999999;
+	font-size: 14px;
+	display: block;
+	margin-top: 5px;
+}
+
+blockquote cite:before {
+	content: "\2014 \2009";
+}
+blockquote p {
+	margin: 0 20px;
+	background: #f8f8f8;
+	padding: 1rem;
+	border-radius: 5px;
+	border-left: 4px solid #eeeeee;
+	border-right: 4px solid #eeeeee;
+}
+
 a:hover {
     color: #7A5382;
     text-decoration: none;
@@ -232,12 +285,13 @@ nav.top {
     left: 0;
 }
 
-nav.top .podlive {
+nav.top .menuitem {
     font-size: 15px;
     font-weight: bold;
     color: #fff;
     line-height: 24px;
     float: left;
+    margin-right: 16px;
 }
 
 nav.top ul {
@@ -256,6 +310,13 @@ nav.top ul li {
 }
 
 nav.top ul li.active {
+}
+
+nav.top a {
+	color: white;
+}
+nav.top a:hover {
+	color: white;
 }
 
 a.language {
@@ -278,16 +339,8 @@ a.language.en {
   background-size: 16px 16px;
 }
 
-footer.bottom {
-    min-height: 50px;
-    background: #eee;
-    padding: 1rem;
-    font-size: 14px;
-    text-align: center;
-}
-
 nav.top {
-  text-align: center;
+  text-align: left;
 }
 
 .assets {
@@ -296,32 +349,6 @@ nav.top {
     background-repeat: no-repeat;
     float: left;
 	margin-right: 10px;
-}
-
-span.share {
-    display: inline-block;
-}
-
-@media (min-width: 720px) {
-    span.share {
-        float: right;
-    }
-
-    span.maker {
-        float: left;
-    }
-}
-
-span.share a:hover {
-    color: #7A5382;
-}
-
-a.twitter {
-    color: #54ACEE;
-}
-
-span.maker {
-    display: block;
 }
 
 header.hero {
@@ -351,10 +378,35 @@ section.intro, section.content {
     animation: fadeInTop 1s;
 }
 
-header, section, footer {
-    -webkit-animation: fadeIn 1s;
-    -moz-animation: fadeIn 1s;
-    animation: fadeIn 1s;
+footer.bottom {
+	background: rgba(240, 240, 240, 0.95);
+	padding: 0 0.95rem;
+	font-size: 0.95rem;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	line-height: 50px;
+	height: 50px;
+}
+footer.bottom p {
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.share {
+	float: right;
+}
+.share a:hover {
+    color: #7A5382;
+}
+
+.maker {
+	float: left;
+}
+
+.twitter {
+    color: #54ACEE;
 }
 
 .gradient {
@@ -592,6 +644,119 @@ div.onair {
     text-transform: uppercase;
 }
 
+div.wrapper {
+	position: relative;
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+
+
+/* Blog */
+
+.articles-header,
+section.articles,
+section.pagination {
+	margin: 24px auto;
+	padding: 30px 0;
+	max-width: 1044px;
+}
+
+section.articles {
+	padding: 0;
+}
+
+.article-date {
+	font-size: 0.85rem;
+	margin-top: -10px;
+}
+
+section.article {
+	margin-top: 40px;
+	margin-bottom: 50px
+}
+section.articles .article-title {
+	text-align: left;
+}
+section.articles .article-date {
+	text-align: left;
+}
+
+section.article .article-title {
+	text-align: center;
+}
+section.article .article-date {
+	text-align: center;
+}
+
+article {
+	margin-bottom: 65px;
+}
+article:last-child {
+	margin-bottom: 20px;
+}
+article .text {
+	font-size: 1.1rem;
+}
+article figure {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+	clear: both;
+}
+article figure.left {
+	float: left;
+	margin-right: 10px;
+}
+article figure.right {
+	float: right;
+	margin-left: 10px;
+}
+article figure.center > * {
+	margin: 0 auto;
+	display: block;
+}
+article p,
+article p code,
+article pre code,
+article dl,
+article div.gist {
+	margin-bottom: 45px;
+}
+article p code {
+	background: #f9f9f9;
+	border-radius: 3px;
+	border: 1px solid #eeeeee;
+	padding: 2px 3px;
+	color: #4591c0;
+}
+article p.article-date {
+	margin-bottom: 20px;
+}
+
+
+.article-more {
+	display: block;
+	text-align: right;
+	margin-top: -1.4rem;
+}
+
+section.pagination {
+	padding: 10px 0;
+	height: 45px;
+	display: block;
+	animation: none;
+}
+.pagination-item {
+	display: inline-block;
+}
+.pagination-item.left {
+	float: left;
+}
+.pagination-item.right {
+	float: right;
+}
+
+
 @media (max-width: 710px) {
     .column.fifth {
     	padding: 0 5px;
@@ -616,6 +781,15 @@ div.onair {
 	.product {
 		margin-bottom: 30px;
 	}
+
+	article {
+		margin-bottom: 40px;
+		padding: 0 20px;
+	}
+
+	.pagination-item {
+		margin: 0 20px;
+	}
 }
 
 @media screen and ( max-width: 55em ) /* 880px */ {
@@ -629,6 +803,15 @@ div.onair {
 
 	.product {
 		margin-bottom: 30px;
+	}
+
+	article {
+		margin-bottom: 40px;
+		padding: 0 20px;
+	}
+
+	.pagination-item {
+		margin: 0 20px;
 	}
 }
 
@@ -655,10 +838,28 @@ div.onair {
 	.product {
 		margin-bottom: 30px;
 	}
+
+	article {
+		margin-bottom: 40px;
+		padding: 0 20px;
+	}
+
+	.pagination-item {
+		margin: 0 20px;
+	}
 }
 
 @media screen and ( max-width: 20em ) /* 320px */ {
 	.product {
 		margin-bottom: 30px;
+	}
+
+	article {
+		margin-bottom: 40px;
+		padding: 0 20px;
+	}
+
+	.pagination-item {
+		margin: 0 20px;
 	}
 }

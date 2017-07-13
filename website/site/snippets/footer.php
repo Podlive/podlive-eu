@@ -1,9 +1,11 @@
 
 	<!-- Footer -->
 	<footer class="bottom">
-		<span class="maker"><?= $site->copyright()->kirbytext() ?></span>
-		<span class="share"><a target="_blank" class="twitter" href="https://twitter.com/podliveapp">@<?= $site->twitter()->text() ?></a></span>
+		<p class="maker"><?= $site->copyright()->text() ?></p>
+		<p class="share"><a target="_blank" class="twitter" href="https://twitter.com/<?= $site->twitter()->text() ?>">@<?= $site->twitter()->text() ?></a></p>
 	</footer>
+
+	</div>
 
 	<?php
 		echo js('assets/js/jquery-min.js');

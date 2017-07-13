@@ -17,6 +17,7 @@ for more information: http://getkirby.com/license
 
 c::set('license', 'K2-PERSONAL-686a4fd2727400666366fb319392659a');
 c::set('debug', true);
+c::set('markdown.extra', true);
 
 /*
 

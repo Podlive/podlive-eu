@@ -4,20 +4,10 @@
 ?>
 <!doctype html>
 <html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
-
 <?php snippet('html_header') ?>
-
 <body>
-	<nav class="top">
-		<div class="podlive"><?= $site->title()->text() ?></div>
-		<ul>
-			<?php foreach($site->languages() as $language): ?>
-			<li<?php e($site->language() == $language, ' class="active"') ?>>
-			<a href="<?= $page->url($language->code()) ?>" class="language <?= $language->code() ?>"></a>
-			</li>
-			<?php endforeach ?>
-		</ul>
-	</nav>
+	<div class="wrapper">
+	<?php snippet('menu'); ?>
 
 	<header class="hero">
 		<div class="container devices">

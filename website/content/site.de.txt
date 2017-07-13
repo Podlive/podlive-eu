@@ -2,7 +2,7 @@ Title: Podlive
 
 ----
 
-Copyright: iOS App von (link: http://stefantrauth.de text: Stefan Trauth), macOS App von (link: https://cocoanaut.com text: Frank Gregor)
+Copyright: © Das Podlive Team
 
 ----
 

@@ -6,4 +6,12 @@ Text:
 
 Mit Podlive für iOS, macOS und tvOS, kannst du Podcast Livestreams hören. Aktuell finden sich dort alle Livestreams, die über (link: #ultraschall text: Ultraschall mit Studio Link OnAir) senden. Du kannst dir Favoriten anlegen, um eine Push Nachricht zu erhalten, sobald ein Livestream startet.
 
-Podlive ist ein Gemeinschaftsprojekt von Stefan Trauth (iOS) und Frank Gregor (macOS).
+Podlive ist ein Gemeinschaftsprojekt von [Stefan Trauth](https://stefantrauth.de) (iOS) und [Frank Gregor](https://cocoanaut.com) (macOS).
+
+----
+
+Menutitle: Intro
+
+----
+
+Ismenuitem: 0

@@ -3,12 +3,24 @@ title: Contact
 pages: false
 
 options:
-  status: false
+  status: true
 
 fields:
   title:
-    label: Title
+    label: Page Title
     type: title
+
+  menuTitle:
+    label: Menu Title
+    type: title
+    required: true
+    width: 3/4
+
+  isMenuItem:
+    width: 1/4
+    label: Navigation
+    type: checkbox
+    text: Is Menu Item
 
   intro:
     label: Intro
