@@ -16,8 +16,6 @@ for more information: http://getkirby.com/license
 */
 
 c::set('license', 'K2-PERSONAL-686a4fd2727400666366fb319392659a');
-c::set('debug', true);
-c::set('markdown.extra', true);
 
 /*
 
@@ -30,6 +28,9 @@ make Kirby work. For more fine-grained configuration
 of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
+
+c::set('debug', true);					// Enables/disables PHP errors
+c::set('markdown.extra', true);			// Enables/disables the Markdown extra parser with additional Markdown features like footnotes and tables.
 
 
 // https://getkirby.com/docs/languages/setup

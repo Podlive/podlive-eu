@@ -7,7 +7,7 @@
 
 	</div>
 
-	<?php
+	<?
 		echo js('assets/js/jquery-min.js');
 		echo js('assets/js/sweetalert.min.js');
 		echo js('assets/js/podlive.js');

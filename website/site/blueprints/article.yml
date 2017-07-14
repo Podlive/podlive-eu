@@ -17,23 +17,6 @@ fields:
         width: 1/3
 
 
-    authorHeadline:
-        label: Author
-        type: headline
-        numbered: false
-
-    showAuthor:
-        width: 1/2
-        type: checkbox
-        text: Show Author in Article
-        default: true
-
-    linkAuthor:
-        width: 1/2
-        type: checkbox
-        text: Link Author with Email
-
-
     contentHeadline:
         label: Content
         type: headline

@@ -3,3 +3,23 @@ Title: Podcasts, die bereits mitmachen...
 ----
 
 Text: 
+
+----
+
+Followercounttextsingular: Follower
+
+----
+
+Followercounttextplural: Follower
+
+----
+
+Listenercounttextsingular: ZuhörerIn
+
+----
+
+Listenercounttextplural: Hörende
+
+----
+
+Livebadgetext: live

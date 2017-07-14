@@ -11,3 +11,11 @@ role: admin
 history:
   - ultraschall
   - blog/zu-gast-im-sendegarten
+bio: ""
+twitter: ""
+github: ""
+facebook: ""
+linkedin: ""
+xing: ""
+showauthor: "1"
+linkauthor: ""

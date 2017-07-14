@@ -3,10 +3,12 @@ pages: false
 icon: file-audio-o
 
 fields:
-  generalHeadline:
-    label: General Settings
-    type: headline
-    numbered: false
+    generalHeadline:
+        label:
+            de: Allgemeine Einstellungen
+            en: General Settings
+        type: headline
+        numbered: false
 
   title:
     label: Title
@@ -18,7 +20,9 @@ fields:
     icon: file-text-o
 
   headerImagesHeadline:
-    label: Header Images
+    label:
+        de: Header Bilder
+        en: Header Images
     type: headline
     numbered: false
 
@@ -33,7 +37,9 @@ fields:
     width: 1/2
 
   ultraschallHeadline:
-    label: Ultraschall & Studio Link Settings
+    label:
+        de: Ultraschall & Studio Link Einstellungen
+        en: Ultraschall & Studio Link Settings
     type: headline
     numbered: false
 
@@ -64,14 +70,14 @@ fields:
     width: 1/2
 
   studiolink_tutorial_url_label:
-    label: Studio Link OnAir-Tutorial Button Label
+    label: Tutorial Button Label
     type:  text
     default: Studio Link OnAir Tutorial
     icon: file-text-o
     width: 1/2
 
   studiolink_tutorial_url:
-    label: Studio Link OnAir-Tutorial Button URL
+    label: Tutorial Button URL
     type:  text
     icon: external-link
     width: 1/2

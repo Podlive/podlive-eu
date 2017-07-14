@@ -1,13 +1,13 @@
-<?php if($pagination->hasPages()): ?>
+<? if($pagination->hasPages()): ?>
 	<section class="pagination">
 		<div class="container">
-			<?php if($pagination->hasPrevPage()): ?>
+			<? if($pagination->hasPrevPage()): ?>
 			<a class="pagination-item left" href="<?= $pagination->prevPageURL() ?>" rel="prev" title="newer articles"><?= $page->paginationNewerText() ?></a>
-			<?php endif ?>
+			<? endif ?>
 
-			<?php if($pagination->hasNextPage()): ?>
+			<? if($pagination->hasNextPage()): ?>
 			<a class="pagination-item right" href="<?= $pagination->nextPageURL() ?>" rel="next" title="older articles"><?= $page->paginationOlderText() ?></a>
-			<?php endif ?>
+			<? endif ?>
 		</div>
 	</section>
-<?php endif ?>
+<? endif ?>

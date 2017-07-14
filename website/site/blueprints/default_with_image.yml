@@ -22,7 +22,9 @@ fields:
 
 
     generalHeadline:
-        label: General Settings
+        label:
+            de: Allgemeine Einstellungen
+            en: General Settings
         type: headline
         numbered: false
 

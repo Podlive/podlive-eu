@@ -1,24 +1,42 @@
-<?php
+<?
 $name 			= trim($channel->get("name"));
 $followerCount 	= $channel->get("followerCount");
+$listenerCount 	= $channel->get("listenerCount");
 $coverArtUrl 	= $channel->get("coverartThumbnail200")->getURL();
 $websiteUrl		= $channel->get("websiteUrl");
 $channelState	= $channel->get("state");
 $isOnline 		= ($channelState != "offline");
+
+$followerLabel = "";
+$listenerLabel = "";
+
+if($listenerCount == 1) {
+	$followerLabel = $page->followerCountTextSingular()->text();
+	$listenerLabel = $page->listenerCountTextSingular()->text();
+}
+else {
+	$followerLabel = $page->followerCountTextPlural()->text();
+	$listenerLabel = $page->listenerCountTextPlural()->text();
+}
+
 ?>
 	<li class="top-channel">
-        <?php if($isOnline): ?>
+        <? if($isOnline): ?>
         <div class="onair"><?= $channelState ?></div>
-		<?php endif ?>
+		<? endif ?>
 
-		<?php if($websiteUrl): ?>
+		<? if($websiteUrl): ?>
 			<a href="<?= $websiteUrl ?>" title="<?= $name ?> Website"><img class="channel-logo" src="<?= $coverArtUrl ?>"></a>
-		<?php else: ?>
+		<? else: ?>
 			<img class="channel-logo" src="<?= $coverArtUrl ?>">
-		<?php endif ?>
+		<? endif ?>
 
 		<div class="column center channel-logo-name"><strong><?= $name ?></strong>
-		<?php if($showFollowerCount): ?>
-		<br><div class="follower-count"><?= $followerCount ?> Follower</div></div>
-		<?php endif ?>
+		<? if($showFollowerCount): ?>
+			<? if($isOnline): ?>
+				<br><div class="follower-count"><?= $listenerCount.' '.$listenerLabel ?></div></div>
+			<? else: ?>
+				<br><div class="follower-count"><?= $followerCount.' '.$followerLabel ?></div></div>
+			<? endif ?>
+		<? endif ?>
 	</li>

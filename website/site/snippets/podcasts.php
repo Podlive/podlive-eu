@@ -47,6 +47,7 @@ if ($canShowTopChannels):
 				<?php
 					foreach($channels as $channel) {
 						snippet('podcast', array(
+							'page' => $section,
 							'channel' => $channel,
 							'showFollowerCount' => $parseConfig->get("topWebsiteChannelsFollowerCount"),
 						));

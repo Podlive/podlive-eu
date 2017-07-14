@@ -2,7 +2,7 @@ Title: Beispiel Artikel #1
 
 ----
 
-Coverimage: colorado-leaves.jpg
+Coverimage: blue-hills.jpg
 
 ----
 
@@ -58,3 +58,7 @@ Weitere Informationen [finden sich hier](https://getkirby.com/docs/content/text)
 ----
 
 Url-key: example-page
+
+----
+
+Author: phranck

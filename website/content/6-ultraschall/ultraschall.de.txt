@@ -38,4 +38,4 @@ Studiolink-tutorial-url-label: Tutorial
 
 ----
 
-Studiolink-tutorial-url: https://podlive.io/blog/wie-kann-ich-meinen-podcast-livestream-in-podlive-hoerbar-machen
+Studiolink-tutorial-url: blog/wie-kann-ich-meinen-podcast-livestream-in-podlive-hoerbar-machen

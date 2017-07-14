@@ -2,7 +2,7 @@ Title: Beispiel Artikel #1
 
 ----
 
-Coverimage: colorado-leaves.jpg
+Coverimage: blue-hills.jpg
 
 ----
 
