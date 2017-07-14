@@ -4,13 +4,14 @@ username: phranck
 password: >
   $2a$10$s688HkXoBVgAUJ2UkcjgdusLj4yp/jsjHONklP3p5X.azhLKP8TwS
 email: phranck@cocoanaut.com
-language: en
+language: de
 role: admin
 history:
+  - ultraschall
   - blog/example-article
   - podcasts
-  - ultraschall
-  - blog/wie-kann-ich-meinen-podcast-livestream-in-podlive-hoerbar-machen
+  - >
+    blog/wie-kann-ich-meinen-podcast-livestream-in-podlive-hoerbar-machen
   - blog/zu-gast-im-sendegarten
 firstname: Frank
 lastname: Gregor

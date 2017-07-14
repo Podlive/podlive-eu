@@ -34,8 +34,8 @@ Studiolink-url: https://studio-link.de
 
 ----
 
-Studiolink-tutorial-url-label: Studio Link OnAir Tutorial
+Studiolink-tutorial-url-label: Tutorial
 
 ----
 
-Studiolink-tutorial-url: https://www.youtube.com/watch?v=wVuzqoefBjQ
+Studiolink-tutorial-url: blog/wie-kann-ich-meinen-podcast-livestream-in-podlive-hoerbar-machen
