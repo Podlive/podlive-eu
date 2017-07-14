@@ -1,0 +1,33 @@
+Title: Podlive Blog
+
+----
+
+Perpage: 5
+
+----
+
+Info: 
+
+----
+
+Ismenuitem: 1
+
+----
+
+Menutitle: Blog
+
+----
+
+Noarticlestext: Dieses Blog enthält leider noch keine Artikel.
+
+----
+
+Readmoretext: weiterlesen
+
+----
+
+Paginationoldertext: ältere Artikel →
+
+----
+
+Paginationnewertext: ← neuere Artikel
