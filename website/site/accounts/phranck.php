@@ -7,9 +7,9 @@ email: phranck@cocoanaut.com
 language: de
 role: admin
 history:
+  - blog/feed
   - blog
   - blog/example-article
-  - feed
   - error
 firstname: Frank
 lastname: Gregor
