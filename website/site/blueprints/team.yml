@@ -1,33 +1,36 @@
-title: Team Member
-
-pages: false
-
+title: Team Members
+pages: true
+files: false
 icon: user
 
 preview: parent
 
 fields:
-  title:
-    label: Name
-    type: title
+    navigationHeadline:
+        label: Navigation
+        type: headline
+        numbered: false
 
-  position:
-    label: Position
-    type: text
-    required: true
+    menuTitle:
+        label: Menu Title
+        type: text
+        width: 3/4
 
-  about:
-    label: About
-    type: textarea
+    isMenuItem:
+        width: 1/4
+        label: Navigation
+        type: checkbox
+        text: Is Menu Item
 
-  phone:
-    label: Phone Number
-    type: tel
-    required: true
-    width: 1/2
-
-  email:
-    label: Email Address
-    type: email
-    required: true
-    width: 1/2
+#    pageHeadline:
+#        label: Page Settings
+#        type: headline
+#        numbered: false
+#
+#    title:
+#        label: Name
+#        type: title
+#
+#    text:
+#        label: Text
+#        type: textarea

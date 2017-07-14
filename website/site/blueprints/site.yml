@@ -1,11 +1,14 @@
-title: Site
-
-#pages: default_with_image
+title: Website Globals
 
 fields:
+  generalHeadline:
+    label: General Settings
+    type: headline
+    numbered: false
+
   title:
     label: Website name
-    type: text
+    type: title
     width: 1/2
 
   slogan:
@@ -17,6 +20,11 @@ fields:
     label: Copyright
     type:  textarea
 
+  socialHeadline:
+    label: Social Media Settings
+    type: headline
+    numbered: false
+
   twitter:
     label: Twitter Handle (just its name)
     type: text
@@ -26,6 +34,11 @@ fields:
     label: Support Email Address
     type: text
     width: 1/2
+
+  appstoreHeadline:
+    label: Mac & iOS App Store Settings
+    type: headline
+    numbered: false
 
   iosAppstore_label:
     label: iOS App Store Button Label
@@ -47,6 +60,11 @@ fields:
     type: text
     width: 1/2
 
+  headerImagesHeadline:
+    label: Header Images
+    type: headline
+    numbered: false
+
   headerImage1x:
     label: Website Header Image (@1x)
     type: image
@@ -66,7 +84,7 @@ fields:
     label: Blog Header Image (@2x)
     type: image
     width: 1/2
-    
+
   header404Image1x:
     label: 404-Error Header Image (@1x)
     type: image

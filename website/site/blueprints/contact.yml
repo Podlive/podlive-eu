@@ -1,6 +1,7 @@
 title: Contact
 
 pages: false
+icon: address-card
 
 options:
   status: true

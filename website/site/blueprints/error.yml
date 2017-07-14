@@ -1,11 +1,12 @@
 title: Error
 
 pages: false
+icon: thumbs-down
 
 fields:
   title:
     label: Title
-    type:  text
+    type:  title
 
   intro:
     label: Intro

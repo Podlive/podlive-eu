@@ -1,9 +1,10 @@
 title: Podcasts
+icon: podcast
 
 fields:
   title:
     label: Title
-    type:  text
+    type:  title
 
   text:
     label: Text

@@ -57,4 +57,4 @@ Weitere Informationen [finden sich hier](https://getkirby.com/docs/content/text)
 
 ----
 
-Author: Master of Desaster
+Author: phranck

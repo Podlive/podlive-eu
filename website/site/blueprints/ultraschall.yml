@@ -1,15 +1,26 @@
 title: Ultraschall
 pages: false
+icon: file-audio-o
 
 fields:
+  generalHeadline:
+    label: General Settings
+    type: headline
+    numbered: false
+
   title:
     label: Title
-    type:  text
+    type:  title
 
   text:
     label: Text
     type:  textarea
     icon: file-text-o
+
+  headerImagesHeadline:
+    label: Header Images
+    type: headline
+    numbered: false
 
   image1x:
     label: Image (@1x)
@@ -20,6 +31,11 @@ fields:
     label: Image (@2x)
     type: image
     width: 1/2
+
+  ultraschallHeadline:
+    label: Ultraschall & Studio Link Settings
+    type: headline
+    numbered: false
 
   ultraschall_url_label:
     label: Ultraschall Button Label

@@ -1,4 +1,4 @@
-<?php snippet('header_blog') ?>
+<? snippet('header_blog') ?>
 
 <header class="articles-header">
 	<div class="column full">
@@ -6,36 +6,29 @@
 </header>
 
 
-<?php if($articles->count()): ?>
+<? if($articles->count()): ?>
 	<section class="articles">
 		<div class="container">
-		<?php
-			foreach($articles as $article):
-
-			$author = "";
-			if($article->author()) {
-				$author = ", <strong>".$article->author()->text()."</strong>";
-			}
-		?>
+		<? foreach($articles as $article): ?>
             <article>
                 <header class="article-header">
                     <h2 class="article-title"><a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a></h2>
-                    <p class="article-date"><?= $article->date('%A, %d.%m.%Y').$author ?></p>
+                    <? snippet('article-date-author', array('article' => $article)) ?>
                 </header>
 
                 <div class="text">
-					<?php snippet('coverimage_thumb', $article) ?>
+					<? snippet('coverimage_thumb', $article) ?>
 					<?= $article->text()->kirbytext()->excerpt(50, 'words') ?>
                     <a href="<?= $article->url() ?>" class="article-more"><?= $page->readMoreText()->text() ?></a>
                 </div>
             </article>
-		<?php endforeach ?>
+		<? endforeach ?>
 		</div>
 	</section>
 
-<?php snippet('pagination', array('page' => $page)) ?>
+<? snippet('pagination', array('page' => $page)) ?>
 
-<?php else: ?>
+<? else: ?>
 	<section class="article-list">
 		<div class="container">
 			<div class="row clearfix">
@@ -43,6 +36,6 @@
 			</div>
 		</div>
 	</section>
-<?php endif ?>
+<? endif ?>
 
-<?php snippet('footer') ?>
+<? snippet('footer') ?>

@@ -7,9 +7,11 @@ email: phranck@cocoanaut.com
 language: de
 role: admin
 history:
+  - >
+    blog/wie-kann-ich-meinen-podcast-livestream-in-podlive-hoerbar-machen
+  - blog/zu-gast-im-sendegarten
+  - blog/example-article
   - blog/feed
   - blog
-  - blog/example-article
-  - error
 firstname: Frank
 lastname: Gregor

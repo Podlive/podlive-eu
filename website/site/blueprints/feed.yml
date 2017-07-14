@@ -1,4 +1,5 @@
 title: RSS Feed
+icon: feed
 
 pages: false
 files: false
@@ -7,10 +8,16 @@ options:
   status: false
 
 fields:
+  feedHeadline:
+    label: Settings for RSS-Feed configuration
+    type: headline
+    numbered: false
+
   title:
     label: Title
     type: title
 
-  text:
+  description:
     label: Text
-    type: textarea
+    type: text
+    icon: file-text-o

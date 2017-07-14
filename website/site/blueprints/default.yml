@@ -1,21 +1,33 @@
 title: Page
+icon: file-text-o
 
 fields:
-  title:
-    label: Page Title
-    type:  text
+    navigationHeadline:
+        label: Navigation
+        type: headline
+        numbered: false
 
-  menuTitle:
-    label: Menu Title
-    type: title
-    width: 3/4
+    menuTitle:
+        label: Menu Title
+        type: text
+        width: 3/4
 
-  isMenuItem:
-    width: 1/4
-    label: Navigation
-    type: checkbox
-    text: Is Menu Item
+    isMenuItem:
+        width: 1/4
+        label: Navigation
+        type: checkbox
+        text: Is Menu Item
 
-  text:
-    label: Text
-    type:  textarea
+
+    generalHeadline:
+        label: General Settings
+        type: headline
+        numbered: false
+
+    title:
+        label: Page Title
+        type:  title
+
+    text:
+        label: Text
+        type:  textarea

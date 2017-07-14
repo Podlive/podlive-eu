@@ -2,7 +2,7 @@ Title: Wie kann ich meinen Podcast Livestream in Podlive hörbar machen?
 
 ----
 
-Author: Stefan
+Author: stefan
 
 ----
 
@@ -63,3 +63,11 @@ Eine Benachrichtigung wird versendet, wenn der Status eures Streams auf `Preshow
 (image: studiolink-channel-state.png width: 400 height: auto class: center)
 
 Nochmal zusammengefasst: Der Status eures Livestreams ist immer in der Podlive App zu sehen. Benachrichtigungen werden nur für `Preshow` und `Live` versendet. Der Status muss manuell im Studiolink Webinterface angepasst werden.
+
+----
+
+Showauthor: 1
+
+----
+
+Linkauthor: 0
