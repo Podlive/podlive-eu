@@ -31,6 +31,10 @@ else {
 			<img class="channel-logo" src="<?= $coverArtUrl ?>">
 		<? endif ?>
 
+        <? if($isOnline && $canPlayLiveChannels): ?>
+        <audio src="<?= $channel->streamUrl ?>" controls></audio>
+        <? endif ?>
+
 		<div class="column center channel-logo-name"><strong><?= $name ?></strong>
 		<? if($showFollowerCount): ?>
 			<? if($isOnline): ?>

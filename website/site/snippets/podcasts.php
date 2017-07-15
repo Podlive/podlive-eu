@@ -49,7 +49,8 @@ if ($canShowTopChannels):
 						snippet('podcast', array(
 							'page' => $section,
 							'channel' => $channel,
-							'showFollowerCount' => $parseConfig->get("topWebsiteChannelsFollowerCount"),
+                            'showFollowerCount' => $parseConfig->get("topWebsiteChannelsFollowerCount"),
+                            'canPlayLiveChannels' => $parseConfig->get("canPlayLiveChannels"),
 						));
 					}
 				?>
