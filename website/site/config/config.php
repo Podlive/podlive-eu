@@ -33,6 +33,7 @@ c::set('debug', true);					// Enables/disables PHP errors
 c::set('markdown.extra', true);			// Enables/disables the Markdown extra parser with additional Markdown features like footnotes and tables.
 
 
+// Language Settings
 // https://getkirby.com/docs/languages/setup
 c::set('languages', array(
   array(
@@ -50,7 +51,14 @@ c::set('languages', array(
   ),
 ));
 c::set('language.detect', true);
+
+
+// Date Settings
 c::set('date.handler', 'strftime');
+
+
+// RSS-Feed Settings
+c::set('feed.generator', 'Podlive');
 
 
 
