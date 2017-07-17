@@ -7,10 +7,8 @@
 
 	</div>
 
-	<?
-		echo js('assets/js/jquery-min.js');
-		echo js('assets/js/podlive.js');
-	?>
+	<?= js('assets/js/jquery-min.js') ?>
+	<?= js('assets/js/podlive.js') ?>
 
 	<!-- Google Analytics -->
 	<script>
