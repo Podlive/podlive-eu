@@ -5,7 +5,6 @@
 	<link rel="alternate" type="application/rss+xml" href="<?= url('blog/feed') ?>" title="<?= $site->title()->html() ?> Blog Feed" />
 	<link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
 	<link rel="icon" href="/favicon.png" type="image/x-icon">
-	<link rel="stylesheet" href="/assets/css/sweetalert.css">
 	<link rel="stylesheet" href="/assets/css/style-min.css">
 
 	<meta name="twitter:card" content="summary" />
