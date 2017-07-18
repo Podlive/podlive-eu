@@ -1707,6 +1707,12 @@ section.pagination {
 	float: right;
 }
 
+// Ultraschall SVG
+.us-svg {
+	width: 100%;
+	height: auto;
+}
+
 
 @media (max-width: 710px) {
     .column.fifth {
