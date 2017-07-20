@@ -1,4 +1,4 @@
-<? snippet('header_blog') ?>
+<? snippet('header', array('context' => 'blog')) ?>
 
 <header class="articles-header">
 	<div class="column full">

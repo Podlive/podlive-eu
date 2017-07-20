@@ -1,6 +1,6 @@
 <?php
 
-snippet('header');
+snippet('header', array('context' => 'default'));
 
 foreach($pages->visible() as $section) {
 	if(!$section->isMenuItem()->bool()) {

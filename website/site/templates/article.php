@@ -1,4 +1,4 @@
-<? snippet('header_blog') ?>
+<? snippet('header', array('context' => 'blog')) ?>
 
 	<section class="article">
 		<div class="container blog">

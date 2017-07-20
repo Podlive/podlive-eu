@@ -1,4 +1,4 @@
-<?php snippet('header_404') ?>
+<?php snippet('header', array('context' => 'error')) ?>
 
 	<section>
 		<div class="container">

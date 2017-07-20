@@ -1,4 +1,4 @@
-<?php snippet('header') ?>
+<?php snippet('header', array('context' => 'default')) ?>
 
   <main class="main" role="main">
 
@@ -9,7 +9,7 @@
       </div>
       <hr />
     </header>
-      
+
     <div class="text wrap">
       <?= $page->text()->kirbytext() ?>
     </div>
