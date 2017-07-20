@@ -1,7 +1,7 @@
 	<nav class="top">
 		<? foreach($pages->visible() as $thePage): ?>
 			<? if($thePage->isMenuItem()->bool()): ?>
-			<div class="menuitem"><a href="<?= $thePage->url() ?>"><?= $thePage->menuTitle()->text() ?></a></div>
+				<div class="menuitem"><a href="<?= $thePage->url() ?>"><?= $thePage->menuTitle()->text() ?></a></div>
 			<? endif ?>
 		<? endforeach ?>
 		<ul>
