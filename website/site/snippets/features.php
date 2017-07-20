@@ -9,12 +9,11 @@
                 </div>
 
                 <div class="row clearfix features">
-<?php
-
-foreach($section->children()->visible() as $feature) {
-  snippet('feature', array('feature' => $feature));
-}
-
-?>                </div>
+				<?
+					foreach($section->children()->visible() as $feature) {
+					  snippet('feature', array('feature' => $feature));
+					}
+				?>
+				</div>
             </div>
         </section>
