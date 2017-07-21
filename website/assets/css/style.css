@@ -75,6 +75,8 @@ html, body {
     max-width: 710px;
 }
 
+
+/*column*/
 .column {
     margin: 0 auto;
     padding: 0 1rem;
@@ -111,6 +113,7 @@ html, body {
 	margin-bottom: 30px;
 }
 
+/*tags*/
 dl {
 	clear: both;
 }
@@ -305,15 +308,15 @@ nav.top .menuitem {
 }
 
 nav.top ul {
-	display: table;
+    display: table;
     list-style-type: none;
     margin: 0;
-	float: right;
+    float: right;
 }
 
 nav.top ul li {
-	display: inline-block;
-	margin: 0 8px;
+    display: inline-block;
+    margin: 0 8px;
     font-size: 14px;
     font-weight: bold;
     color: #fff;
@@ -594,7 +597,7 @@ footer.bottom p {
 }
 
 
-// Sweet Alert
+/* Sweet Alert */
 
 .sweet-alert {
   font: 100%/1.5 FFUnit, sans-serif;
@@ -651,7 +654,9 @@ ul.top-channels li audio {
     position: absolute;
     max-width: 100%;
     bottom: 45px;
-}/**
+}
+
+/**
  * @license
  * MyFonts Webfont Build ID 3404812, 2017-06-09T18:12:56-0400
  *
@@ -1247,7 +1252,7 @@ footer.bottom p {
 }
 
 
-// Sweet Alert
+/* Sweet Alert*/
 
    .sweet-alert {
        font: 100%/1.5 FFUnit, sans-serif;
@@ -1707,7 +1712,7 @@ section.pagination {
 	float: right;
 }
 
-// Ultraschall SVG
+/* Ultraschall SVG */
 .us-svg {
 	width: 100%;
 	height: auto;
