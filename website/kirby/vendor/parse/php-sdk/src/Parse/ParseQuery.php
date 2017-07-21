@@ -1,13 +1,17 @@
 <?php
+/**
+ * Class ParseQuery | Parse/ParseQuery.php
+ */
 
 namespace Parse;
 
 use Exception;
 
 /**
- * ParseQuery - Handles querying data from Parse.
+ * Class ParseQuery - Handles querying data from Parse.
  *
  * @author Fosco Marotto <fjm@fb.com>
+ * @package Parse
  */
 class ParseQuery
 {
@@ -642,6 +646,26 @@ class ParseQuery
     }
 
     /**
+     * Add a constraint to the query that requires a particular key's
+     * coordinates that contains a ParseGeoPoint
+     *
+     * @param string        $key      The key of the ParsePolygon
+     * @param ParseGeoPoint $point    The point that will be contained.
+     *
+     * @return ParseQuery Returns this query, so you can chain this call.
+     */
+    public function polygonContains($key, $point)
+    {
+        $this->addCondition(
+            $key,
+            '$geoIntersects',
+            ['$point' => $point]
+        );
+
+        return $this;
+    }
+
+    /**
      * Add a constraint to the query that requires a particular key's value to
      * be contained in the provided list of values.
      *
@@ -841,7 +865,7 @@ class ParseQuery
                 $className = $queryObjects[$i]->className;
             }
             if ($className != $queryObjects[$i]->className) {
-                throw new Exception('All queries must be for the same class');
+                throw new Exception('All queries must be for the same class', 103);
             }
         }
         $query = new self($className);

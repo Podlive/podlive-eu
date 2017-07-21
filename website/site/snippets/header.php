@@ -1,4 +1,4 @@
-<?php
+<?
 $headerImage1x = $headerImage2x = $headerClass = '';
 
 switch($context) {

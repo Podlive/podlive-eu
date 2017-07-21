@@ -1,4 +1,4 @@
-<?php
+<?
 use Parse\ParseClient;
 use Parse\ParseQuery;
 use Parse\ParseConfig;
@@ -13,9 +13,9 @@ ParseClient::setServerURL($parse['restServerUrl'], 'parse');
 
 // Fire a query
 $query = new ParseQuery("Channel");
-$query->equalTo(@"isEnabled", true);
-$query->descending("followerCount");
-$query->addAscending("name");
+$query->equalTo("isEnabled", true)
+	  ->descending("followerCount")
+	  ->addAscending("name");
 
 $parseConfig = new ParseConfig();
 $query->limit($parseConfig->get("topWebsiteChannels"));
@@ -31,11 +31,11 @@ if ($canShowTopChannels):
             <div class="container">
                 <div class="row clearfix">
                     <div class="column full">
-                    	<?php if($section->title()): ?>
+                    	<? if($section->title()): ?>
                         <h2><?= $section->title()->text() ?></h2>
-                        <?php endif ?>
+                        <? endif ?>
 
-                        <?php
+                        <?
                         	if($section->text()) {
                         		echo $section->text()->kirbytext();
                         	}
@@ -44,7 +44,7 @@ if ($canShowTopChannels):
                 </div>
 
 				<ul class="top-channels">
-				<?php
+				<?
 					foreach($channels as $channel) {
 						snippet('podcast', array(
 							'page' => $section,
@@ -58,4 +58,4 @@ if ($canShowTopChannels):
 
             </div>
         </section>
-<?php endif ?>
+<? endif ?>

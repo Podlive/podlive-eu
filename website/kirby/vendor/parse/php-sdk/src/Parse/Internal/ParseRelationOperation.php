@@ -1,4 +1,7 @@
 <?php
+/**
+ * Class ParseRelationOperation | Parse/Internal/ParseRelationOperation.php
+ */
 
 namespace Parse\Internal;
 
@@ -8,9 +11,10 @@ use Parse\ParseObject;
 use Parse\ParseRelation;
 
 /**
- * ParseRelationOperation - A class that is used to manage ParseRelation changes such as object add or remove.
+ * Class ParseRelationOperation - A class that is used to manage ParseRelation changes such as object add or remove.
  *
  * @author Mohamed Madbouli <mohamedmadbouli@fb.com>
+ * @package Parse\Internal
  */
 class ParseRelationOperation implements FieldOperation
 {
@@ -35,6 +39,13 @@ class ParseRelationOperation implements FieldOperation
      */
     private $relationsToRemove = [];
 
+    /**
+     * ParseRelationOperation constructor.
+     *
+     * @param ParseObject[] $objectsToAdd       ParseObjects to add
+     * @param ParseObject[] $objectsToRemove    ParseObjects to remove
+     * @throws Exception
+     */
     public function __construct($objectsToAdd, $objectsToRemove)
     {
         $this->targetClassName = null;
@@ -72,7 +83,7 @@ class ParseRelationOperation implements FieldOperation
                 $this->targetClassName = $object->getClassName();
             }
             if ($this->targetClassName != $object->getClassName()) {
-                throw new Exception('All objects in a relation must be of the same class.');
+                throw new Exception('All objects in a relation must be of the same class.', 103);
             }
         }
     }
@@ -144,7 +155,8 @@ class ParseRelationOperation implements FieldOperation
                 throw new Exception(
                     'Related object object must be of class '
                     .$this->targetClassName.', but '.$oldValue->getTargetClass()
-                    .' was passed in.'
+                    .' was passed in.',
+                    103
                 );
             }
 
@@ -176,7 +188,8 @@ class ParseRelationOperation implements FieldOperation
                 throw new Exception(
                     'Related object object must be of class '
                     .$this->targetClassName.', but '.$previous->targetClassName
-                    .' was passed in.'
+                    .' was passed in.',
+                    103
                 );
             }
             $newRelationToAdd = self::convertToOneDimensionalArray(
@@ -258,6 +271,11 @@ class ParseRelationOperation implements FieldOperation
         return empty($addRelation['objects']) ? $removeRelation : $addRelation;
     }
 
+    /**
+     * Gets the className of the target objects.
+     *
+     * @return null|string
+     */
     public function _getTargetClass()
     {
         return $this->targetClassName;

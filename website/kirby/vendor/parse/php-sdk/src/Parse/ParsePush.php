@@ -1,13 +1,17 @@
 <?php
+/**
+ * Class ParsePush | Parse/ParsePush.php
+ */
 
 namespace Parse;
 
 use Exception;
 
 /**
- * ParsePush - Handles sending push notifications with Parse.
+ * Class ParsePush - Handles sending push notifications with Parse.
  *
  * @author Fosco Marotto <fjm@fb.com>
+ * @package Parse
  */
 class ParsePush
 {
@@ -36,7 +40,8 @@ class ParsePush
             && isset($data['expiration_interval'])
         ) {
             throw new Exception(
-                'Both expiration_time and expiration_interval can\'t be set.'
+                'Both expiration_time and expiration_interval can\'t be set.',
+                138
             );
         }
         if (isset($data['where'])) {
@@ -50,7 +55,8 @@ class ParsePush
                 }
             } else {
                 throw new Exception(
-                    'Where parameter for Parse Push must be of type ParseQuery'
+                    'Where parameter for Parse Push must be of type ParseQuery',
+                    111
                 );
             }
         }
