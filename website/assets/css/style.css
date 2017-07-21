@@ -662,10 +662,6 @@ ul.top-channels li audio {
     bottom: 45px;
 }
 
-
-
-
-
 ul.top-channels li:nth-child(5n+1) {
     clear: both;
 }
@@ -694,7 +690,6 @@ div.wrapper {
     padding-bottom: 50px;
 }
 
-
 /* Blog */
 
 .articles-header,
@@ -718,9 +713,11 @@ section.article {
     margin-top: 40px;
     margin-bottom: 50px
 }
+
 section.articles .article-title {
     text-align: left;
 }
+
 section.articles .article-date {
     text-align: left;
 }
@@ -728,6 +725,7 @@ section.articles .article-date {
 section.article .article-title {
     text-align: center;
 }
+
 section.article .article-date {
     text-align: center;
 }
@@ -735,34 +733,42 @@ section.article .article-date {
 article {
     margin-bottom: 65px;
 }
+
 article:last-child {
     margin-bottom: 20px;
 }
+
 article .text {
     font-size: 1.1rem;
 }
+
 article figure {
     padding: 0;
     margin: 0;
     margin-bottom: 20px;
     clear: both;
 }
+
 article figure img {
     border-radius: 5px;
     -moz-border-radius: 5px;
 }
+
 article figure.left {
     float: left;
     margin-right: 20px;
 }
+
 article figure.right {
     float: right;
     margin-left: 20px;
 }
+
 article figure.center > * {
     margin: 0 auto;
     display: block;
 }
+
 article p,
 article p code,
 article pre code,
@@ -770,6 +776,7 @@ article dl,
 article div.gist {
     margin-bottom: 25px;
 }
+
 article p code {
     background: #f9f9f9;
     border-radius: 3px;
@@ -778,17 +785,19 @@ article p code {
     padding: 2px 3px;
     color: #4591c0;
 }
+
 article p.article-date {
     margin-bottom: 20px;
 }
+
 article h2 {
     margin-top: 32px;
     margin-bottom: 8px;
 }
+
 .container.blog {
     max-width: 900px;
 }
-
 
 .article-more {
     display: block;
@@ -802,16 +811,18 @@ section.pagination {
     display: block;
     animation: none;
 }
+
 .pagination-item {
     display: inline-block;
 }
+
 .pagination-item.left {
     float: left;
 }
+
 .pagination-item.right {
     float: right;
 }
-
 
 @media (max-width: 710px) {
     .column.fifth {
@@ -879,6 +890,7 @@ section.pagination {
         padding: 0 0;
         margin: 0 auto 0;
     }
+
     .channel-logo-name {
         font-size: 0.7rem;
     }
@@ -920,7 +932,6 @@ section.pagination {
     }
 }
 
-
 ul.top-channels li:nth-child(5n+1) {
     clear: both;
 }
@@ -949,7 +960,6 @@ div.wrapper {
     padding-bottom: 50px;
 }
 
-
 /* Blog */
 
 .articles-header,
@@ -973,9 +983,11 @@ section.article {
     margin-top: 40px;
     margin-bottom: 50px
 }
+
 section.articles .article-title {
     text-align: left;
 }
+
 section.articles .article-date {
     text-align: left;
 }
@@ -983,6 +995,7 @@ section.articles .article-date {
 section.article .article-title {
     text-align: center;
 }
+
 section.article .article-date {
     text-align: center;
 }
@@ -990,34 +1003,42 @@ section.article .article-date {
 article {
     margin-bottom: 65px;
 }
+
 article:last-child {
     margin-bottom: 20px;
 }
+
 article .text {
     font-size: 1.1rem;
 }
+
 article figure {
     padding: 0;
     margin: 0;
     margin-bottom: 20px;
     clear: both;
 }
+
 article figure img {
     border-radius: 5px;
     -moz-border-radius: 5px;
 }
+
 article figure.left {
     float: left;
     margin-right: 20px;
 }
+
 article figure.right {
     float: right;
     margin-left: 20px;
 }
+
 article figure.center > * {
     margin: 0 auto;
     display: block;
 }
+
 article p,
 article p code,
 article pre code,
@@ -1025,6 +1046,7 @@ article dl,
 article div.gist {
     margin-bottom: 25px;
 }
+
 article p code {
     background: #f9f9f9;
     border-radius: 3px;
@@ -1033,17 +1055,19 @@ article p code {
     padding: 2px 3px;
     color: #4591c0;
 }
+
 article p.article-date {
     margin-bottom: 20px;
 }
+
 article h2 {
     margin-top: 32px;
     margin-bottom: 8px;
 }
+
 .container.blog {
     max-width: 900px;
 }
-
 
 .article-more {
     display: block;
@@ -1057,12 +1081,15 @@ section.pagination {
     display: block;
     animation: none;
 }
+
 .pagination-item {
     display: inline-block;
 }
+
 .pagination-item.left {
     float: left;
 }
+
 .pagination-item.right {
     float: right;
 }
@@ -1072,7 +1099,6 @@ section.pagination {
     width: 100%;
     height: auto;
 }
-
 
 @media (max-width: 710px) {
     .column.fifth {
@@ -1140,6 +1166,7 @@ section.pagination {
         padding: 0 0;
         margin: 0 auto 0;
     }
+
     .channel-logo-name {
         font-size: 0.7rem;
     }
