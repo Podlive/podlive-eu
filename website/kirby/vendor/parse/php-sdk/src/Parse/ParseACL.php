@@ -1,4 +1,7 @@
 <?php
+/**
+ * Class ParseACL | Parse/ParseACL.php
+ */
 
 namespace Parse;
 
@@ -6,7 +9,7 @@ use Exception;
 use Parse\Internal\Encodable;
 
 /**
- * ParseACL - is used to control which users can access or modify a particular
+ * Class ParseACL - is used to control which users can access or modify a particular
  * object. Each ParseObject can have its own ParseACL. You can grant read and
  * write permissions separately to specific users, to groups of users that
  * belong to roles, or you can grant permissions to "the public" so that, for
@@ -14,37 +17,50 @@ use Parse\Internal\Encodable;
  * of users could write to that object.
  *
  * @author Mohamed Madbouli <mohamedmadbouli@fb.com>
+ * @package Parse
  */
 class ParseACL implements Encodable
 {
     const PUBLIC_KEY = '*';
 
     /**
+     * Array of permissions by id
+     *
      * @var array
      */
     private $permissionsById = [];
 
     /**
+     * Whether this ACL is shared
+     *
      * @var bool
      */
     private $shared = false;
 
     /**
+     * The last known current user
+     *
      * @var ParseUser
      */
     private static $lastCurrentUser = null;
 
     /**
+     * An ACL with defaults set with the current user
+     *
      * @var ParseACL
      */
     private static $defaultACLWithCurrentUser = null;
 
     /**
+     * An ACL with defaults set
+     *
      * @var ParseACL
      */
     private static $defaultACL = null;
 
     /**
+     * Whether the default acl uses the current user or not
+     *
      * @var bool
      */
     private static $defaultACLUsesCurrentUser = false;
@@ -79,7 +95,7 @@ class ParseACL implements Encodable
         $acl = new self();
         foreach ($data as $id => $permissions) {
             if (!is_string($id)) {
-                throw new Exception('Tried to create an ACL with an invalid userId.');
+                throw new Exception('Tried to create an ACL with an invalid userId.', 104);
             }
             foreach ($permissions as $accessType => $value) {
                 if ($accessType !== 'read' && $accessType !== 'write') {
@@ -119,6 +135,11 @@ class ParseACL implements Encodable
         $this->shared = $shared;
     }
 
+    /**
+     * Returns an associate array encoding of this ParseACL instance.
+     *
+     * @return mixed
+     */
     public function _encode()
     {
         if (empty($this->permissionsById)) {
@@ -148,7 +169,8 @@ class ParseACL implements Encodable
         }
         if (!is_string($userId)) {
             throw new ParseException(
-                'Invalid target for access control.'
+                'Invalid target for access control.',
+                104
             );
         }
         if (!isset($this->permissionsById[$userId])) {
@@ -198,7 +220,7 @@ class ParseACL implements Encodable
     public function setReadAccess($userId, $allowed)
     {
         if (!$userId) {
-            throw new Exception('cannot setReadAccess for null userId');
+            throw new Exception('cannot setReadAccess for null userId', 104);
         }
         $this->setAccess('read', $userId, $allowed);
     }
@@ -218,7 +240,7 @@ class ParseACL implements Encodable
     public function getReadAccess($userId)
     {
         if (!$userId) {
-            throw new Exception('cannot getReadAccess for null userId');
+            throw new Exception('cannot getReadAccess for null userId', 104);
         }
 
         return $this->getAccess('read', $userId);
@@ -235,7 +257,7 @@ class ParseACL implements Encodable
     public function setWriteAccess($userId, $allowed)
     {
         if (!$userId) {
-            throw new Exception('cannot setWriteAccess for null userId');
+            throw new Exception('cannot setWriteAccess for null userId', 104);
         }
         $this->setAccess('write', $userId, $allowed);
     }
@@ -255,7 +277,7 @@ class ParseACL implements Encodable
     public function getWriteAccess($userId)
     {
         if (!$userId) {
-            throw new Exception('cannot getWriteAccess for null userId');
+            throw new Exception('cannot getWriteAccess for null userId', 104);
         }
 
         return $this->getAccess('write', $userId);
@@ -312,7 +334,7 @@ class ParseACL implements Encodable
     public function setUserReadAccess($user, $allowed)
     {
         if (!$user->getObjectId()) {
-            throw new Exception('cannot setReadAccess for a user with null id');
+            throw new Exception('cannot setReadAccess for a user with null id', 104);
         }
         $this->setReadAccess($user->getObjectId(), $allowed);
     }
@@ -332,7 +354,7 @@ class ParseACL implements Encodable
     public function getUserReadAccess($user)
     {
         if (!$user->getObjectId()) {
-            throw new Exception('cannot getReadAccess for a user with null id');
+            throw new Exception('cannot getReadAccess for a user with null id', 104);
         }
 
         return $this->getReadAccess($user->getObjectId());
@@ -349,7 +371,7 @@ class ParseACL implements Encodable
     public function setUserWriteAccess($user, $allowed)
     {
         if (!$user->getObjectId()) {
-            throw new Exception('cannot setWriteAccess for a user with null id');
+            throw new Exception('cannot setWriteAccess for a user with null id', 104);
         }
         $this->setWriteAccess($user->getObjectId(), $allowed);
     }
@@ -369,7 +391,7 @@ class ParseACL implements Encodable
     public function getUserWriteAccess($user)
     {
         if (!$user->getObjectId()) {
-            throw new Exception('cannot getWriteAccess for a user with null id');
+            throw new Exception('cannot getWriteAccess for a user with null id', 104);
         }
 
         return $this->getWriteAccess($user->getObjectId());
@@ -438,7 +460,8 @@ class ParseACL implements Encodable
     {
         if (!$role->getObjectId()) {
             throw new Exception(
-                'Roles must be saved to the server before they can be used in an ACL.'
+                'Roles must be saved to the server before they can be used in an ACL.',
+                104
             );
         }
     }

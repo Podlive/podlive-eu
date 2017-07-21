@@ -1,4 +1,7 @@
 <?php
+/**
+ * Class ParseSchema | Parse/ParseSchema.php
+ */
 
 namespace Parse;
 
@@ -6,24 +9,84 @@ use Exception;
 use InvalidArgumentException;
 
 /**
- * ParseSchema - Handles schemas data from Parse.
- * All the schemas methods needs use the master key of your application.
+ * Class ParseSchema - Handles schemas data from Parse.
+ * All the schemas methods need use of the master key for your application.
  *
- * @see https://parse.com/docs/rest/guide#schemas
+ * @see http://docs.parseplatform.org/rest/guide/#schema
  *
  * @author Júlio César Gonçalves de Oliveira <julio@pinguineras.com.br>
+ * @package Parse
  */
 class ParseSchema
 {
+    /**
+     * String data type
+     *
+     * @var string
+     */
     public static $STRING = 'String';
+
+    /**
+     * Number data type
+     *
+     * @var string
+     */
     public static $NUMBER = 'Number';
+
+    /**
+     * Boolean data type
+     *
+     * @var string
+     */
     public static $BOOLEAN = 'Boolean';
+
+    /**
+     * Date data type
+     *
+     * @var string
+     */
     public static $DATE = 'Date';
+
+    /**
+     * File data type
+     *
+     * @var string
+     */
     public static $FILE = 'File';
+
+    /**
+     * GeoPoint data type
+     *
+     * @var string
+     */
     public static $GEO_POINT = 'GeoPoint';
+
+    /**
+     * Array data type
+     *
+     * @var string
+     */
     public static $ARRAY = 'Array';
+
+    /**
+     * Object data type
+     *
+     * @var string
+     */
     public static $OBJECT = 'Object';
+
+    /**
+     * Pointer data type
+     *
+     * @var string
+     */
     public static $POINTER = 'Pointer';
+
+    /**
+     * Relation data type
+     *
+     * @var string
+     */
     public static $RELATION = 'Relation';
 
     /**
@@ -43,7 +106,7 @@ class ParseSchema
     /**
      * Force to use master key in Schema Methods.
      *
-     * @see https://parse.com/docs/rest/guide#schemas
+     * @see http://docs.parseplatform.org/rest/guide/#schema
      *
      * @var bool
      */
@@ -240,7 +303,7 @@ class ParseSchema
     public function addField($fieldName = null, $fieldType = 'String')
     {
         if (!$fieldName) {
-            throw new Exception('field name may not be null.');
+            throw new Exception('field name may not be null.', 105);
         }
         if (!$fieldType) {
             throw new Exception('Type name may not be null.');
@@ -267,7 +330,7 @@ class ParseSchema
     public function addString($fieldName = null)
     {
         if (!$fieldName) {
-            throw new Exception('field name may not be null.');
+            throw new Exception('field name may not be null.', 105);
         }
 
         $this->fields[$fieldName] = [
@@ -289,7 +352,7 @@ class ParseSchema
     public function addNumber($fieldName = null)
     {
         if (!$fieldName) {
-            throw new Exception('field name may not be null.');
+            throw new Exception('field name may not be null.', 105);
         }
 
         $this->fields[$fieldName] = [
@@ -311,7 +374,7 @@ class ParseSchema
     public function addBoolean($fieldName = null)
     {
         if (!$fieldName) {
-            throw new Exception('field name may not be null.');
+            throw new Exception('field name may not be null.', 105);
         }
 
         $this->fields[$fieldName] = [
@@ -333,7 +396,7 @@ class ParseSchema
     public function addDate($fieldName = null)
     {
         if (!$fieldName) {
-            throw new Exception('field name may not be null.');
+            throw new Exception('field name may not be null.', 105);
         }
 
         $this->fields[$fieldName] = [
@@ -355,7 +418,7 @@ class ParseSchema
     public function addFile($fieldName = null)
     {
         if (!$fieldName) {
-            throw new Exception('field name may not be null.');
+            throw new Exception('field name may not be null.', 105);
         }
 
         $this->fields[$fieldName] = [
@@ -377,7 +440,7 @@ class ParseSchema
     public function addGeoPoint($fieldName = null)
     {
         if (!$fieldName) {
-            throw new Exception('field name may not be null.');
+            throw new Exception('field name may not be null.', 105);
         }
 
         $this->fields[$fieldName] = [
@@ -399,7 +462,7 @@ class ParseSchema
     public function addArray($fieldName = null)
     {
         if (!$fieldName) {
-            throw new Exception('field name may not be null.');
+            throw new Exception('field name may not be null.', 105);
         }
 
         $this->fields[$fieldName] = [
@@ -421,7 +484,7 @@ class ParseSchema
     public function addObject($fieldName = null)
     {
         if (!$fieldName) {
-            throw new Exception('field name may not be null.');
+            throw new Exception('field name may not be null.', 105);
         }
 
         $this->fields[$fieldName] = [
@@ -444,11 +507,11 @@ class ParseSchema
     public function addPointer($fieldName = null, $targetClass = null)
     {
         if (!$fieldName) {
-            throw new Exception('field name may not be null.');
+            throw new Exception('field name may not be null.', 105);
         }
 
         if (!$targetClass) {
-            throw new Exception('You need set the targetClass of the Pointer.');
+            throw new Exception('You need to set the targetClass of the Pointer.', 103);
         }
 
         $this->fields[$fieldName] = [
@@ -472,11 +535,11 @@ class ParseSchema
     public function addRelation($fieldName = null, $targetClass = null)
     {
         if (!$fieldName) {
-            throw new Exception('field name may not be null.');
+            throw new Exception('field name may not be null.', 105);
         }
 
         if (!$targetClass) {
-            throw new Exception('You need set the targetClass of the Relation.');
+            throw new Exception('You need to set the targetClass of the Relation.', 103);
         }
 
         $this->fields[$fieldName] = [
@@ -511,7 +574,7 @@ class ParseSchema
     public function assertClassName()
     {
         if ($this->className === null) {
-            throw new Exception('You must set a Class Name before make any request.');
+            throw new Exception('You must set a Class Name before making any request.', 103);
         }
     }
 

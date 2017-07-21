@@ -602,27 +602,6 @@ footer.bottom p {
     }
 }
 
-/* Sweet Alert */
-
-.sweet-alert {
-    font: 100%/1.5 FFUnit, sans-serif;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    line-height: 1.5rem;
-}
-
-.sweet-alert p {
-    font: 100%/1.5 FFUnit, sans-serif;
-    line-height: 1.6rem;
-    font-size: 1.1rem;
-}
-
-.sweet-alert h2 {
-    font: 100%/1.5 FFUnit, sans-serif;
-    font-size: 1.6rem;
-    font-weight: bold;
-}
-
 /* Podcast */
 .channel-logo {
     border-radius: 5px;

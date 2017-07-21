@@ -34,9 +34,9 @@ else {
 		<div class="column center channel-logo-name"><strong><?= $name ?></strong>
 		<? if($showFollowerCount): ?>
 			<? if($isOnline): ?>
-				<br><div class="follower-count"><?= $listenerCount.' '.$listenerLabel ?></div></div>
+				<div class="follower-count"><?= $listenerCount.' '.$listenerLabel ?></div></div>
 			<? else: ?>
-				<br><div class="follower-count"><?= $followerCount.' '.$followerLabel ?></div></div>
+				<div class="follower-count"><?= $followerCount.' '.$followerLabel ?></div></div>
 			<? endif ?>
 		<? endif ?>
 	</li>

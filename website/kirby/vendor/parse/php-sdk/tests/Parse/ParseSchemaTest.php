@@ -4,7 +4,7 @@
 /**
  * ParseSchema Tests.
  *
- * @see https://parse.com/docs/rest/guide#schemas
+ * @see http://docs.parseplatform.org/rest/guide/#schema
  *
  * @author Júlio César Gonçalves de Oliveira <julio@pinguineras.com.br>
  */
@@ -162,26 +162,28 @@ class ParseSchemaTest extends \PHPUnit_Framework_TestCase
 
     public function testUpdateSchemaCurl()
     {
-        ParseClient::setHttpClient(new ParseCurlHttpClient());
+        if (function_exists('curl_init')) {
+            ParseClient::setHttpClient(new ParseCurlHttpClient());
 
-        // create
-        $schema = self::$schema;
-        $schema->addString('name');
-        $schema->save();
-        // update
-        $schema->deleteField('name');
-        $schema->addNumber('quantity');
-        $schema->addField('status', 'Boolean');
-        $schema->update();
-        // get
-        $getSchema = new ParseSchema('SchemaTest');
-        $result = $getSchema->get();
+            // create
+            $schema = self::$schema;
+            $schema->addString('name');
+            $schema->save();
+            // update
+            $schema->deleteField('name');
+            $schema->addNumber('quantity');
+            $schema->addField('status', 'Boolean');
+            $schema->update();
+            // get
+            $getSchema = new ParseSchema('SchemaTest');
+            $result = $getSchema->get();
 
-        if (isset($result['fields']['name'])) {
-            $this->fail('Field not deleted in update action');
+            if (isset($result['fields']['name'])) {
+                $this->fail('Field not deleted in update action');
+            }
+            $this->assertNotNull($result['fields']['quantity']);
+            $this->assertNotNull($result['fields']['status']);
         }
-        $this->assertNotNull($result['fields']['quantity']);
-        $this->assertNotNull($result['fields']['status']);
     }
 
     public function testUpdateWrongFieldType()
@@ -212,7 +214,7 @@ class ParseSchemaTest extends \PHPUnit_Framework_TestCase
     public function testAssertClassName()
     {
         $schema = new ParseSchema();
-        $this->setExpectedException('\Exception', 'You must set a Class Name before make any request.');
+        $this->setExpectedException('\Exception', 'You must set a Class Name before making any request.');
         $schema->assertClassName();
     }
 
@@ -296,14 +298,14 @@ class ParseSchemaTest extends \PHPUnit_Framework_TestCase
     public function testPointerTargetClassException()
     {
         $schema = self::$schema;
-        $this->setExpectedException('\Exception', 'You need set the targetClass of the Pointer.');
+        $this->setExpectedException('\Exception', 'You need to set the targetClass of the Pointer.');
         $schema->addPointer('field', null);
     }
 
     public function testRelationTargetClassException()
     {
         $schema = self::$schema;
-        $this->setExpectedException('\Exception', 'You need set the targetClass of the Relation.');
+        $this->setExpectedException('\Exception', 'You need to set the targetClass of the Relation.');
         $schema->addRelation('field', null);
     }
 
