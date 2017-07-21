@@ -159,7 +159,7 @@ class ParseCurlHttpClient implements ParseHttpable
         $this->parseCurl->setOptionsArray(array(
             CURLOPT_RETURNTRANSFER  => 1,
             CURLOPT_HEADER          => 1,
-            CURLOPT_FOLLOWLOCATION  => true,
+            CURLOPT_FOLLOWLOCATION  => false,
             CURLOPT_SSL_VERIFYPEER  => true,
             CURLOPT_SSL_VERIFYHOST  => 2,
         ));
