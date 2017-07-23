@@ -606,7 +606,9 @@ footer.bottom p {
 .channel-logo {
     border-radius: 5px;
     -moz-border-radius: 5px;
-    border: 1px solid #efefef;
+    -moz-box-shadow: 0 5px 18px #cccccc;
+-webkit-box-shadow: 0 5px 18px #cccccc;
+box-shadow: 0 5px 18px #cccccc;
 }
 
 .follower-count {
@@ -617,6 +619,10 @@ footer.bottom p {
 
 .channel-logo-name {
     color: #202020;
+}
+
+div.column.center.channel-logo-name {
+    padding: 5px 0;
 }
 
 .top-channels {
@@ -813,7 +819,6 @@ div.wrapper {
 }
 
 @media (min-width: 480px) {
-
 
     .width-small-1-4 {
         width: 25%
