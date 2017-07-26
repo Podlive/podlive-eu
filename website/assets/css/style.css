@@ -1253,6 +1253,12 @@ section.pagination {
         padding: 0 5px;
     }
 
+    .onair {
+    	margin-top: -9px;
+		margin-left: -9px;
+		font-size: 0.7rem;
+		padding: 1px 8px 0;
+    }
 }
 
 @media screen and ( max-width: 75em ) /* 880px */ {
@@ -1276,6 +1282,13 @@ section.pagination {
     .pagination-item {
         margin: 0 20px;
     }
+
+    .onair {
+    	margin-top: -9px;
+		margin-left: -9px;
+		font-size: 0.8rem;
+		padding: 3px 8px 0;
+    }
 }
 
 @media screen and ( max-width: 55em ) /* 880px */ {
@@ -1298,6 +1311,13 @@ section.pagination {
 
     .pagination-item {
         margin: 0 20px;
+    }
+
+    .onair {
+    	margin-top: -9px;
+		margin-left: -9px;
+		font-size: 0.7rem;
+		padding: 1px 8px 0;
     }
 }
 
@@ -1334,6 +1354,13 @@ section.pagination {
     .pagination-item {
         margin: 0 20px;
     }
+
+    .onair {
+    	margin-top: -9px;
+		margin-left: -9px;
+		font-size: 0.7rem;
+		padding: 1px 8px 0;
+    }
 }
 
 @media screen and ( max-width: 20em ) /* 320px */ {
@@ -1348,5 +1375,12 @@ section.pagination {
 
     .pagination-item {
         margin: 0 20px;
+    }
+
+    .onair {
+    	margin-top: -9px;
+		margin-left: -9px;
+		font-size: 0.7rem;
+		padding: 1px 8px 0;
     }
 }
