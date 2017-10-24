@@ -9,6 +9,8 @@ password: >
 language: en
 role: admin
 history:
+  - blog/podlive-ios-11-release
+  - blog/wie-kann-ich-meinen-podcast-livestream-in-podlive-hoerbar-machen
   - ultraschall
   - blog/zu-gast-im-sendegarten
 bio: ""

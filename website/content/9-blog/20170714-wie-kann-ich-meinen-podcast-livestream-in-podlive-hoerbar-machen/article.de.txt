@@ -30,14 +30,14 @@ In diesem Video erklärt Ralf Stockmann wie das geht:
 ## Die Metadaten richtig setzen
 Wenn ihr das erste Mal einen Livestream mit Studio Link OnAir startet, dann wird euer Podcast dort registriert. Damit eure Hörer wissen, wer denn da sendet, solltet ihr bei Studiolink alle Metadaten eures Podcasts eintragen. Das sieht dann in etwa so aus:
 
-(image: studiolink-metadaten-1.png class: center)
+(image: edit-metadata.png class: center)
 
 Damit ihr bei Podlive gelistet werdet sind einige Angaben verpflichtend:
 
 * Name
 * Beschreibung
 * Das Coverart des Podcasts hochladen
-* Erlaubnis das der Podcast über die API verfügbar ist (dazu weiter unten im Abschnitt *Rechtliches* mehr)
+* Erlaubnis, dass der Podcast über die API verfügbar ist (dazu weiter unten im Abschnitt *Rechtliches* mehr)
 
 Es wäre natürlich toll, wenn ihr auch die anderen Metadaten Felder ausfüllt, da dem Nutzer so mehr Informationen zu eurem Podcast angezeigt werden können. Wenn ihr zum Beispiel euren Podcast Feed mit angebt, dann können Podlive User direkt aus der App heraus eueren Podcast abonnieren, wenn ihnen euer Livestream gefällt.
 
