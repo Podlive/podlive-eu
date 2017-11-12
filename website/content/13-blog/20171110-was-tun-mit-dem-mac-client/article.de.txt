@@ -1,0 +1,48 @@
+Title: Was tun, mit dem Mac Client?
+
+----
+
+Author: phranck
+
+----
+
+Contentheadline: 
+
+----
+
+Coverimage: 
+
+----
+
+Date: 2017-11-10
+
+----
+
+Text: 
+
+## Die Vorgeschichte
+Im Sommer haben wir zeitgleich sowohl die iOS App als auch die macOS App veröffentlicht. Während der Absatz der mobilen Version erwartungsgemäß recht zügig vonstatten ging, blieb die Desktop Variante vom Start weg deutlich im Hintertreffen. So konnten wir in den letzten zweieinhalb Monaten lediglich 8 Verkäufe verzeichnen. Die Grafik vom Developer-Portal verdeutlicht das ganz gut.
+
+![Verkaufte Einheiten vom 01.09.2017 bis 10.11.2017](https://podlive.io/content/9-blog/20171110-was-tun-mit-dem-mac-client/macappunits.png)
+
+Nun lässt sich viel darüber spekulieren, woran das wohl liegt. Von Anfang an gab es einiges an Gemurre über unser "Geschäftsmodell", die beiden Apps gegen Geld zu verteilen. Über die Gründe hierüber wurde schon [viel und leidenschaftlich diskutiert](https://sendegate.de/t/podlive-release-verpasse-nie-mehr-eine-livesendung/5619).
+
+Bezüglich der Beliebtheit der iOS App hat der Malik wohl einen [wichtigen Punkt](https://twitter.com/twittlik/status/926767580852903937) losgelassen. So ein Device haben fast alle Hörenden nun einmal immer bei sich. Und wieder war es der Malik, der auch gleich mit einem [Vorschlag](https://twitter.com/twittlik/status/913474982172401664) um die Ecke kam, wie sich der Absatz steigern ließe. Mit einem Freemium-Modell ist das sicher gut möglich. Nur ist der Aufwand so etwas zu integrieren nicht unerheblich (vom vernünftigen Testen einmal ganz abgesehen), und Podlive ist noch immer ein Freizeitprojekt. Aktuell fehlt mir einfach die Zeit und Energie diesen ganzen Subscription-Kram einzubauen. Klar, hätten wir gleich von Anfang an so umsetzen können, hammwer aber nicht.
+
+## Der innere Konflikt
+Also, was machen wir nun mit Podlive für macOS?
+Geleitet vom ersten Frust wollte ich das Ganze Ding als Open Source Software Projekt veröffentlichen, und allen Code freigeben. Stefan brachte mich dann darauf, dass dies zu einigen Implikationen bzgl. verwendeter API-Keys für unser Backend führen würde. OSS ist also auch nicht.
+
+Sterben lassen möchten wir die Mac Version auf keinen Fall, denn wir sind noch immer der Meinung, dass sie eine sinnvolle und nützliche Ergänzung zum iOS Pendant ist (gerade wenn es um die Synchronisierung der Favoriten geht). Und ganz ehrlich, außerdem schaut die Mac App einfach mal Hammer aus! 😊
+
+## Der Plan
+Bleibt also nur noch die Option sie kostenlos herzugeben. Und das ist auch der Plan.
+Mit Veröffentlichung dieses Artikels wird [Podlive für macOS](https://geo.itunes.apple.com/app/podlive/id1210411572?mt=12) recht zeitnah für **0,00 EUR** zur Verfügung stehen. Punkt.
+
+Nur der Vollständigkeit halber: **Die iOS Version ist hiervon NICHT betroffen!** Sie wird weiterhin nur gegen Geld zum aktuellen Preis verfügbar sein. Denn wie schon öfter erwähnt, es gibt monatlich anfallende Kosten für Domain-/Email-hosting, Backend etc. zu begleichen.
+
+> [Vielen Dank für Ihre Kooperation.](http://www.imdb.com/title/tt0119116/quotes/qt2726150)
+
+## Der Aufruf
+Damit es auch in Zukunft flüssig in der Entwicklung des macOS Client weitergeht, möchten wir einen Aufruf loswerden:
+Wir suchen eine(n) interessierte(n) Entwickler(in), der/die Lust und Zeit zur Verfügung stellen möchte, uns hierbei zu unterstützen. Also alle Interessierten einfach bei uns melden. 🤞🏼

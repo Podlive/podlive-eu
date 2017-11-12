@@ -1,0 +1,29 @@
+Navigationheadline: 
+
+----
+
+Menutitle: 
+
+----
+
+Ismenuitem: 0
+
+----
+
+Generalheadline: 
+
+----
+
+Title: Podlive on the iPad
+
+----
+
+Text: Get a coup of tea, relax on your couch and listen to podcast livestreams on your iPad.
+
+----
+
+Image1x: podlive-ipad-mockup-1x.jpg
+
+----
+
+Image2x: podlive-ipad-mockup-2x.jpg

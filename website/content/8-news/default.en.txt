@@ -1,0 +1,21 @@
+Navigationheadline: 
+
+----
+
+Menutitle: 
+
+----
+
+Ismenuitem: 0
+
+----
+
+Generalheadline: 
+
+----
+
+Title: News
+
+----
+
+Text: We write regularly about all Podlive news. (link: https://podlive.io/blog text: Check out our blog!)

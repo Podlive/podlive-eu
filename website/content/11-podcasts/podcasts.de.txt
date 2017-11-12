@@ -1,4 +1,4 @@
-Title: Podcasts, die bereits mitmachen...
+Title: Beliebteste Podcasts bei Podlive
 
 ----
 
@@ -18,7 +18,7 @@ Listenercounttextsingular: ZuhörerIn
 
 ----
 
-Listenercounttextplural: Hörende
+Listenercounttextplural: Hörer
 
 ----
 

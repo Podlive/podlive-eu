@@ -1,0 +1,25 @@
+Navigationheadline: 
+
+----
+
+Menutitle: 
+
+----
+
+Ismenuitem: 0
+
+----
+
+Generalheadline: 
+
+----
+
+Title: Contact
+
+----
+
+Text: 
+
+Do you have any questions, problems, feature requests or you just want to let us know that you like our work? Please feel free to contact us! We love to get in touch!
+
+(email: mail@podlive.io text: Send us an E-Mail)
