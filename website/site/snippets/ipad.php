@@ -5,7 +5,7 @@
         <section id="podlive-ipad" class="content gradient">
             <div class="container">
                 <div class="row clearfix">
-                    <div class="column half flow-opposite">
+                    <div class="column half">
                         <div class="product">
                             <img class="background" src="<?= $image1x->url() ?>" srcset="<?= $image1x->url() ?> 1x, <?= $image2x->url() ?> 2x">
                         </div>
