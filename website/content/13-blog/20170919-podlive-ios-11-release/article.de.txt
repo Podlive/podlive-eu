@@ -1,0 +1,61 @@
+Title: Podlive iOS 11 Release
+
+----
+
+Author: stefan
+
+----
+
+Contentheadline: 
+
+----
+
+Coverimage: 
+
+----
+
+Date: 2017-09-19
+
+----
+
+Text: 
+
+Hallo Podcast Hörer,
+
+Ich freue mich endlich das neue Update mit euch teilen zu können! Ich habe in den letzten Wochen an einigen Neuerungen gearbeitet. Podlive ist nun für iOS 11 optimiert!
+
+(image: simulator-screen-shot-iphone-7-plus-2017-08-21-at-15.32.28-iphone7plusgold-portrait.png class: center)
+
+Falls der Podlive Account in der Keychain gespeichert ist, können die Logindaten nun automatisch ins Anmeldefenster kopiert werden.
+
+Der Chat öffnet sich nun in der Safari App. Die bisherige Möglichkeit funktioniert unter iOS 11 nur noch eingeschränkt, da nach einmal Schließen und wieder Öffnen des Chats der Loginstatus verloren geht.
+
+Das User Interface wurde an vielen Stellen verbessert und an das Design von iOS 11 angepasst.
+
+In der Ansicht um neue Podcasts zu entdecken gibt es nun auch einen Bereich für neue Podcasts, die gerade erst dazu gekommen sind. Dort werden Podcasts angezeigt die sich in den letzten 4 Wochen angemeldet haben.
+
+Im Entdecken Bereich wird nun direkt zu jedem Channel die Followerzahl angezeigt statt der Author.
+
+In der Liste mit allen Podcasts gibt es nun auch eine Suchleiste.
+
+Viele Ansichten laden nun mehr Podcasts auf einmal. Damit ist es nicht mehr so oft nötig auf “Mehr Laden” zu drücken.
+
+Podlive unterstützt nun AirPlay 2 Langform Audio. Damit kann der Livestream zum Beispiel weiterlaufen, während ein Anruf reinkommt und die Stabilität des Streams wird erhöht.
+
+Die meisten Texte im User Interface unterstützen nun die automatische Schriftgröße.
+
+Der Playbutton wurde vergrößert und ist nun leichter zu treffen. Damit könnt ihr Podlive nun auch nach einem Glas Wein weiter problemlos nutzen 😜
+
+(image: simulator-screen-shot-iphone-7-plus-2017-08-21-at-15.32.07-iphone7plusgold-portrait.png class: center)
+ 
+Ich habe das Background Notification System überarbeitet. Damit wacht die App deutlich seltener im Hintergrund auf und braucht so weniger Strom.
+
+3D Touch Quick Actions für den Home Screen hinzugefügt.
+
+An einigen Stellen 3D Touch Peek und Pop implementiert.
+
+Viele kleine Fehlerbehebungen und Performance Verbesserungen. Der ganze Code wurde umgestellt auf Swift 4.
+
+Ich hoffe euch gefällt das neue Update! Ich freue mich von euch zu Hören! Ihr können eine Bewertung im App Store hinterlassen oder eine Nachricht an support.ios@podlive.io schreiben.
+
+Stefan

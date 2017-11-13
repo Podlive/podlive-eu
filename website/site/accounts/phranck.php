@@ -7,18 +7,18 @@ email: phranck@cocoanaut.com
 language: de
 role: admin
 history:
+  - blog/was-tun-mit-dem-mac-client
   - podcast-detail
   - blog/wie-kann-ich-meinen-podcast-livestream-in-podlive-hoerbar-machen
   - ultraschall
   - blog/example-article
-  - podcasts
 firstname: Frank
 lastname: Gregor
 bio: ""
 twitter: @TheCocoaNaut
 facebook: ""
 github: phranck
-linkedin: https://www.linkedin.com/in/phranck/
+linkedin: ""
 xing: ""
 showauthor: "1"
 linkauthor: github

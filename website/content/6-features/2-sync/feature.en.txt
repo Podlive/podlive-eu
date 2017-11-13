@@ -1,0 +1,5 @@
+Title: Synchronisation
+
+----
+
+Text: In case you are using Podlive on more than one device, all your favourite channels are being synchronised by your Podlive account.

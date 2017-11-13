@@ -1,0 +1,29 @@
+Navigationheadline: 
+
+----
+
+Menutitle: 
+
+----
+
+Ismenuitem: 0
+
+----
+
+Generalheadline: 
+
+----
+
+Title: Podlive on the Apple TV
+
+----
+
+Text: Listen to podcast livestreams on your Apple TV in your living room.
+
+----
+
+Image1x: podlive-appletv-mockup-1x.jpg
+
+----
+
+Image2x: podlive-appletv-mockup-2x.jpg

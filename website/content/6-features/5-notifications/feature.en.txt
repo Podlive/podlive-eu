@@ -1,0 +1,5 @@
+Title: Notifications
+
+----
+
+Text: Whenever one of your favourite channels is going to start a live stream or a pre-show, Podlive notifies you immediately. Both your iPhone and your Mac will show you a push notification - in realtime!

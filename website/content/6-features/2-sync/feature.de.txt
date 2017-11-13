@@ -1,0 +1,5 @@
+Title: Synchronisierung
+
+----
+
+Text: Solltest du Podlive auf mehreren Geräten nutzen, werden alle deine Favoriten über deinen Podlive Account auf alle Geräte synchronisiert.
