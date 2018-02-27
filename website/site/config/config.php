@@ -60,7 +60,7 @@ c::set('date.handler', 'strftime');
 // RSS-Feed Settings
 c::set('feed.generator', 'Podlive');
 
-// channel detail page route
+// channel page route
 c::set('routes', array(
   array(
     'pattern' => array('channel/(:any)'),
@@ -71,7 +71,7 @@ c::set('routes', array(
       // );
       $data = $channelId;
 
-      return array('some/page', $data);
+      return array('channel', $data);
    }
   )
 ));
