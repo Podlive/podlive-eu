@@ -1,4 +1,13 @@
 {
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "Y85FVF2A97.de.stefantrauth.Podlive",
+                "paths": [ "*"]
+            }
+        ]
+    },
     "webcredentials": {
         "apps": ["Y85FVF2A97.de.stefantrauth.Podlive"]
     }
