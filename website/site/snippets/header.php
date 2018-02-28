@@ -1,7 +1,4 @@
 <?php
-$headerImage1x = '';
-$headerImage2x = '';
-$headerClass = '';
 
 switch($context) {
 	case 'default' :
@@ -14,6 +11,9 @@ switch($context) {
 		$headerClass = 'blog';
 		$headerImage1x = $site->image($site->headerBlogImage1x())->url();
 		$headerImage2x = $site->image($site->headerBlogImage2x())->url();
+		break;
+
+	case 'channel' :
 		break;
 
 	case 'error' :
@@ -34,8 +34,10 @@ switch($context) {
 	<div class="wrapper">
 	<?php snippet('menu'); ?>
 
-	<header class="<?= $headerClass ?>">
-		<div class="container">
-			<img class="device" src="<?= $headerImage1x ?>" srcset="<?= $headerImage1x ?> 1x, <?= $headerImage2x ?> 2x">
-		</div>
-	</header>
+	<?php if (isset($headerImage1x)): ?>
+		<header class="<?= $headerClass ?>">
+			<div class="container">
+				<img class="device" src="<?= $headerImage1x ?>" srcset="<?= $headerImage1x ?> 1x, <?= $headerImage2x ?> 2x">
+			</div>
+		</header>
+	<?php endif ?>
