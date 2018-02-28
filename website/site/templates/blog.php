@@ -6,10 +6,10 @@
 </header>
 
 
-<? if($articles->count()): ?>
+<?php if($articles->count()): ?>
 	<section class="articles">
 		<div class="container">
-		<? foreach($articles as $article): ?>
+		<?php foreach($articles as $article): ?>
             <article>
                 <header class="article-header">
                     <h2 class="article-title"><a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a></h2>
@@ -22,13 +22,13 @@
                     <a href="<?= $article->url() ?>" class="article-more"><?= $page->readMoreText()->text() ?></a>
                 </div>
             </article>
-		<? endforeach ?>
+		<?php endforeach ?>
 		</div>
 	</section>
 
 <?php snippet('pagination', array('page' => $page)) ?>
 
-<? else: ?>
+<?php else: ?>
 	<section class="article-list">
 		<div class="container">
 			<div class="row clearfix">
@@ -36,6 +36,6 @@
 			</div>
 		</div>
 	</section>
-<? endif ?>
+<?php endif ?>
 
 <?php snippet('footer') ?>

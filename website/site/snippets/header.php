@@ -35,10 +35,10 @@ switch($context) {
 
 <!doctype html>
 <html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
-<? snippet('html_header') ?>
+<?php snippet('html_header') ?>
 <body>
 	<div class="wrapper">
-	<? snippet('menu'); ?>
+	<?php snippet('menu'); ?>
 
 	<header class="<?= $headerClass ?>">
 		<div class="container">

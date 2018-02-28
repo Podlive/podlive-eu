@@ -21,22 +21,22 @@ else {
 
 ?>
 	<li class="top-channel">
-        <? if($isOnline): ?>
+        <?php if($isOnline): ?>
         <div class="onair"><?= $channelState ?></div>
-		<? endif ?>
+		<?php endif ?>
 
-		<? if($websiteUrl): ?>
+		<?php if($websiteUrl): ?>
 			<a href="<?= $websiteUrl ?>" title="<?= $name ?> Website"><img class="channel-logo" src="<?= $coverArtUrl ?>"></a>
-		<? else: ?>
+		<?php else: ?>
 			<img class="channel-logo" src="<?= $coverArtUrl ?>">
-		<? endif ?>
+		<?php endif ?>
 
 		<div class="column center channel-logo-name"><strong><?= $name ?></strong>
-		<? if($showFollowerCount): ?>
-			<? if($isOnline): ?>
+		<?php if($showFollowerCount): ?>
+			<?php if($isOnline): ?>
 				<div class="follower-count"><?= $listenerCount.' '.$listenerLabel ?></div></div>
-			<? else: ?>
+			<?php else: ?>
 				<div class="follower-count"><?= $followerCount.' '.$followerLabel ?></div></div>
-			<? endif ?>
-		<? endif ?>
+			<?php endif ?>
+		<?php endif ?>
 	</li>

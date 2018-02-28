@@ -9,7 +9,7 @@
             </header>
 
             <div class="text">
-				<? snippet('coverimage', $page) ?>
+				<?php snippet('coverimage', $page) ?>
                 <?= $page->text()->kirbytext() ?>
             </div>
         </article>

@@ -13,32 +13,32 @@ $linkedFieldValue = $site->user($author)->$linkedField();
 ?>
                     <p class="article-date">
                         <?= $article->date('%A, %d.%m.%Y') ?>
-                        <? if($showAuthor): ?>
-							<? if($linkAuthor): ?>
-								<? switch($linkedField):
+                        <?php if($showAuthor): ?>
+							<?php if($linkAuthor): ?>
+								<?php switch($linkedField):
 									case 'email': ?>
 										- <strong><a href="mailto:<?= $linkedFieldValue ?>?Subject=[Blog Post] <?= $page->title()->text() ?>"><?= $firstLastName ?></a></strong>
-									<? break; ?>
+									<?php break; ?>
 
-									<? case 'twitter': ?>
+									<?php case 'twitter': ?>
 										- <strong><a href="<?= 'https://twitter.com/'.str_replace('@', '', trim($linkedFieldValue)) ?>"><?= $firstLastName ?></a></strong>
-									<? break; ?>
+									<?php break; ?>
 
-									<? case 'github': ?>
+									<?php case 'github': ?>
 										- <strong><a href="<?= 'https://github.com/'.trim($linkedFieldValue) ?>"><?= $firstLastName ?></a></strong>
-									<? break; ?>
+									<?php break; ?>
 
-									<? default: ?>
-										<? if(empty($linkedFieldValue)): ?>
+									<?php default: ?>
+										<?php if(empty($linkedFieldValue)): ?>
 											- <strong><?= $firstLastName ?></strong>
-										<? else: ?>
+										<?php else: ?>
 										- <strong><a href="<?= trim($linkedFieldValue) ?>"><?= $firstLastName ?></a></strong>
-										<? endif ?>
-									<? break; ?>
-								<? endswitch; ?>
+										<?php endif ?>
+									<?php break; ?>
+								<?php endswitch; ?>
 
-							<? else: ?>
+							<?php else: ?>
 								- <strong><?= $firstLastName ?></strong>
-							<? endif ?>
-						<? endif ?>
+							<?php endif ?>
+						<?php endif ?>
                     </p>
