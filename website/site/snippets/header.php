@@ -1,5 +1,7 @@
-<?
-$headerImage1x = $headerImage2x = $headerClass = '';
+<?php
+$headerImage1x = '';
+$headerImage2x = '';
+$headerClass = '';
 
 switch($context) {
 	case 'default' :
@@ -31,8 +33,11 @@ switch($context) {
 		break;
 }
 
+?>
 
-?><!doctype html>
+
+
+<!doctype html>
 <html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
 <? snippet('html_header') ?>
 <body>

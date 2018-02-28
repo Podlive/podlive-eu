@@ -1,4 +1,4 @@
-<?
+<?php
 $name 			= trim($channel->get("name"));
 $followerCount 	= $channel->get("followerCount");
 $listenerCount 	= $channel->get("listenerCount");

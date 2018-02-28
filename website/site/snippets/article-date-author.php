@@ -1,4 +1,4 @@
-<?
+<?php
 $author     	= $article->author();
 $firstname		= $site->user($author)->firstname;
 $lastname		= $site->user($author)->lastname;

@@ -1,5 +1,5 @@
 
-<? snippet('header', array('context' => 'podcast', 'channel' => $channel)) ?>
+<?php snippet('header', array('context' => 'podcast', 'channel' => $channel)) ?>
 
 <section class="article">
 	<div class="container blog">
@@ -17,4 +17,4 @@
 	</div>
 </section>
 
-<? snippet('footer') ?>
+<?php snippet('footer') ?>

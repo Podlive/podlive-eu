@@ -1,4 +1,4 @@
-<?
+<?php
 use Parse\ParseClient;
 use Parse\ParseQuery;
 use Parse\ParseConfig;
@@ -25,8 +25,9 @@ $channels = $query->find();
 
 // are we allowed to show top channels?
 $canShowTopChannels = $parseConfig->get("showTopWebsiteChannels");
-if ($canShowTopChannels):
 ?>
+
+<? if ($canShowTopChannels): ?>
         <section id="podcasts" class="content gradient">
             <div class="container">
                 <div class="row clearfix">
