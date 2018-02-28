@@ -16,12 +16,6 @@ switch($context) {
 		$headerImage2x = $site->image($site->headerBlogImage2x())->url();
 		break;
 
-	case 'channel' :
-		$headerClass = 'channel';
-		$headerImage1x = $channel->coverartThumbnail200->getUrl();
-		$headerImage2x = $channel->coverartThumbnail800->getUrl();
-		break;
-
 	case 'error' :
 		$headerClass = 'error';
 		$headerImage1x = $site->image($site->header404Image1x())->url();

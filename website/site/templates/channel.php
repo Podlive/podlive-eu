@@ -1,5 +1,5 @@
 
-<?php snippet('header', array('context' => 'channel', 'channel' => $channel)) ?>
+<?php snippet('header', array('context' => 'default')) ?>
 
 <?php
 $name           = trim($channel->get("name"));
