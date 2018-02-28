@@ -66,10 +66,9 @@ c::set('routes', array(
     'pattern' => array('channel/(:any)'),
     'action'  => function($channelId) {
 
-      // $data = array(
-      //   'channelId' => $channelId
-      // );
-      $data = $channelId;
+      $data = array(
+        'channelId' => $channelId
+      );
 
       return array('channel', $data);
    }

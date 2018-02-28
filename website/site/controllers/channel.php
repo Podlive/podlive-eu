@@ -13,7 +13,7 @@ return function($site, $pages, $page, $args) {
 	use Parse\ParseConfig;
 
 	// get channel id from url path
-	$channelId = $args;
+	$channelId = $args['channelId'];
 
 	// Parse Init
 	$parseTarget = c::get('parseTarget');
