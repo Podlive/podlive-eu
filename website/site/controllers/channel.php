@@ -13,6 +13,11 @@ use Parse\ParseConfig;
 
 return function($site, $pages, $page, $args) {
 
+	if (!isset($args['channelId'])) {
+		go('/');
+		return;
+	}
+
 	// get channel id from url path
 	$channelId = $args['channelId'];
 
@@ -31,6 +36,7 @@ return function($site, $pages, $page, $args) {
 	if (!isset($result[0])) {
 		// redirect to error page
 		go('/');
+		return;
 	}
 	$channel = $result[0];
 
