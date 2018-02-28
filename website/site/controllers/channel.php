@@ -27,6 +27,11 @@ return function($site, $pages, $page, $args) {
 	$query = new ParseQuery("Channel");
 	$query->equalTo(@"objectId", $channelId);
 	$result = $query->find();
+
+	if (!isset($result[0])) {
+		// redirect to error page
+		go('/');
+	}
 	$channel = $result[0];
 
 	// return vars to use in template
