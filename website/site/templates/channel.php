@@ -4,37 +4,39 @@
 <?php
 $name           = trim($channel->get("name"));
 $followerCount  = $channel->get("followerCount");
-$listenerCount  = $channel->get("listenerCount");
 $coverArtUrl    = $channel->get("coverartThumbnail200")->getURL();
 $websiteUrl     = $channel->get("websiteUrl");
-$channelState   = $channel->get("state");
-$isOnline       = ($channelState != "offline");
+$description    = $channel->get("description");
 
 $followerLabel = "";
-$listenerLabel = "";
-
-if($listenerCount == 1) {
+if($followerCount == 1) {
     $followerLabel = $page->followerCountTextSingular()->text();
-    $listenerLabel = $page->listenerCountTextSingular()->text();
-}
-else {
+} else {
     $followerLabel = $page->followerCountTextPlural()->text();
-    $listenerLabel = $page->listenerCountTextPlural()->text();
 }
 
 ?>
 
-<section class="article">
-	<div class="container blog">
+
+<section id="article">
+    <div class="container blog">
         <article>
             <header class="article-header">
-                <h1 class="article-title"><?= $page->title()->html() ?></h1>
+                <h1 class="article-title"> </h1>
             </header>
-
-            <img class="channel-logo" src="<?= $coverArtUrl ?>">
+            <div class="row clearfix">
+                <div class="column half">
+                    <img class="channel-logo" src="<?= $coverArtUrl ?>">
+                </div>
+                <div class="column half">
+                    <h2><?= $name ?></h2>
+                    <p><?= $description ?></p>
+                    <p><?= $followerCount.' '.$followerLabel ?></p>
+                    <p><a href="<?= $websiteUrl ?>">Webseite</a></p>
+                </div>
+            </div>
         </article>
-
-	</div>
+    </div>
 </section>
 
 <?php snippet('footer') ?>
