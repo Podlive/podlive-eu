@@ -7,10 +7,11 @@
 // Learn more about controllers at:
 // https://getkirby.com/docs/developer-guide/advanced/controllers
 
+use Parse\ParseClient;
+use Parse\ParseQuery;
+use Parse\ParseConfig;
+
 return function($site, $pages, $page, $args) {
-	use Parse\ParseClient;
-	use Parse\ParseQuery;
-	use Parse\ParseConfig;
 
 	// get channel id from url path
 	$channelId = $args['channelId'];
