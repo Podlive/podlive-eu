@@ -3,9 +3,9 @@ $name 			= trim($channel->get("name"));
 $followerCount 	= $channel->get("followerCount");
 $listenerCount 	= $channel->get("listenerCount");
 $coverArtUrl 	= $channel->get("coverartThumbnail200")->getURL();
-$websiteUrl		= $channel->get("websiteUrl");
 $channelState	= $channel->get("state");
 $isOnline 		= ($channelState != "offline");
+$channelId		= $channel->getObjectId();
 
 $followerLabel = "";
 $listenerLabel = "";
@@ -25,11 +25,9 @@ else {
         <div class="onair"><?= $channelState ?></div>
 		<?php endif ?>
 
-		<?php if($websiteUrl): ?>
-			<a href="<?= $websiteUrl ?>" title="<?= $name ?> Website"><img class="channel-logo" src="<?= $coverArtUrl ?>"></a>
-		<?php else: ?>
+		<a href="<?= 'channel/'.$channelId ?>" title="<?= $name ?>">
 			<img class="channel-logo" src="<?= $coverArtUrl ?>">
-		<?php endif ?>
+		</a>
 
 		<div class="column center channel-logo-name"><strong><?= $name ?></strong>
 		<?php if($showFollowerCount): ?>
