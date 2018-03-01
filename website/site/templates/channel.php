@@ -7,6 +7,9 @@ $followerCount  = $channel->get("followerCount");
 $coverArtUrl    = $channel->get("coverartThumbnail200")->getURL();
 $websiteUrl     = $channel->get("websiteUrl");
 $description    = $channel->get("description");
+$twitterUsername= $channel->get("twitterUsername");
+$chatUrl        = $channel->get("chatUrl");
+$creator        = $channel->get("creator");
 
 $followerLabel = "";
 if($followerCount == 1) {
@@ -17,25 +20,22 @@ if($followerCount == 1) {
 
 ?>
 
-
-<section id="article">
-    <div class="container blog">
-        <article>
-            <header class="article-header">
-                <h1 class="article-title"> </h1>
-            </header>
-            <div class="row clearfix">
-                <div class="column half">
-                    <img class="channel-logo" src="<?= $coverArtUrl ?>">
-                </div>
-                <div class="column half">
-                    <h2><?= $name ?></h2>
-                    <p><?= $description ?></p>
-                    <p><?= $followerCount.' '.$followerLabel ?></p>
-                    <p><a href="<?= $websiteUrl ?>">Webseite</a></p>
-                </div>
+<section id="channel" class="content gradient">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="column full>"> 
+                <img class="channel-logo" src="<?= $coverArtUrl ?>">
+                <h2><?= $name ?></h2>
+                <p><?= $followerCount.' '.$followerLabel ?></p>
+                <p><?= $description ?></p>
+                <p><?= $creator ?></p>
+                <p>
+                    <a href="<?= $websiteUrl ?>">Webseite</a>, 
+                    <a href="https://twitter.com/<?= $twitterUsername ?>">Twitter</a>, 
+                    <a href="<?= $chatUrl ?>">Chat</a>
+                </p>
             </div>
-        </article>
+        </div>
     </div>
 </section>
 
