@@ -7,7 +7,7 @@
                         <?= $section->text()->kirbytext() ?>
                     </div>
 
-				<?
+				<?php
 					echo snippet("appstore-buttons");
 				?>
                 </div>
