@@ -1,10 +1,13 @@
 {
+	"activitycontinuation": {
+    	"apps": ["Y85FVF2A97.de.stefantrauth.Podlive"]
+  	},
     "applinks": {
         "apps": [],
         "details": [
             {
                 "appID": "Y85FVF2A97.de.stefantrauth.Podlive",
-                "paths": [ "*"]
+                "paths": [ "/channel/*"]
             }
         ]
     },
