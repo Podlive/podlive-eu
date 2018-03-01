@@ -25,6 +25,7 @@ if($followerCount == 1) {
         <div class="row clearfix">
             <div class="column full>"> 
                 <img class="channel-logo" src="<?= $coverArtUrl ?>">
+                <p></p>
                 <h2><?= $name ?></h2>
                 <p><?= $followerCount.' '.$followerLabel ?></p>
                 <p><?= $description ?></p>
