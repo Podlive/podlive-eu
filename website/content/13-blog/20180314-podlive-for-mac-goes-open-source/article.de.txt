@@ -1,0 +1,31 @@
+Title: Podlive für den Mac wird Open Source
+
+----
+
+Author: phranck
+
+----
+
+Contentheadline: 
+
+----
+
+Coverimage: 
+
+----
+
+Date: 2018-03-14
+
+----
+
+Text: 
+
+Podlive für den Mac ist schon seit geraumer Zeit kostenfrei über den Mac App Store beziehbar. Leider hinkt die Entwicklung im Vergleich zur iOS Version immer ein bisschen hinterher. In letzter Zeit mehr als am Anfang. Das ist einfach dem Umstand geschuldet, dass ich aktuell wirklich wenig Zeit habe, mich über Tage und Wochen stundenlang mit diesem Projekt zu beschäftigen. Das ist schade, ist aber nunmal so...
+
+Um das Projekt nicht ganz verstauben zu lassen, haben wir uns nun zu dem Entschluss durchgerungen, die macOS Version als Open Source Software freizugeben. 
+
+**Es sei hiermit daher jeder begeisterte Entwickler herzlich eingeladen, sich an der Weiterentwicklung des Projektes zu beteiligen.** Ideen und Wünsche gibt es genug. Wer Interesse hat, der melde sich einfach (email: mail@podlive.io text: per Email) bei uns oder pingt uns kurz (link: https://twitter.com/PodliveApp text: via Twitter) an.
+
+Wer nurmal vorab einen Blick ins Repo werfen möchte, (link: https://github.com/phranck/podlive-macos text: der schau hier bei GitHub) nach.
+
+Happy Coding! 🛠
