@@ -1,4 +1,4 @@
-<?
+<?php
 use Parse\ParseClient;
 use Parse\ParseQuery;
 use Parse\ParseConfig;
@@ -25,17 +25,18 @@ $channels = $query->find();
 
 // are we allowed to show top channels?
 $canShowTopChannels = $parseConfig->get("showTopWebsiteChannels");
-if ($canShowTopChannels):
 ?>
+
+<?php if ($canShowTopChannels): ?>
         <section id="podcasts" class="content gradient">
             <div class="container">
                 <div class="row clearfix">
                     <div class="column full">
-                    	<? if($section->title()): ?>
+                    	<?php if($section->title()): ?>
                         <h2><?= $section->title()->text() ?></h2>
-                        <? endif ?>
+                        <?php endif ?>
 
-                        <?
+                        <?php
                         	if($section->text()) {
                         		echo $section->text()->kirbytext();
                         	}
@@ -44,7 +45,7 @@ if ($canShowTopChannels):
                 </div>
 
 				<ul class="top-channels">
-				<?
+				<?php
 					foreach($channels as $channel) {
 						snippet('podcast', array(
 							'page' => $section,
@@ -58,4 +59,4 @@ if ($canShowTopChannels):
 
             </div>
         </section>
-<? endif ?>
+<?php endif ?>

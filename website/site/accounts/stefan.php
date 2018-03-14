@@ -9,11 +9,10 @@ password: >
 language: en
 role: admin
 history:
+  - terms-of-service
+  - privacy-policy
+  - blog/was-steckt-hinter-podlive
   - contact
-  - appletv
-  - news
-  - iphone
-  - ipad
 bio: ""
 twitter: ""
 github: ""

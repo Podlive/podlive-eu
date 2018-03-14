@@ -3,10 +3,10 @@
 		<div class="row clearfix">
 			<div class="column full">
 				<h1><?= $site->title()->text() ?></h1>
-				<? if($site->slogan()): ?>
+				<?php if($site->slogan()): ?>
 					<h3><?= $site->slogan()->text() ?></h3>
-				<? endif ?>
-				<?
+				<?php endif ?>
+				<?php
 					echo $section->text()->kirbytext();
 					echo snippet("appstore-buttons");
 				?>

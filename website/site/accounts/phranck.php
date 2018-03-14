@@ -7,8 +7,8 @@ email: phranck@cocoanaut.com
 language: de
 role: admin
 history:
+  - blog/podlive-for-mac-goes-open-source
   - blog/was-tun-mit-dem-mac-client
-  - podcast-detail
   - blog/wie-kann-ich-meinen-podcast-livestream-in-podlive-hoerbar-machen
   - ultraschall
   - blog/example-article

@@ -1,4 +1,4 @@
-<?
+<?php
 	$image1x = page($section->uid())->image($section->image1x());
 	$image2x = page($section->uid())->image($section->image2x());
 ?>

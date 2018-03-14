@@ -1,0 +1,33 @@
+Title: Was steckt hinter Podlive?
+
+----
+
+Author: stefan
+
+----
+
+Contentheadline: 
+
+----
+
+Coverimage: 
+
+----
+
+Date: 2017-12-01
+
+----
+
+Text: 
+
+<script class="podigee-podcast-player" src="https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js" data-configuration="https://kondensator.podigee.io/52-was-steckt-hinter-podlive/embed"></script>
+
+Ich spreche mit Frank Gregor im Kondensator Podcast über Podlive. Frank ist selbständiger Entwickler und entwickelt die Podlive macOS App.
+
+Wir sprechen darüber wie Podlive entstanden ist, diskutieren über die Preisfrage und erzählen wie es uns in den ersten Monaten seit dem Release ergangen ist.
+
+Frank erzählt von enttäuschenden Downloadzahlen der macOS App und warum Podlive für den Mac nun kostenlos im App Store zu haben ist.
+
+Wir fragen uns: Warum gibt es plötzlich so viele Downloads nachdem die App auf dem Mac kostenlos ist? Und was haben die Chinesen damit zu tun?
+
+Ich gebe einen Ausblick darauf was als nächstes ansteht: Podlove Streaming Extensions für Stream Ankündigungen und Gedanken über ein Subscription Modell für die Podlive iOS App.

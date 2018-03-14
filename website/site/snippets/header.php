@@ -1,5 +1,4 @@
-<?
-$headerImage1x = $headerImage2x = $headerClass = '';
+<?php
 
 switch($context) {
 	case 'default' :
@@ -14,14 +13,7 @@ switch($context) {
 		$headerImage2x = $site->image($site->headerBlogImage2x())->url();
 		break;
 
-	case 'podcast' :
-		if(!isset($channel)) {
-			header("Location: /");
-			exit;
-		}
-		$headerClass = 'podcast';
-		$headerImage1x = $channel->coverartThumbnail200->getUrl();
-		$headerImage2x = $channel->coverartThumbnail800->getUrl();
+	case 'channel' :
 		break;
 
 	case 'error' :
@@ -31,16 +23,21 @@ switch($context) {
 		break;
 }
 
+?>
 
-?><!doctype html>
+
+
+<!doctype html>
 <html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
-<? snippet('html_header') ?>
+<?php snippet('html_header') ?>
 <body>
 	<div class="wrapper">
-	<? snippet('menu'); ?>
+	<?php snippet('menu'); ?>
 
-	<header class="<?= $headerClass ?>">
-		<div class="container">
-			<img class="device" src="<?= $headerImage1x ?>" srcset="<?= $headerImage1x ?> 1x, <?= $headerImage2x ?> 2x">
-		</div>
-	</header>
+	<?php if (isset($headerImage1x)): ?>
+		<header class="<?= $headerClass ?>">
+			<div class="container">
+				<img class="device" src="<?= $headerImage1x ?>" srcset="<?= $headerImage1x ?> 1x, <?= $headerImage2x ?> 2x">
+			</div>
+		</header>
+	<?php endif ?>

@@ -23,7 +23,7 @@ Text:
 ## Die Vorgeschichte
 Im Sommer haben wir zeitgleich sowohl die iOS App als auch die macOS App veröffentlicht. Während der Absatz der mobilen Version erwartungsgemäß recht zügig vonstatten ging, blieb die Desktop Variante vom Start weg deutlich im Hintertreffen. So konnten wir in den letzten zweieinhalb Monaten lediglich 8 Verkäufe verzeichnen. Die Grafik vom Developer-Portal verdeutlicht das ganz gut.
 
-![Verkaufte Einheiten vom 01.09.2017 bis 10.11.2017](https://podlive.io/content/13-blog/20171110-was-tun-mit-dem-mac-client/macappunits.png)
+![saled-units "Verkaufte Einheiten vom 01.09.2017 bis 10.11.2017"](https://podlive.io/content/13-blog/20171110-was-tun-mit-dem-mac-client/macappunits.png)
 
 Nun lässt sich viel darüber spekulieren, woran das wohl liegt. Von Anfang an gab es einiges an Gemurre über unser "Geschäftsmodell", die beiden Apps gegen Geld zu verteilen. Über die Gründe hierüber wurde schon [viel und leidenschaftlich diskutiert](https://sendegate.de/t/podlive-release-verpasse-nie-mehr-eine-livesendung/5619).
 
