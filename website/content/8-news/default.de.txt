@@ -18,4 +18,7 @@ Title: News
 
 ----
 
-Text: Wir berichten regelmäßig über alle Neuigkeiten rund um Podlive. (link: https://podlive.io/blog text: Hier geht es zu unserem Blog!)
+Text: 
+
+Wir berichten regelmäßig über alle Neuigkeiten rund um Podlive.  
+(link: https://podlive.io/blog text: Hier geht es zu unserem Blog!)
