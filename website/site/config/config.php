@@ -79,7 +79,7 @@ c::set('routes', array(
 c::set('parse', array(
 	'production' => array(
 		'appID'			=> 'ni2aeFaed4goo3feis2doo7vegeoy5iJaip0Aexech5Iegahp1',
-		'restKey'		=> 'AiRae4aC0za4beedoo9naiTh7Ohph2uafu4ok4photaib8iev3',
+		'restKey'		=> 'seHohng1ohk0phahzo0uugoiwot5ithohGee8oshae5ahy9phe',
 		'restServerUrl'	=> 'https://parse-server.podlive.io',
 	),
 ));
