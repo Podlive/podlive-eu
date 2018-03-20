@@ -23,4 +23,5 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Podlive - Never miss a live streaming podcast" />
 	<meta property="og:description" content="Never miss a live streaming podcast" />
+	<meta name="apple-itunes-app" content="app-id=1210411572">
 </head>
