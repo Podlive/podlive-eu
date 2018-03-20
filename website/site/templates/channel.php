@@ -35,8 +35,7 @@ if($followerCount == 1) {
                     <a href="https://twitter.com/<?= $twitterUsername ?>">Twitter</a>, 
                     <a href="<?= $chatUrl ?>">Chat</a>
                 </p>
-                <a href="<?= $site->iosAppstore()->text() ?>" class="button">Podlive iOS</a>
-                <a href="<?= $site->macAppstore()->text() ?>" class="button">Podlive macOS</a>
+                
             </div>
         </div>
     </div>
