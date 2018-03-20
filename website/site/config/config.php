@@ -77,11 +77,6 @@ c::set('routes', array(
 
 // Parse Configuration
 c::set('parse', array(
-	'staging' => array(
-		'appID'			=> 'iePaewo3chah2cis0ophei9moosh5ief7ooviereithiemaech',
-		'restKey'		=> 'theehahsh7aeth4Bae8edairav0thoovei3uxadahvahree0Ih',
-		'restServerUrl'	=> 'https://podlive-parse-server-test.herokuapp.com',
-	),
 	'production' => array(
 		'appID'			=> 'ni2aeFaed4goo3feis2doo7vegeoy5iJaip0Aexech5Iegahp1',
 		'restKey'		=> 'AiRae4aC0za4beedoo9naiTh7Ohph2uafu4ok4photaib8iev3',
