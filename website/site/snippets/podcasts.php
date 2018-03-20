@@ -7,7 +7,7 @@ use Parse\ParseConfig;
 $parseTarget = c::get('parseTarget');
 $parse = c::get('parse')[$parseTarget];
 
-ParseClient::initialize( $parse['appID'], $parse['restKey']);
+ParseClient::initialize( $parse['appID'], $parse['restKey'], $parse['masterKey'] );
 ParseClient::setServerURL($parse['restServerUrl'], 'parse');
 
 
