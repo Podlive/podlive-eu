@@ -25,7 +25,7 @@ return function($site, $pages, $page, $args) {
 	$parseTarget = c::get('parseTarget');
 	$parse = c::get('parse')[$parseTarget];
 
-	ParseClient::initialize( $parse['appID'], $parse['restKey'], $parse['masterKey'] );
+	ParseClient::initialize( $parse['appID'], $parse['restKey']);
 	ParseClient::setServerURL($parse['restServerUrl'], 'parse');
 
 	// Fire a query
