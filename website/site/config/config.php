@@ -80,6 +80,7 @@ c::set('parse', array(
 	'production' => array(
 		'appID'			=> 'ni2aeFaed4goo3feis2doo7vegeoy5iJaip0Aexech5Iegahp1',
 		'restKey'		=> 'seHohng1ohk0phahzo0uugoiwot5ithohGee8oshae5ahy9phe',
+		'masterKey'		=> 'lieki8ub5ohd3eiF1thoo5mie8eejee1gohneGhohJ2eiheo4g',
 		'restServerUrl'	=> 'https://parse-server.podlive.io',
 	),
 ));
