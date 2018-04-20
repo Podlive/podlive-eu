@@ -976,7 +976,7 @@ article h2 {
 .article-more {
     display: block;
     text-align: right;
-    margin-top: -1.4rem;
+    margin-top: -0.2rem;
 }
 
 section.pagination {

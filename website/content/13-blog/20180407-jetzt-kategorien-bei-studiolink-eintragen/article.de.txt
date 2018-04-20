@@ -1,0 +1,25 @@
+Title: Jetzt Kategorien bei Studiolink eintragen
+
+----
+
+Author: stefan
+
+----
+
+Contentheadline: 
+
+----
+
+Coverimage: 
+
+----
+
+Date: 2018-04-07
+
+----
+
+Text: 
+
+Podlive zeigt nun alle Channel nach Kategorien geordnet an. Damit eure Podcast dort passend eingeordnet werden kann, könnt ihr nun in den Einstellungen eures Podcasts bei Studiolink eine Kategorie festlegen:
+
+(image: studiolink_screenshot_categories.png width: 500)

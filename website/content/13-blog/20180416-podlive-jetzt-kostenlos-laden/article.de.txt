@@ -1,0 +1,40 @@
+Title: Podlive jetzt kostenlos laden!
+
+----
+
+Author: stefan
+
+----
+
+Contentheadline: 
+
+----
+
+Coverimage: 
+
+----
+
+Date: 2018-04-16
+
+----
+
+Text: 
+
+[Ab heute ist Podlive im App Store kostenlos zu laden!](https://itunes.apple.com/app/id1208250918)
+
+Einige Features erfordern ein Premium Abonnement. Mit Abonnements wird die Entwicklung der App langfristig unterstützt. Nutzer, die die App wirklich gerne nutzen, bilden ihre finanzielle Basis. Wenn du nicht sicher bist, ob dir die Premium-Features gefallen, kannst du sie während der Testphase kostenlos testen.
+
+## Account & Synchronisation
+Synchronisiere deine Podlive-Einstellungen und Favoriten zwischen all deinen Geräten. Erstellen ein Podlive-Konto, um dich auf allen Geräten anzumelden.
+
+## Unbegrenzte Favoriten
+Erhalten Push-Benachrichtigungen für deine Favoriten, wenn diese einen Live-Stream starten. Als Premium-User kannst du eine unbegrenzte Anzahl an Channels als Favorit markieren und so keinen Livestream mehr verpassen.
+
+## Einschlaf Timer
+Verwende den Einschlaf Timer während des Hörens, um die Wiedergabe nach einer bestimmten Zeit automatisch zu stoppen.
+
+## Live Widget
+Das Live Widget zeigt alle aktuell laufenden Livestreams an. Fügen es zu deiner Widget-Liste hinzu, um schnell zu sehen, welche Sendungen gerade zu hören sind.
+
+## Die Entwicklung unterstützen
+Ich verbringe viel Zeit damit, an Podlive und dem Server zu arbeiten. Als Premium-Mitglied unterstützt du die laufende Weiterentwicklung und hilfst bei der Bezahlung des Backend-Servers. Danke!
