@@ -13,7 +13,7 @@
 						<?= $page->text()->kirbytext() ?>
           </div>
 
-  				<?php snippet('prevnext', ['flip' => true, 'page' => $page]) ?>
+  				<?php snippet('prevnext', ['flip' => false, 'page' => $page]) ?>
       </article>
 
 		</div>

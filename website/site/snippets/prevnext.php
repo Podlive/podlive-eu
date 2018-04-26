@@ -17,8 +17,8 @@ https://getkirby.com/docs/templates/snippets
 $directionPrev = @$flip ? 'right' : 'left';
 $directionNext = @$flip ? 'left'  : 'right';
 
-$titlePrev = @$flip ? 'vorheriger →' : '← nächster';
-$titleNext = @$flip ? '← nächster' : 'vorheriger →';
+$titlePrev = @$flip ? 'nächster →' : '← vorheriger';
+$titleNext = @$flip ? '← vorheriger' : 'nächster →';
 
 if($page->hasNextVisible() || $page->hasPrevVisible()): ?>
   <nav class="pagination <?= !@$flip ?: ' flip' ?> wrap cf">
@@ -28,19 +28,14 @@ if($page->hasNextVisible() || $page->hasPrevVisible()): ?>
         <?= $titlePrev ?>
       </a>
     <?php else: ?>
-      <span class="pagination-item <?= $directionPrev ?> is-inactive">
-        <?= $titlePrev ?>
-      </span>
-    <?php endif ?>
+      <span class="pagination-item <?= $directionPrev ?> is-inactive"><?php endif ?>
 
     <?php if($page->hasNextVisible()): ?>
       <a class="pagination-item <?= $directionNext ?>" href="<?= $page->nextVisible()->url() ?>" rel="next" title="<?= $page->nextVisible()->title()->html() ?>">
         <?= $titleNext ?>
       </a>
     <?php else: ?>
-      <span class="pagination-item <?= $directionNext ?> is-inactive">
-        <?= $titleNext ?>
-      </span>
+      <span class="pagination-item <?= $directionNext ?> is-inactive">]</span>
     <?php endif ?>
 
   </nav>
