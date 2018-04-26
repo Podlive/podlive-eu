@@ -29,7 +29,7 @@ if($page->hasNextVisible() || $page->hasPrevVisible()): ?>
       </a>
     <?php else: ?>
       <span class="pagination-item <?= $directionPrev ?> is-inactive">
-        <?= $titlePrev) ?>
+        <?= $titlePrev ?>
       </span>
     <?php endif ?>
 
