@@ -14,8 +14,7 @@
           </div>
       </article>
 
-			<?php snippet('prevnext', ['flip' => true, 'page' => $page]) ?>
-			<?php snippet('disqus', array('disqus_shortname' => 'podlive')) ?>
+			<?php snippet('prevnext', ['flip' => false, 'page' => $page]) ?>
 
 		</div>
 	</section>
