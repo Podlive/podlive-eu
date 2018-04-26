@@ -12,9 +12,9 @@
 						<?php snippet('coverimage', $page) ?>
 						<?= $page->text()->kirbytext() ?>
           </div>
-      </article>
 
-			<?php snippet('prevnext', ['flip' => false, 'page' => $page]) ?>
+  				<?php snippet('prevnext', ['flip' => true, 'page' => $page]) ?>
+      </article>
 
 		</div>
 	</section>
