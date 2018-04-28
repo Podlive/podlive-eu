@@ -12,10 +12,10 @@
 						<?php snippet('coverimage', $page) ?>
 						<?= $page->text()->kirbytext() ?>
           </div>
-
-  				<?php snippet('prevnext', ['flip' => false, 'page' => $page]) ?>
       </article>
 
+			<?php snippet('prevnext', array('flip' => false, 'page' => $page)) ?>
+            <?php snippet('disqus', array('disqus_shortname' => 'podlive')) ?>
 		</div>
 	</section>
 

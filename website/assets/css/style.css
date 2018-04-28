@@ -976,7 +976,6 @@ article h2 {
 .article-more {
     display: block;
     text-align: right;
-    margin-top: -0.2rem;
 }
 
 section.pagination {
@@ -1217,13 +1216,7 @@ article h2 {
     max-width: 900px;
 }
 
-.article-more {
-    display: block;
-    text-align: right;
-    margin-top: -1.4rem;
-}
-
-section.pagination {
+.pagination {
     padding: 10px 0;
     height: 45px;
     display: block;
