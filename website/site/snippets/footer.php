@@ -3,7 +3,7 @@
 	<footer class="bottom">
 		<p class="maker"><?= $site->copyright()->text() ?></p>
 		<p class="share"><a href="https://podlive.io/privacy-policy">Datenschutzerklärung</a></p>
-		<p class="share"><a href="https://podlive.io/impressum">Impressum</a></p>
+		<p class="share"><a href="https://podlive.io/imprint">Impressum</a></p>
 	</footer>
 
 	</div>

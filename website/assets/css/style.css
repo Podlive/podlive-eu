@@ -419,7 +419,7 @@ footer.bottom {
 footer.bottom p {
     display: table-cell;
     vertical-align: middle;
-    margin: 0;
+    margin-left: 15px;
 }
 
 .share {

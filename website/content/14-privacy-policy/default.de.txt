@@ -1,4 +1,20 @@
-Title: Privacy Policy
+Navigationheadline: 
+
+----
+
+Menutitle: 
+
+----
+
+Ismenuitem: 0
+
+----
+
+Generalheadline: 
+
+----
+
+Title: Datenschutzerklärung
 
 ----
 
@@ -8,12 +24,11 @@ Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der V
 
 ### Verantwortlicher
 
-<span class="tsmcontroller">Trauth Stefan / Podlive  
+Trauth Stefan / Podlive  
 Alte Rathausstraße 15  
 76467 Bietigheim  
-E-Mailadresse: mail@podlive.io  
-Link zum Impressum: https://podlive.io/impressum  
-</span>
+E-Mailadresse: <mail@podlive.io>  
+(link: imprint text: Link zum Impressum)
 
 ### Arten der verarbeiteten Daten:
 
@@ -138,24 +153,4 @@ Dies setzt immer voraus, dass die Drittanbieter dieser Inhalte, die IP-Adresse d
 
 <span class="ts-muster-content">Wir binden die Videos der Plattform “YouTube” des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, ein. Datenschutzerklärung: [https://www.google.com/policies/privacy/](https://www.google.com/policies/privacy/), Opt-Out: [https://adssettings.google.com/authenticated](https://adssettings.google.com/authenticated).</span>
 
-### Google Fonts
-
-<span class="ts-muster-content">Wir binden die Schriftarten ("Google Fonts") des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, ein. Datenschutzerklärung: [https://www.google.com/policies/privacy/](https://www.google.com/policies/privacy/), Opt-Out: [https://adssettings.google.com/authenticated](https://adssettings.google.com/authenticated).</span>
-
 [Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke](https://datenschutz-generator.de)
-
-----
-
-Author: stefan
-
-----
-
-Contentheadline: 
-
-----
-
-Coverimage: 
-
-----
-
-Date: 2018-05-19

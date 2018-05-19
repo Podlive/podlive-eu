@@ -9,7 +9,6 @@ password: >
 language: en
 role: admin
 history:
-  - impressum
   - privacy-policy
   - terms-of-service
   - blog/podlive-jetzt-kostenlos-laden

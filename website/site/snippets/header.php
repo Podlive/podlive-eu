@@ -35,9 +35,9 @@ switch($context) {
 	<?php snippet('menu'); ?>
 
 	<?php if (isset($headerImage1x)): ?>
-		<header class="<?= $headerClass ?>">
-			<div class="container">
-				<img class="device" src="<?= $headerImage1x ?>" srcset="<?= $headerImage1x ?> 1x, <?= $headerImage2x ?> 2x">
-			</div>
-		</header>
+	<header class="<?= $headerClass ?>">
+		<div class="container">
+			<img class="device" src="<?= $headerImage1x ?>" srcset="<?= $headerImage1x ?> 1x, <?= $headerImage2x ?> 2x">
+		</div>
+	</header>
 	<?php endif ?>

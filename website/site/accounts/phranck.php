@@ -7,11 +7,11 @@ email: phranck@cocoanaut.com
 language: de
 role: admin
 history:
+  - privacy-policy
+  - imprint
   - blog/es-tut-sich-was
   - blog/podlive-for-mac-goes-open-source
   - news
-  - blog/was-tun-mit-dem-mac-client
-  - blog/wie-kann-ich-meinen-podcast-livestream-in-podlive-hoerbar-machen
 firstname: Frank
 lastname: Gregor
 bio: ""
