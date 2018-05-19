@@ -31,9 +31,18 @@ if($followerCount == 1) {
                 <p><?= $description ?></p>
                 <p><?= $creator ?></p>
                 <p>
-                    <a href="<?= $websiteUrl ?>">Webseite</a>, 
-                    <a href="https://twitter.com/<?= $twitterUsername ?>">Twitter</a>, 
-                    <a href="<?= $chatUrl ?>">Chat</a>
+                    <?php if($channel->has("websiteUrl")): ?>
+                        <a href="<?= $websiteUrl ?>">Webseite</a>, 
+                    <?php endif ?>
+
+                    <?php if($channel->has("websiteUrl")): ?>
+                        <a href="https://twitter.com/<?= $twitterUsername ?>">Twitter</a>, 
+                    <?php endif ?>
+
+                    <?php if($channel->has("websiteUrl")): ?>
+                        <a href="<?= $chatUrl ?>">Chat</a>
+                    <?php endif ?>
+
                 </p>
                 <h4>Podlive Button</h4>
                 <p>Vielleicht wollt ihr ja auf eurer eigenen Webseite ein wenig Werbung für <?= $name ?> machen. Dafür gibt es den Podlive Button, den ihr auf eurer Seite embedden könnt. Er ist an das Design des iTunes Button angelehnt und öffnet bei einem Klick den Channel bei Podlive. Wenn die App installiert ist, sogar direkt in der App (ab Version 3.0)</p>
