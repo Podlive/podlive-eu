@@ -9,11 +9,11 @@ password: >
 language: en
 role: admin
 history:
+  - impressum
+  - privacy-policy
+  - terms-of-service
   - blog/podlive-jetzt-kostenlos-laden
   - blog/podlive-3-0
-  - blog/podlive-universal-links-podlive-button
-  - blog/jetzt-kategorien-bei-studiolink-eintragen
-  - blog/channel-kategorie-jetzt-in-den-studiolink-metadaten-eintragen
 bio: ""
 twitter: ""
 github: ""
