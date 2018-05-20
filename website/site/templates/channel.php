@@ -31,15 +31,15 @@ if($followerCount == 1) {
                 <p><?= $description ?></p>
                 <p><?= $creator ?></p>
                 <p>
-                    <?php if($channel->has("websiteUrl")): ?>
+                    <?php if(!is_null($websiteUrl)): ?>
                         <a href="<?= $websiteUrl ?>">Webseite</a>, 
                     <?php endif ?>
 
-                    <?php if($channel->has("websiteUrl")): ?>
+                    <?php if(!is_null($twitterUsername)): ?>
                         <a href="https://twitter.com/<?= $twitterUsername ?>">Twitter</a>, 
                     <?php endif ?>
 
-                    <?php if($channel->has("websiteUrl")): ?>
+                    <?php if(!is_null($chatUrl)): ?>
                         <a href="<?= $chatUrl ?>">Chat</a>
                     <?php endif ?>
 
