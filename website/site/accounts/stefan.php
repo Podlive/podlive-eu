@@ -9,6 +9,8 @@ password: >
 language: en
 role: admin
 history:
+  - >
+    blog/podlive-jetzt-endlich-mit-nachtmodus
   - privacy-policy
   - terms-of-service
   - blog/podlive-jetzt-kostenlos-laden

@@ -1,0 +1,33 @@
+Title: Podlive jetzt endlich mit Nachtmodus!
+
+----
+
+Author: stefan
+
+----
+
+Contentheadline: 
+
+----
+
+Coverimage: 
+
+----
+
+Date: 2018-06-12
+
+----
+
+Text: 
+
+Ein Nachtmodus war definitiv einer der beliebtesten Feature Wünsche. Das stand nun schon eine ganze Weile weit oben auf meiner Liste. Ich habe allerdings die Apple WWDC 2018 abgewartet, um zu sehen ob Apple einen systemweiten Nachtmodus für iOS 12 implementiert. Es hätte wenig Sinn gemacht etwas Eigenes zu entwickeln, wenn man sich schön in das System integrieren kann. Leider hat iOS 12 keinen Nachtmodus bekommen und wir müssen uns da wohl noch eine Weile gedulden.
+
+Weil ich nicht noch ein weiteres Jahr auf einen Nachtmodus warten möchte, habe ich nun selbst einen Nachtmodus für die Podlive App implementiert. Sobald das iPhone in einer dunkeln Umgebung genutzt wird und die Bildschirmhelligkeit reduziert, wechselt die App automatisch in den Nachtmodus. Das bedeutet statt grellem weißem Interface ein dunkler Hintergrund, der angenehm für die Augen ist.
+
+(image: nachtmodus-iphone-x.png width: 700)
+
+Für das iPhone X gibt es sogar einen speziell angepassten Nachtmodus mit mehr reinem schwarz statt grau, da das auf dem OLED Display unter vielen Nutzern für einen Nachtmodus sehr beliebt ist.
+
+Der Nachtmodus ist für alle Premium Abonnenten verfügbar und ist automatisch nach dem Update der App aktiv.
+
+Ich hoffe damit viele Nutzer glücklich zu machen, die sich schon so lange einen Nachtmodus für Podlive gewünscht haben :)
