@@ -9,12 +9,11 @@ password: >
 language: en
 role: admin
 history:
-  - >
-    blog/podlive-jetzt-endlich-mit-nachtmodus
+  - blog/was-ist-mit-dem-chat-passiert
+  - blog/podlive-jetzt-endlich-mit-nachtmodus
   - privacy-policy
   - terms-of-service
   - blog/podlive-jetzt-kostenlos-laden
-  - blog/podlive-3-0
 bio: ""
 twitter: ""
 github: ""
