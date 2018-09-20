@@ -9,10 +9,10 @@ password: >
 language: en
 role: admin
 history:
+  - terms-of-service
   - blog/was-ist-mit-dem-chat-passiert
   - blog/podlive-jetzt-endlich-mit-nachtmodus
   - privacy-policy
-  - terms-of-service
   - blog/podlive-jetzt-kostenlos-laden
 bio: ""
 twitter: ""
