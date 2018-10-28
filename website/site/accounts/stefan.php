@@ -9,16 +9,18 @@ password: >
 language: en
 role: admin
 history:
+  - >
+    blog/podlive-testbericht-von-podcatcher-ch
   - terms-of-service
   - blog/was-ist-mit-dem-chat-passiert
-  - blog/podlive-jetzt-endlich-mit-nachtmodus
+  - >
+    blog/podlive-jetzt-endlich-mit-nachtmodus
   - privacy-policy
-  - blog/podlive-jetzt-kostenlos-laden
 bio: ""
-twitter: ""
-github: ""
+twitter: funkenstrahlen
+github: funkenstrahlen
 facebook: ""
 linkedin: ""
 xing: ""
 showauthor: "1"
-linkauthor: ""
+linkauthor: twitter
