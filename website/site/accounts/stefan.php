@@ -9,13 +9,11 @@ password: >
 language: en
 role: admin
 history:
-  - >
-    blog/podlive-testbericht-von-podcatcher-ch
+  - blog/podlive-jetzt-optimiert-fuer-ios-13
+  - blog/podlive-testbericht-von-podcatcher-ch
   - terms-of-service
   - blog/was-ist-mit-dem-chat-passiert
-  - >
-    blog/podlive-jetzt-endlich-mit-nachtmodus
-  - privacy-policy
+  - blog/podlive-jetzt-endlich-mit-nachtmodus
 bio: ""
 twitter: funkenstrahlen
 github: funkenstrahlen

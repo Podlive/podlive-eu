@@ -1,0 +1,47 @@
+Title: Podlive jetzt optimiert für iOS 13
+
+----
+
+Author: stefan
+
+----
+
+Contentheadline: 
+
+----
+
+Coverimage: 
+
+----
+
+Date: 2019-09-23
+
+----
+
+Text: 
+
+Endlich gibt es wieder Neuigkeiten von Podlive! Das Update für die iOS App ist pünktlich zu iOS 13 da!
+
+Was euch sofort auffallen wird, ist die native Unterstützung des Nachtmodus unter iOS 13. Der bisherige selbst entwickelte Dark Mode fällt damit komplett weg. Damit haben in Zukunft alle Nutzer Zugang zum Nachtmodus und es ist nicht länger ein Premium Feature.
+
+An vielen Stellen nutzt die App nun die nativen Icons, die von Apple bereitgestellt werden. So fügt sich die Podlive App perfekt ins System ein.
+
+Unter der Haube hat sich auch jede Menge getan: Der Layoutcode aller Ansichten ist komplett mit neuen APIs entwickelt. Das verbessert die Performance, reduziert mögliche Fehler und ermöglicht ein Design, das auch für das iPad optimiert ist. Podcasts werden nun auf dem iPad in mehreren Spalten dargestellt, was den Platz viel besser ausnutzt und deutlich besser aussieht.
+
+Wer Premium Nutzer ist kann nun auch ein alternatives App Icon für Podlive wählen. Im Moment gibt es vier verschiedene Varianten zur Auswahl. Ich bin aber offen für Wünsche und möchte die Liste in Zukunft gerne erweitern.
+
+#### Podlive auf der Apple Watch?
+Mit watchOS 6 unterstützt die Apple Watch natives Audio Streaming. Das ist sicher auch für Podlive interessant. Allerdings funktioniert das nur mit HLS Audio Streams, da die Netzanbindung der Apple Watch weitaus inkonsistenter ist als auf dem iPhone. Sobald Podcast Livestreams über HLS angeboten werden, werde ich mich um eine Umsetzung auf der Watch kümmern.
+
+#### Hier noch einmal die kompletten Release Notes:
+
+* Unterstützung für den nativen Nachtmodus unter iOS 13. Das Design des Nachtmodus wurde komplett an den Systemstandard unter iOS 13 angepasst. Der Nachtmodus ist nun für alle Nutzer kostenlos verfügbar und benötigt kein Premium Abo mehr.
+* Überall wird nun das neue Iconset von iOS 13 genutzt. Damit fügt sich die App sehr schön ins restliche System ein.
+* Das Anmelden mit einem bestehenden Podlive Account wurde weiter vereinfacht dank eines neuen Login Workflows unter iOS 13.
+* Der Entdecken Bereich enthält nun die Möglichkeit alle Podcasts zu durchstöbern, die noch keiner Kategorie zugeordnet sind.
+* Der Layoutcode vieler Bereiche der App wurde komplett überarbeitet. Davon profitiert das iPad Design sehr, da der zusätzliche Platz dort nun schön genutzt werden kann. Außerdem ist die Performance dadurch verbessert worden.
+* Die Account Ansicht wurde weiter aufgeräumt. Aktionen zum Bearbeiten des Accounts sind nun in einem eigenen Untermenü untergebracht.
+* Überall in der App werden nun Kontextmenüs unterstützt.
+* Interaktive Suche führt automatisch schon die Suche aus, während der Suchtext eingegeben wird ohne dass extra der Suchbutton gedrückt werden muss.
+* Premium Nutzer können nun das App Icon anpassen.
+* Behebt eine Menge Fehler unter iOS 13 und verbessert an vielen Stellen die Performance.
