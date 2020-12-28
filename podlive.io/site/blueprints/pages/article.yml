@@ -2,6 +2,7 @@ title: Article
 
 pages: false
 icon: file-text
+num: date
 
 fields:
     title:

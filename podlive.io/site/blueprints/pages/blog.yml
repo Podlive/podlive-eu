@@ -5,7 +5,6 @@ icon: feed
 pages:
   template: article
   sort: flip
-  num: date
 
 options:
   template: false
