@@ -1,2 +1,2 @@
 publish: 
-	rsync -azP --delete podlive.io/ uberspace:/home/funken/web/podlive.io/
+	rsync -azP --delete htdocs/ uberspace:/home/funken/web/podlive.io/
