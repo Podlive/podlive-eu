@@ -5,15 +5,16 @@ firstname: Stefan
 lastname: Trauth
 email: mail@stefantrauth.de
 password: >
-  $2a$10$OIEjkuUQf9TGMHmy1Ky3VeeKsp88H1aNVnOOFjZklcPtL5uLXHWqy
+  $2y$10$bbjlSDuAjgSCr0qyxXRbRuacpoo6EBKuzwFSb2d7tJQX7sqV9NKKq
 language: en
 role: admin
 history:
+  - >
+    blog/podlive-gibt-es-nun-auch-fuer-android
   - blog/zu-gast-im-audiodump-podcast
   - blog/podlive-jetzt-optimiert-fuer-ios-13
   - blog/podlive-testbericht-von-podcatcher-ch
   - terms-of-service
-  - blog/was-ist-mit-dem-chat-passiert
 bio: ""
 twitter: funkenstrahlen
 github: funkenstrahlen
