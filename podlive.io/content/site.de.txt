@@ -22,6 +22,10 @@ Macappstore: https://geo.itunes.apple.com/app/podlive/id1210411572?mt=12
 
 ----
 
+googlePlaystore: https://play.google.com/store/apps/details?id=io.podlive.podlive_android
+
+----
+
 Supportemail: support@podlive.io
 
 ----

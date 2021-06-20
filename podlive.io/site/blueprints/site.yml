@@ -62,6 +62,16 @@ fields:
         type: text
         width: 1/2
 
+    googlePlaystore_label:
+        label: Google Play Store Button Label
+        type: text
+        width: 1/2
+
+    googlePlaystore:
+        label: Google Play Store URL
+        type: text
+        width: 1/2
+
     headerImagesHeadline:
         label: Header Images
         type: headline
