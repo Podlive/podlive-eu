@@ -8,8 +8,7 @@ password: >
   $2y$10$iplQJhExrKmSzzWWDvvc/euu1KAf1OKBxAqsOVK8/RNsM1Nh2dNDW
 language: de
 role: admin
-history:
-  - blog/podlive-fuer-android-ist-da
+history: [ ]
 bio: ""
 twitter: @svenhennessen
 github: ""
