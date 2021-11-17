@@ -1,5 +1,0 @@
-Title: Follow Podcasts
-
-----
-
-Text: To follow a Podcast, mark it as your favourite. For every favourite Podcast, Podlive will send a push notification when the stream has started.

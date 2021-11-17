@@ -1,9 +1,0 @@
-Title: Channel
-
-----
-
-Followercounttextsingular: Follower
-
-----
-
-Followercounttextplural: Follower
