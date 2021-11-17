@@ -1,0 +1,3 @@
+[submodule "podlive.io/themes/andromeda"]
+	path = podlive.io/themes/andromeda
+	url = https://github.com/gethugothemes/andromeda-light.git
