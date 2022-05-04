@@ -2,6 +2,7 @@
 <head>
 	<title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
 	<meta name="description" content="<?= $site->description()->html() ?>">
+	<a rel="me" href="https://chaos.social/@Podlive">Mastodon</a>
 	<link rel="alternate" type="application/rss+xml" href="<?= url('blog/feed') ?>" title="<?= $site->title()->html() ?> Blog Feed" />
 	<link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
 	<link rel="icon" href="/favicon.png" type="image/x-icon">
