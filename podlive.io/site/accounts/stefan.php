@@ -9,12 +9,11 @@ password: >
 language: en
 role: admin
 history:
-  - >
-    blog/podlive-gibt-es-nun-auch-fuer-android
+  - contact
+  - privacy-policy
+  - imprint
+  - blog/podlive-gibt-es-nun-auch-fuer-android
   - blog/zu-gast-im-audiodump-podcast
-  - blog/podlive-jetzt-optimiert-fuer-ios-13
-  - blog/podlive-testbericht-von-podcatcher-ch
-  - terms-of-service
 bio: ""
 twitter: funkenstrahlen
 github: funkenstrahlen

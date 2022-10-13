@@ -20,143 +20,120 @@ Title: Datenschutzerklärung
 
 Text: 
 
-## Datenschutz
-Wir haben diese Datenschutzerklärung (Fassung 05.07.2018) verfasst, um Ihnen gemäß der Vorgaben der Datenschutz-Grundverordnung (EU) 2016/679 und dem (link: https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001597&tid=211066806 text: Datenschutzgesetz [DSG]) zu erklären, welche Informationen wir sammeln, wie wir Daten verwenden und welche Entscheidungsmöglichkeiten Sie als Besucher dieser Webseite haben.
+Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen, wie z.B. unser Social Media Profile auf. (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).
 
-Leider liegt es in der Natur der Sache, dass diese Erklärungen sehr technisch klingen, wir haben uns bei der Erstellung jedoch bemüht die wichtigsten Dinge so einfach und klar wie möglich zu beschreiben.
+Verantwortlicher
 
-## Automatische Datenspeicherung
-Wenn Sie heutzutage Webseiten besuchen, werden gewisse Informationen automatisch erstellt und gespeichert, so auch auf dieser Webseite.
+Stefan Trauth
+Lessingstraße 17
+76135 Karlsruhe
+Deutschland
 
-Wenn Sie unsere Webseite so wie jetzt gerade besuchen, speichert unser Webserver (Computer auf dem diese Webseite gespeichert ist) automatisch Daten wie
+Arten der verarbeiteten Daten:
 
-* die Adresse (URL) der aufgerufenen Webseite
-* Browser und Browserversion
-* das verwendete Betriebssystem
-* die Adresse (URL) der zuvor besuchten Seite (Referrer URL)
-* den Hostname und die IP-Adresse des Geräts von welchem aus zugegriffen wird
-* Datum und Uhrzeit
+- Bestandsdaten (z.B., Namen, Adressen).
+- Kontaktdaten (z.B., E-Mail, Telefonnummern).
+- Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).
+- Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).
+- Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen).
 
-in Dateien (Webserver-Logfiles).
+Kategorien betroffener Personen
 
-In der Regel werden Webserver-Logfiles zwei Wochen gespeichert und danach automatisch gelöscht. Wir geben diese Daten nicht weiter, können jedoch nicht ausschließen, dass diese Daten beim Vorliegen von rechtswidrigem Verhalten eingesehen werden.
-Die Rechtsgrundlage besteht nach (link: https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=DE&tid=211066806 text: Artikel 6  Absatz 1 f DSGVO) (Rechtmäßigkeit der Verarbeitung) darin, dass berechtigtes Interesse daran besteht, den fehlerfreien Betrieb dieser Webseite durch das Erfassen von Webserver-Logfiles zu ermöglichen.
+Besucher und Nutzer des Onlineangebotes (Nachfolgend bezeichnen wir die betroffenen Personen zusammenfassend auch als „Nutzer“).
 
-## Rechte laut Datenschutzgrundverordnung
-Ihnen stehen laut den Bestimmungen der DSGVO und des österreichischen (link: https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001597&tid=211066806 text: Datenschutzgesetzes [DSG]) grundsätzlich die folgende Rechte zu:
+Zweck der Verarbeitung
 
-* Recht auf Berichtung (Artikel 16 DSGVO)
-* Recht auf Löschung („Recht auf Vergessenwerden“) (Artikel 17 DSGVO)
-* Recht auf Einschränkung der Verarbeitung (Artikel 18 DSGVO)
-* Recht auf Benachrichtigung – Mitteilungspflicht im Zusammenhang mit der Berichtigung oder Löschung personenbezogener Daten oder der Einschränkung der Verarbeitung (Artikel 19 DSGVO)
-* Recht auf Datenübertragbarkeit (Artikel 20 DSGVO)
-* Widerspruchsrecht (Artikel 21 DSGVO)
-* Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung — einschließlich Profiling — beruhenden Entscheidung unterworfen zu werden (Artikel 22 DSGVO)
+- Zurverfügungstellung des Onlineangebotes, seiner Funktionen und Inhalte.
+- Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern.
+- Sicherheitsmaßnahmen.
+- Reichweitenmessung/Marketing
 
-Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich bei der Aufsichtsbehörde beschweren, welche in Österreich die Datenschutzbehörde ist, deren Webseite Sie unter https://www.dsb.gv.at/ finden.
+Verwendete Begrifflichkeiten
 
-## TLS-Verschlüsselung mit https
-Wir verwenden https um Daten abhörsicher im Internet zu übertragen (Datenschutz durch Technikgestaltung (link: https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&from=DE&tid=211066806 text: Artikel 25 Absatz 1 DSGVO]). Durch den Einsatz von TLS (Transport Layer Security), einem Verschlüsselungsprotokoll zur sicheren Datenübertragung im Internet können wir den Schutz vertraulicher Daten sicherstellen. Sie erkennen die Benutzung dieser Absicherung der Datenübertragung am kleinen Schloßsymbol links oben im Browser und der Verwendung des Schemas https (anstatt http) als Teil unserer Internetadresse.
+„Personenbezogene Daten“ sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person (im Folgenden „betroffene Person“) beziehen; als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung (z.B. Cookie) oder zu einem oder mehreren besonderen Merkmalen identifiziert werden kann, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind.
 
-## Cookies
-Unsere Website verwendet HTTP-Cookies um nutzerspezifische Daten zu speichern.
-Ein Cookie ist ein kurzes Datenpaket, welches zwischen Webbrowser und Webserver ausgetauscht wird, für diese aber völlig bedeutungslos ist und erst für die Webanwendung, z. B. einen Online-Shop, eine Bedeutung erhält, etwa den Inhalt eines virtuellen Warenkorbes.
+„Verarbeitung“ ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführten Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten. Der Begriff reicht weit und umfasst praktisch jeden Umgang mit Daten.
 
-Es gibt zwei Arten von Cookies: Erstanbieter-Cookies werden von unserer Website erstellt, Drittanbieter-Cookies werden von anderen Websites (z. B. Google Analytics) erstellt.
-Man unterscheidet drei Kategorien von Cookies: unbedingt notwendige Cookies um grundlegende Funktionen der Website sicherzustellen, funktionelle Cookies um die Leistung der Webseite sicherzustellen und zielorientierte Cookies um das Benutzererlebnis zu verbessern.
+Als „Verantwortlicher“ wird die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet, bezeichnet.
 
-Wir nutzen Cookies, um unsere Webseite nutzerfreundlicher zu gestalten. Einige Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese löschen. Sie ermöglichen es uns, Ihren Browser beim nächsten Besuch wiederzuerkennen.
+Maßgebliche Rechtsgrundlagen
 
-### Cookie Einstellungen sehen und Cookies löschen
+Nach Maßgabe des Art. 13 DSGVO teilen wir Ihnen die Rechtsgrundlagen unserer Datenverarbeitungen mit. Sofern die Rechtsgrundlage in der Datenschutzerklärung nicht genannt wird, gilt Folgendes: Die Rechtsgrundlage für die Einholung von Einwilligungen ist Art. 6 Abs. 1 lit. a und Art. 7 DSGVO, die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer Leistungen und Durchführung vertraglicher Maßnahmen sowie Beantwortung von Anfragen ist Art. 6 Abs. 1 lit. b DSGVO, die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer rechtlichen Verpflichtungen ist Art. 6 Abs. 1 lit. c DSGVO, und die Rechtsgrundlage für die Verarbeitung zur Wahrung unserer berechtigten Interessen ist Art. 6 Abs. 1 lit. f DSGVO. Für den Fall, dass lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person eine Verarbeitung personenbezogener Daten erforderlich machen, dient Art. 6 Abs. 1 lit. d DSGVO als Rechtsgrundlage.
 
-Wenn Sie feststellen möchten, welche Cookies in Ihrem Browser gespeichert wurden, Cookie-Einstellungen ändern oder Cookies löschen möchten, können Sie dies in Ihren Browser-Einstellungen finden:
+Zusammenarbeit mit Auftragsverarbeitern und Dritten
 
-* (link: https://support.apple.com/kb/ph21411?locale=de_AT text: Safari: Verwalten von Cookies und Websitedaten mit Safari)
-* (link: https://support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen text: Firefox: Cookies löschen, um Daten zu entfernen, die Websites auf Ihrem Computer abgelegt haben)
-* (link: https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=de text: Chrome: Cookies in Chrome löschen, aktivieren und verwalten)
-* (link: https://support.microsoft.com/de-at/help/17442/windows-internet-explorer-delete-manage-cookies text: Internet Explorer: Löschen und Verwalten von Cookies)
+Sofern wir im Rahmen unserer Verarbeitung Daten gegenüber anderen Personen und Unternehmen (Auftragsverarbeitern oder Dritten) offenbaren, sie an diese übermitteln oder ihnen sonst Zugriff auf die Daten gewähren, erfolgt dies nur auf Grundlage einer gesetzlichen Erlaubnis (z.B. wenn eine Übermittlung der Daten an Dritte, wie an Zahlungsdienstleister, gem. Art. 6 Abs. 1 lit. b DSGVO zur Vertragserfüllung erforderlich ist), Sie eingewilligt haben, eine rechtliche Verpflichtung dies vorsieht oder auf Grundlage unserer berechtigten Interessen (z.B. beim Einsatz von Beauftragten, Webhostern, etc.). 
 
-Wenn Sie die Speicherung von Daten in Cookies nicht wünschen, so können Sie Ihren Browser so einrichten, dass er Sie über das Setzen von Cookies informiert und Sie dies nur im Einzelfall erlauben. Sie können jederzeit Cookies, die sich bereits auf Ihrem Computer befinden, löschen oder Cookies deaktivieren. Die Vorgangsweise dazu ist nach Browser unterschiedlich, am besten Sie suchen die Anleitung in Google mit dem Suchbegriff “Cookies löschen Chrome” oder „Cookies deaktivieren Chrome“ im Falle eines Chrome Browsers oder tauschen das Wort „Chrome“ gegen den Namen Ihres Browsers, z. B. Edge, Firefox, Safari aus.
-Wenn Sie uns generell nicht gestatten, Cookies zu nutzen, d.h. diese per Browsereinstellung deaktivieren, können manche Funktionen und Seiten nicht wie erwartet funktionieren.
+Sofern wir Dritte mit der Verarbeitung von Daten auf Grundlage eines sog. „Auftragsverarbeitungsvertrages“ beauftragen, geschieht dies auf Grundlage des Art. 28 DSGVO.
 
-## Cloudflare Datenschutzerklärung
-Wir verwenden auf dieser Website Cloudflare der Firma Cloudflare, Inc. (101 Townsend St., San Francisco, CA 94107, USA) um die Website schneller und sicherer zu machen. Dabei verwendet Cloudflare Cookies und verarbeitet Besucherdaten über die wir Sie im Folgenden informieren.
+Übermittlungen in Drittländer
 
-Der Cookie von Cloudflare (__cfduid) wird verwendet, um einzelne Besucher hinter einer gemeinsam genutzten IP-Adresse zu identifizieren und Sicherheitseinstellungen für jeden einzelnen Besucher anzuwenden. Wenn sich ein Besucher dieser Website zum Beispiel in einem Lokal befindet, in dem sich eine Reihe infizierter Computer befinden, aber der Computer des bestimmten Besuchers vertrauenswürdig ist, können wir dies anhand des Cookies erkennen. Der Cookie entspricht keiner Benutzer-ID und speichert keine personenbezogenen Daten.
-Dieser Cookie ist für die Cloudflare-Sicherheitsfunktionen unbedingt erforderlich und kann nicht deaktiviert werden.
+Sofern wir Daten in einem Drittland (d.h. außerhalb der Europäischen Union (EU) oder des Europäischen Wirtschaftsraums (EWR)) verarbeiten oder dies im Rahmen der Inanspruchnahme von Diensten Dritter oder Offenlegung, bzw. Übermittlung von Daten an Dritte geschieht, erfolgt dies nur, wenn es zur Erfüllung unserer (vor)vertraglichen Pflichten, auf Grundlage Ihrer Einwilligung, aufgrund einer rechtlichen Verpflichtung oder auf Grundlage unserer berechtigten Interessen geschieht. Vorbehaltlich gesetzlicher oder vertraglicher Erlaubnisse, verarbeiten oder lassen wir die Daten in einem Drittland nur beim Vorliegen der besonderen Voraussetzungen der Art. 44 ff. DSGVO verarbeiten. D.h. die Verarbeitung erfolgt z.B. auf Grundlage besonderer Garantien, wie der offiziell anerkannten Feststellung eines der EU entsprechenden Datenschutzniveaus (z.B. für die USA durch das „Privacy Shield“) oder Beachtung offiziell anerkannter spezieller vertraglicher Verpflichtungen (so genannte „Standardvertragsklauseln“).
 
-### Cookies von Cloudflare
+Rechte der betroffenen Personen
 
-* __cfduid
-   * Ablaufzeit: 1 Jahr
-   * Verwendung: Sicherheitseinstellungen für jeden einzelnen Besucher
-   * Beispielhafter Wert: d798bf7df9c1ad5b7583eda5cc5e78211066806
+Sie haben das Recht, eine Bestätigung darüber zu verlangen, ob betreffende Daten verarbeitet werden und auf Auskunft über diese Daten sowie auf weitere Informationen und Kopie der Daten entsprechend Art. 15 DSGVO.
 
-Cloudflare bietet Web-Optimierung und Sicherheitsdienste, um Websites zu verbessern und zu schützen. Dazu gehören ein Reverse-Proxy, ein Passthrough-Sicherheitsdienst und ein Content-Verteilungsnetzwerk. Cloudflare erfasst Informationen der Webseitebesucher. Diese Information kann IP-Adressen, Systemkonfigurationsinformationen und andere Informationen über den Verkehr von und zur Website umfassen, ist aber nicht darauf beschränkt. Cloudflare erfasst und verwendet Logdaten, um ihre Dienstleistungen gemäß der Kundenvereinbarungen zu betreiben, zu warten und zu verbessern. Zum Beispiel können Logdaten Cloudflare dabei helfen, neue Bedrohungen zu erkennen, böswillige Dritte zu identifizieren und dieser Website einen stabileren Sicherheitsschutz zu bieten.
+Sie haben entsprechend. Art. 16 DSGVO das Recht, die Vervollständigung der Sie betreffenden Daten oder die Berichtigung der Sie betreffenden unrichtigen Daten zu verlangen.
 
-Cloudflare ist aktiver Teilnehmer beim EU-U.S. Privacy Shield Framework wodurch der korrekte und sichere Datentransfer persönlicher Daten geregelt wird. Mehr Informationen dazu finden Sie auf https://www.privacyshield.gov/participant?id=a2zt0000000GnZKAA0.
-Mehr Informationen zum Datenschutz bei Cloudflare finden Sie auf https://www.cloudflare.com/de-de/privacypolicy/.
+Sie haben nach Maßgabe des Art. 17 DSGVO das Recht zu verlangen, dass betreffende Daten unverzüglich gelöscht werden, bzw. alternativ nach Maßgabe des Art. 18 DSGVO eine Einschränkung der Verarbeitung der Daten zu verlangen.
 
-## Google Fonts Datenschutzerklärung
-Wir verwenden Google Fonts der Firma Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) auf unserer Webseite. Die Verwendung von Google Fonts erfolgt ohne Authentisierung und es werden keine Cookies and die Google Fonts API gesendet. Sollten Sie ein Konto bei Google haben, werden keine Ihrer Google-Kontodaten an Google während der Nutzung von Google Fonts übermittelt. Google erfasst lediglich die Nutzung von CSS und der verwendeten Fonts und speichert diese Daten sicher. Mehr zu diesen und weiteren Fragen finden Sie auf https://developers.google.com/fonts/faq.
+Sie haben das Recht zu verlangen, dass die Sie betreffenden Daten, die Sie uns bereitgestellt haben nach Maßgabe des Art. 20 DSGVO zu erhalten und deren Übermittlung an andere Verantwortliche zu fordern. 
 
-Welche Daten von Google erfasst werden und wofür diese Daten verwendet werden, können Sie auf https://www.google.com/intl/de/policies/privacy/ nachlesen.
+Sie haben ferner gem. Art. 77 DSGVO das Recht, eine Beschwerde bei der zuständigen Aufsichtsbehörde einzureichen.
 
-## Eingebettete Social Media Elemente Datenschutzerklärung
-Wir binden auf unserer Webseite Elemente von Social Media Diensten ein um Bilder, Videos und Texte anzuzeigen.
-Durch den Besuch von Seiten die diese Elemente darstellen, werden Daten von Ihrem Browser zum jeweiligen Social Media Dienst übertragen und dort gespeichert. Wir haben keinen Zugriff auf diese Daten.
-Die folgenden Links führen Sie zu den Seiten der jeweiligen Social Media Dienste wo erklärt wird, wie diese mit Ihren Daten umgehen:
+Widerrufsrecht
 
-* Instagram-Datenschutzrichtlinie: https://help.instagram.com/519522125107875
-* Für YouTube gilt die Google Datenschutzerklärung: https://policies.google.com/privacy?hl=de
-* Facebook-Datenrichtline: https://www.facebook.com/about/privacy
-* Twitter Datenschutzrichtlinie: https://twitter.com/de/privacy
+Sie haben das Recht, erteilte Einwilligungen gem. Art. 7 Abs. 3 DSGVO mit Wirkung für die Zukunft zu widerrufen
 
-## YouTube Datenschutzerklärung
-Wir verwenden auf dieser Seite des Videodienstes YouTube, der Firma YouTube, LLC, 901 Cherry Ave., San Bruno, CA 94066, USA.
+Widerspruchsrecht
 
-Durch das Aufrufen von Seiten unserer Webseite, die YouTube Videos integriert haben, werden Daten an YouTube übertragen, gespeichert und ausgewertet.
-Sollten Sie ein YouTube-Konto haben und angemeldet sein, werden diese Daten Ihrem persönlichen Konto und den darin gespeicherten Daten zugeordnet.
+Sie können der künftigen Verarbeitung der Sie betreffenden Daten nach Maßgabe des Art. 21 DSGVO jederzeit widersprechen. Der Widerspruch kann insbesondere gegen die Verarbeitung für Zwecke der Direktwerbung erfolgen.
 
-Welche Daten von Google erfasst werden und wofür diese Daten verwendet werden, können Sie auf https://www.google.com/intl/de/policies/privacy/ nachlesen.
+Cookies und Widerspruchsrecht bei Direktwerbung
 
-## Twitter Datenschutzerklärung
-Wir verwenden auf dieser Webseite Funktionen von Twitter, einem Social Network der Firma Twitter International Company, One Cumberland Place, Fenian Street, Dublin 2 D02 AX07, Irland.
+Als „Cookies“ werden kleine Dateien bezeichnet, die auf Rechnern der Nutzer gespeichert werden. Innerhalb der Cookies können unterschiedliche Angaben gespeichert werden. Ein Cookie dient primär dazu, die Angaben zu einem Nutzer (bzw. dem Gerät auf dem das Cookie gespeichert ist) während oder auch nach seinem Besuch innerhalb eines Onlineangebotes zu speichern. Als temporäre Cookies, bzw. „Session-Cookies“ oder „transiente Cookies“, werden Cookies bezeichnet, die gelöscht werden, nachdem ein Nutzer ein Onlineangebot verlässt und seinen Browser schließt. In einem solchen Cookie kann z.B. der Inhalt eines Warenkorbs in einem Onlineshop oder ein Login-Staus gespeichert werden. Als „permanent“ oder „persistent“ werden Cookies bezeichnet, die auch nach dem Schließen des Browsers gespeichert bleiben. So kann z.B. der Login-Status gespeichert werden, wenn die Nutzer diese nach mehreren Tagen aufsuchen. Ebenso können in einem solchen Cookie die Interessen der Nutzer gespeichert werden, die für Reichweitenmessung oder Marketingzwecke verwendet werden. Als „Third-Party-Cookie“ werden Cookies von anderen Anbietern als dem Verantwortlichen, der das Onlineangebot betreibt, angeboten werden (andernfalls, wenn es nur dessen Cookies sind spricht man von „First-Party Cookies“).
 
-Dadurch können auch personenbezogene Daten an Twitter übertragen werden. Wir überwachen diesen Datenaustausch nicht und speichern nichts darüber.
+Wir können temporäre und permanente Cookies einsetzen und klären hierüber im Rahmen unserer Datenschutzerklärung auf.
 
-Wenn Sie mehr über die Nutzung Ihrer Daten durch Twitter wissen möchten, finden Sie alle Informationen in der Twitter Datenschutzrichtline auf https://twitter.com/de/privacy.
+Falls die Nutzer nicht möchten, dass Cookies auf ihrem Rechner gespeichert werden, werden sie gebeten die entsprechende Option in den Systemeinstellungen ihres Browsers zu deaktivieren. Gespeicherte Cookies können in den Systemeinstellungen des Browsers gelöscht werden. Der Ausschluss von Cookies kann zu Funktionseinschränkungen dieses Onlineangebotes führen.
 
-Sollten Sie ein Konto bei Twitter haben, können Sie Ihre Datenschutzeinstellungen in den Konto- Einstellungen unter https://twitter.com/settings/account ändern.
+Ein genereller Widerspruch gegen den Einsatz der zu Zwecken des Onlinemarketing eingesetzten Cookies kann bei einer Vielzahl der Dienste, vor allem im Fall des Trackings, über die US-amerikanische Seite http://www.aboutads.info/choices/ oder die EU-Seite http://www.youronlinechoices.com/ erklärt werden. Des Weiteren kann die Speicherung von Cookies mittels deren Abschaltung in den Einstellungen des Browsers erreicht werden. Bitte beachten Sie, dass dann gegebenenfalls nicht alle Funktionen dieses Onlineangebotes genutzt werden können.
 
-## Google Analytics Datenschutzerklärung
-Wir verwenden auf dieser Website Google Analytics der Firma Google LLC (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) um Besucherdaten statistisch auszuwerten. Dabei verwendet Google Analytics zielorientierte Cookies.
+Löschung von Daten
 
-### Cookies von Google Analytics
+Die von uns verarbeiteten Daten werden nach Maßgabe der Art. 17 und 18 DSGVO gelöscht oder in ihrer Verarbeitung eingeschränkt. Sofern nicht im Rahmen dieser Datenschutzerklärung ausdrücklich angegeben, werden die bei uns gespeicherten Daten gelöscht, sobald sie für ihre Zweckbestimmung nicht mehr erforderlich sind und der Löschung keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Sofern die Daten nicht gelöscht werden, weil sie für andere und gesetzlich zulässige Zwecke erforderlich sind, wird deren Verarbeitung eingeschränkt. D.h. die Daten werden gesperrt und nicht für andere Zwecke verarbeitet. Das gilt z.B. für Daten, die aus handels- oder steuerrechtlichen Gründen aufbewahrt werden müssen.
 
-* _ga
-   * Ablaufzeit: 2 Jahre
-   * Verwendung: Unterscheidung der Webseitenbesucher
-   * Beispielhafter Wert: GA1.2.1326744211.152211067027
-* _gid
-   * Ablaufzeit: 24 Stunden
-   * Verwendung: Unterscheidung der Webseitenbesucher
-   * Beispielhafter Wert: GA1.2.1687193234.152211067027
-* _gat_gtag_UA_<property-id>
-   * Ablaufzeit: 1 Minute
-   * Verwendung: Wird zum Drosseln der Anforderungsrate verwendet. Wenn Google Analytics über den Google Tag Manager bereitgestellt wird, erhält dieser Cookie den Namen _dc_gtm_ <property-id>.
-   * Beispielhafter Wert: 1
+Nach gesetzlichen Vorgaben in Deutschland erfolgt die Aufbewahrung insbesondere für 6 Jahre gemäß § 257 Abs. 1 HGB (Handelsbücher, Inventare, Eröffnungsbilanzen, Jahresabschlüsse, Handelsbriefe, Buchungsbelege, etc.) sowie für 10 Jahre gemäß § 147 Abs. 1 AO (Bücher, Aufzeichnungen, Lageberichte, Buchungsbelege, Handels- und Geschäftsbriefe, Für Besteuerung relevante Unterlagen, etc.). 
 
-Nähere Informationen zu Nutzungsbedingungen und Datenschutz finden Sie unter http://www.google.com/analytics/terms/de.html bzw. unter https://support.google.com/analytics/answer/6004245?hl=de.
+Nach gesetzlichen Vorgaben in Österreich erfolgt die Aufbewahrung insbesondere für 7 J gemäß § 132 Abs. 1 BAO (Buchhaltungsunterlagen, Belege/Rechnungen, Konten, Belege, Geschäftspapiere, Aufstellung der Einnahmen und Ausgaben, etc.), für 22 Jahre im Zusammenhang mit Grundstücken und für 10 Jaahre bei Unterlagen im Zusammenhang mit elektronisch erbrachten Leistungen, Telekommunikations-, Rundfunk- und Fernsehleistungen, die an Nichtunternehmer in EU-Mitgliedstaaten erbracht werden und für die der Mini-One-Stop-Shop (MOSS) in Anspruch genommen wird.
 
-### Pseudonymisierung
+Hosting
 
-Unser Anliegen im Sinne der DSGVO ist die Verbesserung unseres Angebotes und unseres Webauftritts. Da uns die Privatsphäre unserer Nutzer wichtig ist, werden die Nutzerdaten pseudonymisiert. Die Datenverarbeitung erfolgt auf Basis der gesetzlichen Bestimmungen des § 96 Abs 3 TKG sowie des Art 6 EU-DSGVO Abs 1 lit a (Einwilligung) und/oder f (berechtigtes Interesse) der DSGVO.
+Die von uns in Anspruch genommenen Hosting-Leistungen dienen der Zurverfügungstellung der folgenden Leistungen: Infrastruktur- und Plattformdienstleistungen, Rechenkapazität, Speicherplatz und Datenbankdienste, Sicherheitsleistungen sowie technische Wartungsleistungen, die wir zum Zwecke des Betriebs dieses Onlineangebotes einsetzen. 
 
-### Deaktivierung der Datenerfassung durch Google Analytics
+Hierbei verarbeiten wir, bzw. unser Hostinganbieter Bestandsdaten, Kontaktdaten, Inhaltsdaten, Vertragsdaten, Nutzungsdaten, Meta- und Kommunikationsdaten von Kunden, Interessenten und Besuchern dieses Onlineangebotes auf Grundlage unserer berechtigten Interessen an einer effizienten und sicheren Zurverfügungstellung dieses Onlineangebotes gem. Art. 6 Abs. 1 lit. f DSGVO i.V.m. Art. 28 DSGVO (Abschluss Auftragsverarbeitungsvertrag).
 
-Mithilfe des Browser-Add-ons zur Deaktivierung von Google Analytics-JavaScript (ga.js, analytics.js, dc.js) können Website-Besucher verhindern, dass Google Analytics ihre Daten verwendet.
+Erhebung von Zugriffsdaten und Logfiles
 
-Sie können die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem Sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: https://tools.google.com/dlpage/gaoptout?hl=de
+Wir, bzw. unser Hostinganbieter, erhebt auf Grundlage unserer berechtigten Interessen im Sinne des Art. 6 Abs. 1 lit. f. DSGVO Daten über jeden Zugriff auf den Server, auf dem sich dieser Dienst befindet (sogenannte Serverlogfiles). Zu den Zugriffsdaten gehören Name der abgerufenen Webseite, Datei, Datum und Uhrzeit des Abrufs, übertragene Datenmenge, Meldung über erfolgreichen Abruf, Browsertyp nebst Version, das Betriebssystem des Nutzers, Referrer URL (die zuvor besuchte Seite), IP-Adresse und der anfragende Provider.
 
-**Quelle:** Erstellt mit dem (link: https://www.firmenwebseiten.at/datenschutz-generator/ text: Datenschutz Generator von firmenwebseiten.at).
+Logfile-Informationen werden aus Sicherheitsgründen (z.B. zur Aufklärung von Missbrauchs- oder Betrugshandlungen) für die Dauer von maximal 7 Tagen gespeichert und danach gelöscht. Daten, deren weitere Aufbewahrung zu Beweiszwecken erforderlich ist, sind bis zur endgültigen Klärung des jeweiligen Vorfalls von der Löschung ausgenommen.
+
+Kontaktaufnahme
+
+Bei der Kontaktaufnahme mit uns (z.B. per Kontaktformular, E-Mail, Telefon oder via sozialer Medien) werden die Angaben des Nutzers zur Bearbeitung der Kontaktanfrage und deren Abwicklung gem. Art. 6 Abs. 1 lit. b) DSGVO verarbeitet. Die Angaben der Nutzer können in einem Customer-Relationship-Management System ("CRM System") oder vergleichbarer Anfragenorganisation gespeichert werden.
+
+Wir löschen die Anfragen, sofern diese nicht mehr erforderlich sind. Wir überprüfen die Erforderlichkeit alle zwei Jahre; Ferner gelten die gesetzlichen Archivierungspflichten.
+
+Einbindung von Diensten und Inhalten Dritter
+
+Wir setzen innerhalb unseres Onlineangebotes auf Grundlage unserer berechtigten Interessen (d.h. Interesse an der Analyse, Optimierung und wirtschaftlichem Betrieb unseres Onlineangebotes im Sinne des Art. 6 Abs. 1 lit. f. DSGVO) Inhalts- oder Serviceangebote von Drittanbietern ein, um deren Inhalte und Services, wie z.B. Videos oder Schriftarten einzubinden (nachfolgend einheitlich bezeichnet als “Inhalte”). 
+
+Dies setzt immer voraus, dass die Drittanbieter dieser Inhalte, die IP-Adresse der Nutzer wahrnehmen, da sie ohne die IP-Adresse die Inhalte nicht an deren Browser senden könnten. Die IP-Adresse ist damit für die Darstellung dieser Inhalte erforderlich. Wir bemühen uns nur solche Inhalte zu verwenden, deren jeweilige Anbieter die IP-Adresse lediglich zur Auslieferung der Inhalte verwenden. Drittanbieter können ferner so genannte Pixel-Tags (unsichtbare Grafiken, auch als "Web Beacons" bezeichnet) für statistische oder Marketingzwecke verwenden. Durch die "Pixel-Tags" können Informationen, wie der Besucherverkehr auf den Seiten dieser Website ausgewertet werden. Die pseudonymen Informationen können ferner in Cookies auf dem Gerät der Nutzer gespeichert werden und unter anderem technische Informationen zum Browser und Betriebssystem, verweisende Webseiten, Besuchszeit sowie weitere Angaben zur Nutzung unseres Onlineangebotes enthalten, als auch mit solchen Informationen aus anderen Quellen verbunden werden können.
+
+Google Fonts
+
+Wir binden die Schriftarten ("Google Fonts") des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, ein. Datenschutzerklärung: https://www.google.com/policies/privacy/, Opt-Out: https://adssettings.google.com/authenticated.
+
+Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke

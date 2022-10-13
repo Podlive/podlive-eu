@@ -25,3 +25,4 @@ Hast du ein Problem, eine Frage, wünschst dir ein Feature oder möchtest uns ei
 (email: mail@podlive.io text: Schreibe uns eine Mail)
 
 (link: https://twitter.com/podliveapp text: Folge @podliveapp auf Twitter)
+(link: https://chaos.social/@Podlive text: Folge @Podlive auf Mastodon)
