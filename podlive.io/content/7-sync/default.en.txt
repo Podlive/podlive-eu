@@ -1,5 +1,0 @@
-Title: Sync built in
-
-----
-
-Text: If you are using both iOS and macOS we recommend to signup for a Podlive account. All you have to do is to enter a nickname, a valid email address and your password. After having done that your favourites will be pushed to all devices you installed Podlive on. It's that easy!

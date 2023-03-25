@@ -1,5 +1,0 @@
-Title: Zuhörerzähler
-
-----
-
-Text: Es ist interessant zu erfahren, wieviel Menschen gerade einen bestimmten Podcast hören. Für alle live streamenden Podcasts wird die momentane Zuhörerzahl in Echtzeit angezeigt.
