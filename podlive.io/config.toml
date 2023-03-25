@@ -56,7 +56,6 @@ github = "https://github.com/Podlive"
 # Header
 logo = "images/logo.png"
 fabFormURL = "https://fabform.io/f/zWMBVeW"
-googleAnalytics = "UA-175025671-2"
 
 # Footer
 footerTitle = "Get the latest app updates"
