@@ -48,9 +48,8 @@ phone = "+(448) 833 5272 332"
 
 # Footer Social
 [params.social]
-facebook = "https://www.facebook.com/pg/staticmania"
-twitter = "https://twitter.com/static_mania"
-github = "https://github.com/StaticMania"
+mastodon = "https://chaos.social/@Podlive"
+github = "https://github.com/Podlive"
 
 [params]
 
