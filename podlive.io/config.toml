@@ -1,7 +1,7 @@
 # MAIN base
-baseURL = "https://apsho-hugo.netlify.app/"
-languageCode = "en-us"
-title = "Apsho | App landing template"
+baseURL = "https://podlive.io"
+languageCode = "de"
+title = "Podlive"
 theme = "apsho"
 
 # Navigation Bar
@@ -65,4 +65,4 @@ copyright1 = "All right reserved"
 copyright2 = "Copyright ©  <a href=\"https://staticmania.com/\" target=\"_blank\">StaticMania </a> {year}"
 
 #contact
-email = "help@staticmania.com"
+email = "mail@podlive.io"
