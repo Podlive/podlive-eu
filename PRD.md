@@ -28,7 +28,7 @@ Create a simple, responsive landing page that serves as the primary web presence
 - **Tagline:** "Verpasse keinen Podcast Livestream"
 - **Subheadline:** "Höre Podcast Livestreams mit Podlive! Erhalte eine Push Nachricht, sobald ein Livestream startet."
 - Prominent app download buttons for all three platforms
-- Hero image/visual representation of the app
+- **Hero image:** `/site/images/hero.jpg`
 
 #### Features Section
 Three main features to highlight:
@@ -45,17 +45,20 @@ Three main features to highlight:
 #### Team Section
 - **Section Title:** "Team"
 - **Description:** "Podlive ist ein Gemeinschaftsprojekt, dem wir einen Teil unserer Freizeit widmen, weil uns Live Podcasting am Herzen liegt. Falls du auch Lust hast Teil des Teams zu werden und uns zu unterstützen, nimm doch gerne Kontakt zu uns auf!"
-- **Team Members:** 3 people, each with:
-  - Name
-  - Profile image (stored in `/site/images/`)
-  - Short description
+- **Team Members:**
+  1. **Stefan Trauth** - "iOS App und Infrastruktur" (https://stefantrauth.de/)
+     - Image: `/site/images/Stefan Avatar.jpg`
+  2. **Frank Gregor** - "macOS App" (https://woodbytes.me/)
+     - Image: `/site/images/Phranck Avatar.jpeg`
+  3. **Sven Hennessen** - "Android App" (https://hennessen.net/)
+     - Image: `/site/images/Sven Avatar.jpeg`
 
 #### Contact Section
 - **Introduction:** "Hast du ein Problem, eine Frage, wünschst dir ein Feature oder möchtest uns einfach nur Lob aussprechen? Dann melde dich bei uns! Wir freuen uns sehr von dir zu hören!"
 - **Contact Methods:**
   - Email: contact@podlive.eu (mailto link)
-  - GitHub profile link
-  - Mastodon profile link
+  - GitHub: https://github.com/Podlive
+  - Mastodon: podlive@chaos.social
 
 #### FAQ Section
 **Question:** "Wie kann ich meinen Podcast Livestream in Podlive hörbar machen?"
@@ -66,6 +69,12 @@ Links to legal pages:
 - Impressum
 - Privacy Policy (Datenschutz)
 - Terms of Service (AGB)
+
+**Legal Pages Content Sources:**
+- **Impressum:** Content must be fetched from https://www.podlive.io/impressum
+- **Privacy Policy:** Content must be fetched from https://www.podlive.io/privacy-policy
+- **Terms of Service:** Content must be fetched from https://www.podlive.io/terms-of-service
+- **IMPORTANT:** All legal page content must match the source websites exactly
 
 ### Technical Requirements
 
@@ -87,10 +96,12 @@ site/
    - Optimized for small mobile devices
    - Tablet and desktop compatibility
 
-2. **Color Scheme Support**
+2. **Color Scheme & Branding**
+   - **Primary brand color:** rgb(133, 77, 255)
    - Light mode (default)
    - Dark mode support
    - Automatic detection of user preference
+   - No app icon/logo to be included
 
 3. **Performance**
    - Minimal dependencies (CSS frameworks allowed)
