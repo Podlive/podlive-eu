@@ -27,6 +27,7 @@ make publish    # Deploy to uberspace server via rsync
 **File Structure:**
 - `site/index.html` - Main landing page
 - `site/css/style.css` - All styling using CSS variables and custom properties
+- `site/js/meltmail.js` - Email obfuscation script for dynamic mailto generation
 - `site/images/` - Static assets (hero images, team avatars)
 - Legal pages: `impressum.html`, `privacy-policy.html`, `terms-of-service.html`
 
@@ -73,7 +74,11 @@ Target server: `uberspace:/home/funken/web/podlive.eu/`
 
 ## JavaScript Exceptions
 
-- Allow JavaScript usage for the meltmail mailto script
+- **Meltmail script** (`site/js/meltmail.js`) - Dynamically fetches email address from `/meltmail` endpoint to prevent spam harvesting
+  - Usage: Add `<script src="js/meltmail.js"></script>` to HTML head
+  - Place `<span id="meltmail"></span>` or `<p id="meltmail"></p>` where email should appear
+  - Script generates `<a href="mailto:email">email</a>` automatically
+  - Used in `index.html` (contact section) and `impressum.html` (legal page)
 
 ## Deployment Memories
 
