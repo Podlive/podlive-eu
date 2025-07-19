@@ -70,3 +70,7 @@ make publish    # Deploy to uberspace server via rsync
 Target server: `uberspace:/home/funken/web/podlive.eu/`
 - Uses rsync via Makefile
 - Excludes `meltmail` directory from deployment
+
+## JavaScript Exceptions
+
+- Allow JavaScript usage for the meltmail mailto script
