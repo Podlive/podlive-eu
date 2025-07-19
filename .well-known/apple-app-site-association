@@ -1,0 +1,17 @@
+{
+	"activitycontinuation": {
+    	"apps": ["Y85FVF2A97.de.stefantrauth.Podlive"]
+  	},
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "Y85FVF2A97.de.stefantrauth.Podlive",
+                "paths": [ "/channel/*"]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": ["Y85FVF2A97.de.stefantrauth.Podlive"]
+    }
+}
