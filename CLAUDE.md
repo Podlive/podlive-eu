@@ -74,3 +74,7 @@ Target server: `uberspace:/home/funken/web/podlive.eu/`
 ## JavaScript Exceptions
 
 - Allow JavaScript usage for the meltmail mailto script
+
+## Deployment Memories
+
+- To release for production run "make publish"
