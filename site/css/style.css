@@ -287,25 +287,16 @@ a:focus {
     align-items: center;
 }
 
-.hero-image {
-    text-align: center;
-}
-
-.hero-image img {
-    max-width: 400px;
-    margin: 0 auto;
-    border-radius: var(--radius-xl);
-    box-shadow: 0 8px 32px var(--shadow-medium);
-}
 
 @media (min-width: 768px) {
     .hero .container {
-        grid-template-columns: 1fr 1fr;
+        max-width: 800px;
+        margin: 0 auto;
         gap: var(--spacing-3xl);
     }
     
     .hero-content {
-        text-align: left;
+        text-align: center;
     }
     
     .hero-title {
@@ -313,12 +304,12 @@ a:focus {
     }
     
     .hero-subtitle {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .download-buttons {
-        align-items: flex-start;
+        align-items: center;
     }
 }
 
