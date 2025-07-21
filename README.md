@@ -74,13 +74,18 @@ site/
 
 ### Local Development
 ```bash
-# Serve locally (any simple HTTP server)
+# Start Hugo development server (default)
+make
+# or explicitly
+make serve
+
+# Alternative: Serve locally with simple HTTP server
 python3 -m http.server 8000
 # or
 npx serve site/
 ```
 
-Open http://localhost:8000 to view the site.
+The `make` command starts Hugo's development server with live reload. For simple static serving, use the HTTP server options and open http://localhost:8000.
 
 ### Quality Assurance
 - ✅ W3C HTML/CSS validation

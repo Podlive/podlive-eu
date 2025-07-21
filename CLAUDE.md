@@ -8,6 +8,12 @@ Podlive website (podlive.eu) is a static landing page for promoting Podlive podc
 
 ## Development Commands
 
+**Local Development:**
+```bash
+make            # Start Hugo development server (default target)
+make serve      # Start Hugo development server (explicit)
+```
+
 **Deployment:**
 ```bash
 make publish    # Deploy to uberspace server via rsync
