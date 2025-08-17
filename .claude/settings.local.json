@@ -3,7 +3,8 @@
     "allow": [
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "WebFetch(domain:www.podlive.io)"
+      "WebFetch(domain:www.podlive.io)",
+      "Bash(git push:*)"
     ],
     "deny": []
   }
