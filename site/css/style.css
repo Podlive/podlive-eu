@@ -214,22 +214,62 @@ section {
     margin: var(--spacing-xs);
 }
 
-.download-btn:hover {
+.download-btn:hover:not(.disabled) {
     background-color: var(--primary-dark);
     color: white;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px var(--shadow-medium);
 }
 
-.download-btn:focus {
+.download-btn:focus:not(.disabled) {
     color: white;
     outline: 2px solid var(--primary-color);
     outline-offset: 2px;
 }
 
-.download-btn:active {
+.download-btn:active:not(.disabled) {
     color: white;
     transform: translateY(0);
+}
+
+/* Disabled button state */
+.download-btn.disabled {
+    background-color: var(--text-muted);
+    color: var(--bg-primary);
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    .download-btn.disabled {
+        background-color: #555555;
+        color: #cccccc;
+    }
+}
+
+/* Button text hierarchy */
+.download-btn.disabled {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-main-text {
+    display: block;
+    font-weight: var(--font-semibold);
+    line-height: var(--leading-tight);
+    width: 100%;
+}
+
+.btn-subtitle {
+    display: block;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-normal);
+    opacity: 0.8;
+    margin-top: var(--spacing-xs);
+    line-height: var(--leading-tight);
+    width: 100%;
 }
 
 /* ===== LINKS ===== */
